@@ -1,0 +1,707 @@
+---
+output: html_document
+runtime: shiny
+---
+
+### Readmissions Discharge Status Summary
+
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+# library(ggplot2)
+library(reader)
+# library(ggthemes)
+# library(gridExtra)
+# library(grid)
+library(knitr)
+library(rmarkdown)
+# library(tigris)
+# library(sp)
+# library(tmap)  # Consider eliminating
+# library(maptools)
+# library(acs)
+# library(ggmap)
+# library(purrr)
+# library(rgdal)
+# library(rgeos)
+library(dplyr)
+# library(eeptools)
+library(tidyr)
+# library(foreign)
+library(lubridate)
+# library(xlsx)
+# library(readxl)  # Tidyverse - Possibly replace the xlsx library
+# library(jsonlite)
+# library(httr)
+# library(stringi)
+library(shiny)
+library(shinyWidgets)
+# library(gender)  # May not need these two again
+# library(genderdata)
+# library(REDCapR)
+# library(RCurl)
+# library(tidycensus)  # Seems like there's a conflict with purrr
+# library(leaflet)
+# library(tidyverse)
+# library(rtweet)
+library(forcats)
+library(readr)
+# library(dbplyr)
+# library(fuzzyjoin)  # Speacilty package
+# library(RODBC)
+# library(pdftools)
+# library(viridis)
+# library(kableExtra)
+# library(caret)
+# library(GGally)
+# library(scales)
+# library(RDCOMClient)
+# library(broom)
+# library(tabulizer)
+
+library(DT)
+```
+
+```{r warning=FALSE, message=FALSE, echo=FALSE, eval=FALSE}
+# Collect all types together
+  # See notes for what to collect
+
+file_list <- list.files(path = "Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments")
+
+readmits_combined <- tibble()
+
+ami_combined <- tibble()
+copd_combined <- tibble()
+hf_combined <- tibble()
+pn_combined <- tibble()
+cabg_combined <- tibble()
+hk_combined <- tibble()
+
+for(i in file_list){
+  
+  # i <- file_list[1]
+  # i <- "14"
+  
+  report_nm <- list.files(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i),
+                            pattern = ".xl")
+  
+  hosp_name <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "HRRP Workbook",
+                          n_max = 1)
+  
+  ami_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 4 Discharges AMI Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+  
+  ami_combined <- bind_rows(ami_combined, ami_readmits)
+  
+  ami_readmits2 <- ami_readmits %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "AMI")
+  
+  readmits_combined <- bind_rows(readmits_combined, ami_readmits2)
+  
+  
+  copd_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 5 Discharges COPD Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+  
+  copd_combined <- bind_rows(copd_combined, copd_readmits)
+  
+  copd_readmits2 <- copd_readmits %>% 
+    rename(`Unplanned \r\nReadmission within \r\n30 Days (Yes/No)` = "Unplanned Readmission within 30 Days (Yes/No)",
+           `Provider ID of Readmitting Hospital [b]` = "Provider ID of \r\nReadmitting \r\nHospital [b]",
+           `Admission Date of Index Stay` = "Admission Date \r\nof Index Stay",
+           `Discharge Date of Index Stay [a]` = "Discharge Date \r\nof Index Stay [a]") %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "COPD")
+  
+  readmits_combined <- bind_rows(readmits_combined, copd_readmits2)
+  
+  hf_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 6 Discharges HF Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+  
+  hf_combined <- bind_rows(hf_combined, hf_readmits)
+  
+  hf_readmits2 <- hf_readmits %>% 
+    rename(`Unplanned \r\nReadmission within \r\n30 Days (Yes/No)` = "Unplanned Readmission within 30 Days (Yes/No)",
+           `Provider ID of Readmitting Hospital [b]` = "Provider ID of \r\nReadmitting \r\nHospital [b]") %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "HF")
+  
+  readmits_combined <- bind_rows(readmits_combined, hf_readmits2)
+  
+  pn_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 7 Discharges PN Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+  
+  pn_combined <- bind_rows(pn_combined, pn_readmits)
+  
+  pn_readmits2 <- pn_readmits %>% 
+    rename(`Unplanned \r\nReadmission within \r\n30 Days (Yes/No)` = "Unplanned Readmission within 30 Days (Yes/No)",
+           `Provider ID of Readmitting Hospital [b]` = "Provider ID of \r\nReadmitting \r\nHospital [b]") %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "PNE")
+  
+  readmits_combined <- bind_rows(readmits_combined, pn_readmits2)
+  
+  hk_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 9 Discharges HK Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+  
+  hk_combined <- bind_rows(hk_combined, hk_readmits)
+  
+  hk_readmits2 <- hk_readmits %>% 
+    rename(`Unplanned \r\nReadmission within \r\n30 Days (Yes/No)` = "Unplanned Readmission within 30 Days (Yes/No)",
+           `Provider ID of Readmitting Hospital [b]` = "Provider ID of \r\nReadmitting \r\nHospital [b]") %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "HK")
+  
+  readmits_combined <- bind_rows(readmits_combined, hk_readmits2)
+  
+  if(!(hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)` %in% c("CONEMAUGH MEMORIAL MEDICAL CENTER", "FRYE REGIONAL MEDICAL CENTER", "HAVASU REGIONAL MEDICAL CENTER", "LAKE CUMBERLAND REGIONAL HOSPITAL", "MARQUETTE GENERAL HOSPITAL", "MEMORIAL MEDICAL CENTER", "PROVIDENCE HEALTH", "ST FRANCIS HOSPITAL"))){
+    next
+  }
+  
+  if(hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)` %in% c("CONEMAUGH MEMORIAL MEDICAL CENTER", "FRYE REGIONAL MEDICAL CENTER", "HAVASU REGIONAL MEDICAL CENTER", "LAKE CUMBERLAND REGIONAL HOSPITAL", "MARQUETTE GENERAL HOSPITAL", "MEMORIAL MEDICAL CENTER", "PROVIDENCE HEALTH", "ST FRANCIS HOSPITAL")){
+   
+    cabg_readmits <- read_excel(path = paste0("Z:\\Lists\\2019 Readmissions Reduction Program\\Attachments\\", i, "\\", report_nm),
+                          sheet = "Table 8 Discharges CABG Readm",
+                          skip = 6) %>% 
+    filter(`Inclusion/Exclusion Indicator` == "0" &
+             `Index Stay` == "YES") %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`)
+    
+    cabg_combined <- bind_rows(cabg_combined, cabg_readmits) 
+    
+    cabg_combined2 <- cabg_combined %>% 
+      rename(`Unplanned \r\nReadmission within \r\n30 Days (Yes/No)` = "Unplanned Readmission within 30 Days (Yes/No)",
+           `Provider ID of Readmitting Hospital [b]` = "Provider ID of \r\nReadmitting \r\nHospital [b]") %>% 
+    select(2:17) %>% 
+    mutate(hosp_name = hosp_name$`Workbook: Hospital Readmissions Reduction Program (HRRP) Hospital-Specific Report (HSR)`,
+           readmit_type = "CABG")
+    
+    readmits_combined <- bind_rows(readmits_combined, cabg_combined2)
+    
+  }
+  
+}
+
+icd_10_lookup <- read_csv(file = "U:\\Readmissions\\Readmission Diagnosis\\icd_10_crosswalk.csv") %>% 
+  select(1, 4) %>% 
+  rename(icd_cm_cd = "'ICD-10-CM CODE'",
+         ccs_desc = "'CCS CATEGORY DESCRIPTION'") %>% 
+  mutate(icd_cm_cd = gsub(pattern = "'", replacement = "", x = icd_cm_cd))
+
+icd_9_lookup <- read_csv(file = "U:\\Readmissions\\Readmission Diagnosis\\icd_9_crosswalk.csv",
+                         skip = 1) %>% 
+  select(1, 3) %>% 
+  rename(icd_cm_cd = "'ICD-9-CM CODE'",
+         ccs_desc = "'CCS CATEGORY DESCRIPTION'") %>% 
+  mutate(icd_cm_cd = gsub(pattern = "'", replacement = "", x = icd_cm_cd),
+         icd_cm_cd = gsub(pattern = " ", replacement = "", x = icd_cm_cd),
+         ccs_desc = gsub(pattern = "'", replacement = "", x = ccs_desc))
+
+icd_lookup <- bind_rows(icd_10_lookup, icd_9_lookup)
+
+disch_status_lookup <- read_excel(path = "J:\\ClinicalOperations\\Data Team _ Quality\\Data Team Documentation\\Discharge Status Codes CMS.xlsx",
+                                  skip = 2,
+                                  sheet = "Sheet1") %>% 
+  mutate(`Status Code` = as.character(`Status Code`))
+
+readmits_combined2 <- readmits_combined %>%
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned \r\nReadmission within \r\n30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission",
+         readmit_diagnosis = "Principal Discharge Diagnosis of Readmission",
+         readmit_same_hosp = "Readmission to Same Hospital (Yes/No)",
+         readmit_prov_id = "Provider ID of Readmitting Hospital [b]",
+         hic_claim_no = "HICNO") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt)) %>% 
+  select(17:18, 1:5, 7:10, 12:16) %>% 
+  left_join(x = ., y = icd_lookup, by = c("index_diag" = "icd_cm_cd")) %>% 
+  rename(index_diag_desc = "ccs_desc") %>% 
+  left_join(x = ., y = icd_lookup, by = c("readmit_diagnosis" = "icd_cm_cd")) %>% 
+  rename(readmit_diagnosis_desc = "ccs_desc") %>% 
+  left_join(x = ., y = disch_status_lookup, by = c("discharge_dest" = "Status Code")) %>% 
+  rename(discharge_dest_desc = "Code Verbiage") %>% 
+  mutate(mrn_alt = gsub(pattern = "^0+", replacement = "", x = mrn))
+
+
+id_string <- toString(sprintf("'%s'", unique(readmits_combined2$mrn)))
+
+id_string_alt <- toString(sprintf("'%s'", unique(readmits_combined2$mrn_alt)))
+
+
+conn <- odbcConnect("nzsql")
+
+# phys_info <- sqlColumns(channel = conn, sqtable = "MRPRODF_MRBSPR06") %>% as_tibble()
+
+# blo_info <- sqlColumns(channel = conn, sqtable = "MRPRODF_MRBPBLO2") %>% as_tibble()
+
+# tt <- sqlQuery(channel = conn,
+#                query = "select * from MRPRODF_MRBPBLO2",
+#                max = 100)
+
+readmits_casemix <- sqlQuery(channel = conn,
+                        query = paste0("select distinct MRPRODF_MRBPBLO2.NAME, MRPRODF_MRBPBLO2.SRC_OF_ADMIT, MRPRODF_MRBPBLO2.TYPE_OF_ADMIT, MRPRODF_MRBPBLO2.READMIT_IND, MRPRODF_MRBPBLO2.MED_REC_NO, MRPRODF_MRBPBLO2.MARITAL_STAT, MRPRODF_MRBPBLO2.RACE, MRPRODF_MRBPBLO2.SEX, MRPRODF_MRBPBLO2.PAT_ZIP, MRPRODF_MRBPBLO2.PAT_TYPE_POS1, MRPRODF_MRBPBLO2.CO_ID, MRPRODF_MRBPBLO2.PAT_NO, MRPRODF_MRBPBLO2.ADMIT_DT, MRPRODF_MRBPBLO2.DISCH_DT, MRPRODF_MRBPBLO2.ADMIT_DT, MRPRODF_MRBPBLO2.ACT_LOS, MRPRODF_MRBPBLO2.BIRTH_DT, SERV_CD, SUB_UNIT_NO, BILL_TYPE, PAT_TYPE_POS1, HIC_CLAIM_NO
+                        from
+                        MRPRODF_MRBPBLO2
+                        where
+                        MRPRODF_MRBPBLO2.MED_REC_NO in ("
+                        ,
+                        id_string,
+                        ")"),
+                        believeNRows = F,
+                        max = 0) %>% 
+  mutate(HIC_CLAIM_NO = as.character(HIC_CLAIM_NO))
+
+odbcClose(conn)
+
+readmits_combined3 <- left_join(x = readmits_combined2, y = readmits_casemix, 
+                                by = c("mrn" = "MED_REC_NO",
+                                       "index_admit_dt" = "ADMIT_DT",
+                                       "index_discharge_dt" = "DISCH_DT",
+                                       "dob" = "BIRTH_DT",
+                                       "hic_claim_no" = "HIC_CLAIM_NO"))
+
+# Clean up the combined data sets - do for each type
+ami_combined2 <- ami_combined %>% 
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned \r\nReadmission within \r\n30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+
+copd_combined2 <- copd_combined %>% 
+    rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date \r\nof Index Stay",
+         index_discharge_dt = "Discharge Date \r\nof Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned Readmission within 30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+  
+hf_combined2 <- hf_combined %>% 
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned Readmission within 30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+
+pn_combined2 <- pn_combined %>% 
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned Readmission within 30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+
+hk_combined2 <- hk_combined %>% 
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned Readmission within 30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+
+cabg_combined2 <- cabg_combined %>% 
+  rename(mrn = "Medical Record Number",
+         dob = "Beneficiary DOB",
+         index_admit_dt = "Admission Date of Index Stay",
+         index_discharge_dt = "Discharge Date of Index Stay [a]",
+         index_ind = "Index Stay",
+         index_diag = "Principal Discharge Diagnosis of Index Stay",
+         discharge_dest = "Discharge Destination",
+         readmit_ind = "Unplanned Readmission within 30 Days (Yes/No)",
+         readmit_admit_dt = "Readmission Date",
+         readmit_discharge_dt = "Discharge Date of Readmission") %>% 
+  mutate(dob = mdy(dob),
+         index_admit_dt = mdy(index_admit_dt),
+         index_discharge_dt = mdy(index_discharge_dt),
+         readmit_admit_dt = mdy(readmit_admit_dt),
+         readmit_discharge_dt = mdy(readmit_discharge_dt))
+
+
+
+```
+
+```{r warning=FALSE, message=FALSE, echo=FALSE, eval=FALSE}
+# write them to U drive
+
+
+write_csv(readmits_combined3,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions general info.csv",
+          na = "")
+
+write_csv(ami_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions ami.csv",
+          na = "")
+
+write_csv(copd_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions copd.csv",
+          na = "")
+
+write_csv(hf_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions hf.csv",
+          na = "")
+
+write_csv(pn_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions pne.csv",
+          na = "")
+
+write_csv(hk_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions hk.csv",
+          na = "")
+
+write_csv(cabg_combined2,
+          path = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions cabg.csv",
+          na = "")
+
+```
+
+
+```{r warning=FALSE, message=FALSE, echo=FALSE, results='asis'}
+
+general_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions general info.csv") %>% 
+  select(-ADMIT_DT.1, -PAT_TYPE_POS1.1)
+
+ami_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions ami.csv") %>% 
+  slice(2:nrow(.))
+
+copd_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions copd.csv") %>% 
+  slice(2:nrow(.))
+
+hf_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions hf.csv") %>% 
+  slice(3:nrow(.))
+
+pne_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions pne.csv") %>% 
+  slice(2:nrow(.))
+
+hk_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions hk.csv") %>% 
+  slice(3:nrow(.))
+
+cabg_info <- read_csv(file = "U:\\Readmissions\\Readmissions Discharge Status\\readmissions cabg.csv") %>% 
+  slice(2:nrow(.))
+
+```
+
+`r sum(!is.na(general_info$PAT_NO))` out of `r nrow(general_info)` index admissions (`r round((sum(!is.na(general_info$PAT_NO))/nrow(general_info))*100, digits = 0)`%) were matched to Casemix by MRN, index admission date, index diacharge date, and HIC claim number.
+
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+
+pickerInput("hosp_nm",
+            label = "Select One or More Hospitals:",
+            choices = unique(general_info$hosp_name),
+            selected = unique(general_info$hosp_name),
+            multiple = T,
+            options = list(`actions-box` = T)
+)
+
+pickerInput("readmit_type",
+            label = "Select One or More Readmission Categories:",
+            choices = unique(general_info$readmit_type),
+            selected = unique(general_info$readmit_type),
+            multiple = T,
+            options = list(`actions-box` = T)
+)
+
+dateRangeInput("dt_select",
+               label = "Select a Date Range for Index Visit Discharge",
+               start = min(general_info$index_discharge_dt),
+               end = max(general_info$index_discharge_dt),
+               min = min(general_info$index_discharge_dt),
+               max = max(general_info$index_discharge_dt)
+)
+
+sliderInput("min_num",
+            label = "Minimum Index Visits Discharged to Destination",
+            value = 0,
+            min = 0,
+            max = 500,
+            step = 1,
+            round = T
+)
+
+```
+
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+
+# Add interaction here, put in picker input,
+  # Hospital, readmit type - be sure select all available
+  # Total
+
+renderTable(
+ discharge_dest <- general_info %>%
+  filter(index_discharge_dt >= input$dt_select[1] & index_discharge_dt <= input$dt_select[2]) %>%
+  filter(hosp_name %in% c(input$hosp_nm)) %>%
+  filter(readmit_type %in% c(input$readmit_type)) %>%
+  group_by(readmit_ind, discharge_dest_desc) %>%
+  tally() %>%
+  spread(key = readmit_ind, value = n) %>%
+  mutate(YES = ifelse(test = is.na(YES),
+                      yes = 0, no = YES),
+         NO = ifelse(test = is.na(NO),
+                      yes = 0, no = NO),
+         total = YES + NO,
+         pct_readmitted = round((YES/(NO + YES))*100, digits = 0)) %>%
+  arrange(desc(pct_readmitted)) %>%
+  filter(total >= input$min_num) %>%
+  rename(#`Hospital Name` = "hosp_name",
+         # `Readmission Type` = "readmit_type",
+         `Discharge Destination` = "discharge_dest_desc",
+         `Not Readmitted` = "NO",
+         Readmitted = "YES",
+         Total = "total",
+         `PCT Readmitted` = "pct_readmitted")
+ 
+)
+
+renderDataTable(
+ discharge_dest <- general_info %>%
+  filter(index_discharge_dt >= input$dt_select[1] & index_discharge_dt <= input$dt_select[2]) %>%
+  filter(hosp_name %in% c(input$hosp_nm)) %>%
+  filter(readmit_type %in% c(input$readmit_type)) %>%
+  group_by(readmit_ind, discharge_dest_desc) %>%
+  tally() %>%
+  spread(key = readmit_ind, value = n) %>%
+  mutate(YES = ifelse(test = is.na(YES),
+                      yes = 0, no = YES),
+         NO = ifelse(test = is.na(NO),
+                      yes = 0, no = NO),
+         total = YES + NO,
+         pct_readmitted = round((YES/(NO + YES))*100, digits = 0)) %>%
+  arrange(desc(pct_readmitted)) %>%
+  filter(total >= input$min_num) %>%
+  rename(#`Hospital Name` = "hosp_name",
+         # `Readmission Type` = "readmit_type",
+         `Discharge Destination` = "discharge_dest_desc",
+         `Not Readmitted` = "NO",
+         Readmitted = "YES",
+         Total = "total",
+         `PCT Readmitted` = "pct_readmitted") %>% 
+   DT::datatable() %>% 
+   DT::formatStyle("PCT Readmitted",
+               backgroundColor = styleEqual(c(50, 100), c("red", "blue")))
+)
+
+```
+
+Additional information collected for each readmission type.
+
+`r colnames(general_info)`
+
+```{r warning=FALSE, message=FALSE, echo=FALSE, results='asis'}
+
+for(i in colnames(ami_info)[19:48]){
+  
+  # i <- colnames(ami_info)[19]
+  
+  test_results <- chisq.test(ami_info[[i]], ami_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("AMI Chisq Test Values: Variable -", i)))
+  
+}
+
+for(i in colnames(copd_info)[19:57]){
+  
+  # i <- colnames(copd_info)[19]
+  
+  test_results <- chisq.test(copd_info[[i]], copd_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("COPD Chisq Test Values: Variable -", i)))
+  
+}
+
+for(i in colnames(hf_info)[19:54]){
+  
+  # i <- colnames(hf_info)[19]
+  
+  test_results <- chisq.test(hf_info[[i]], hf_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("HF Chisq Test Values: Variable -", i)))
+  
+}
+
+for(i in colnames(pne_info)[19:58]){
+  
+  # i <- colnames(pne_info)[19]
+  
+  test_results <- chisq.test(pne_info[[i]], pne_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("PNE Chisq Test Values: Variable -", i)))
+  
+}
+
+for(i in colnames(hk_info)[19:50]){
+  
+  # i <- colnames(hk_info)[19]
+  
+  test_results <- chisq.test(hk_info[[i]], hk_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("HK Chisq Test Values: Variable -", i)))
+  
+}
+
+
+for(i in colnames(cabg_info)[19:43]){
+  
+  # i <- colnames(cabg_info)[19]
+  
+  test_results <- chisq.test(cabg_info[[i]], cabg_info$readmit_ind, correct = F)
+  
+  test_results_summary <- tibble(
+    value = c("Statistic", "P-value", "Significance"),
+    statistic = c(round(test_results$statistic, digits = 3),
+                  round(test_results$p.value, digits = 3), 
+                  ifelse(test = test_results$p.value <= 0.05,
+                         yes = "sign", no = "ns"))
+  )
+  
+  print(kable(test_results_summary,
+              caption = paste("CABG Chisq Test Values: Variable -", i)))
+  
+}
+
+# Make chunks for static summaries
+  # Add another chunk for inferentials and make summaries inactive
+
+# Add interacive chunks and use for final display (include inferentials below interactives)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+{
+  "key" : {
+    "name" : "Collect v1.23 Beta: Background Geopoint Test",
+    "id" : "background-geopoint-beta",
+    "version" : "2019071701"
+  },
+  "formDir" : "forms\\Collect v1_23 Beta_ Background Geopoint Test",
+  "hasBeenPulled" : true,
+  "cursor" : {
+    "type" : "aggregate",
+    "value" : "<cursor xmlns=\"http://www.opendatakit.org/cursor\"><attributeName>_LAST_UPDATE_DATE</attributeName><attributeValue>2019-10-15T19:47:20.959+0000</attributeValue><uriLastReturnedValue>uuid:7af5ebb0-f4da-449b-8436-5de2429862b0</uriLastReturnedValue><isForwardCursor>true</isForwardCursor></cursor>"
+  },
+  "lastExportedSubmission" : {
+    "instanceId" : "uuid:7af5ebb0-f4da-449b-8436-5de2429862b0",
+    "submissionDate" : "2019-10-15T19:47:20.657Z",
+    "exportDateTime" : "2019-10-15T15:33:51.894-05:00"
+  }
+}

@@ -1,0 +1,743 @@
+characteristics,repeat_location-Latitude,repeat_location-Longitude,repeat_location-Altitude,repeat_location-Accuracy,PARENT_KEY,KEY,SET-OF-data_repeat
+poor_cell,"","","","",uuid:276fecb2-0f6b-4d9a-822b-9bb059191f4f,uuid:276fecb2-0f6b-4d9a-822b-9bb059191f4f/data_repeat[1],uuid:276fecb2-0f6b-4d9a-822b-9bb059191f4f/data_repeat
+inside,0.4714756,34.0428394,0.0,3587.0,uuid:9ee084c9-3c45-49a8-b281-92a86e616883,uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat[1],uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat
+inside,0.4133751,34.0361689,0.0,2706.0,uuid:9ee084c9-3c45-49a8-b281-92a86e616883,uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat[2],uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat
+poor_cell,0.3641411,34.0052368,0.0,3549.0,uuid:9ee084c9-3c45-49a8-b281-92a86e616883,uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat[3],uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat
+clear_sky,0.4133751,34.0361689,0.0,2706.0,uuid:9ee084c9-3c45-49a8-b281-92a86e616883,uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat[4],uuid:9ee084c9-3c45-49a8-b281-92a86e616883/data_repeat
+wifi inside,"","","","",uuid:a01a7d6b-d345-4e31-9373-b3a42a5b2b97,uuid:a01a7d6b-d345-4e31-9373-b3a42a5b2b97/data_repeat[1],uuid:a01a7d6b-d345-4e31-9373-b3a42a5b2b97/data_repeat
+wifi,52.5090348,13.4043274,73.0,11.11,uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559,uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559/data_repeat[1],uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559/data_repeat
+wifi inside tall_building dense_forest,52.5090296,13.4043143,72.79999542236328,10.937,uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559,uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559/data_repeat[2],uuid:27bdf2ee-1c58-479a-8eae-13c3d20f4559/data_repeat
+none,"","","","",uuid:27c64c60-f634-4812-9541-0b25f0d96ecf,uuid:27c64c60-f634-4812-9541-0b25f0d96ecf/data_repeat[1],uuid:27c64c60-f634-4812-9541-0b25f0d96ecf/data_repeat
+inside wifi tall_building,-6.2381377,106.7916981,38.5,23.185,uuid:a0703e53-2c98-49e9-afc6-bd831a9f4ab9,uuid:a0703e53-2c98-49e9-afc6-bd831a9f4ab9/data_repeat[1],uuid:a0703e53-2c98-49e9-afc6-bd831a9f4ab9/data_repeat
+poor_cell,-14.5422378,-52.7885063,543.0,5.278,uuid:55cda8f1-6677-4bb3-946e-d33427428cfc,uuid:55cda8f1-6677-4bb3-946e-d33427428cfc/data_repeat[1],uuid:55cda8f1-6677-4bb3-946e-d33427428cfc/data_repeat
+inside wifi poor_cell,15.3075572,44.1894708,0.0,15.151,uuid:27cb7aef-21b2-43c3-b5c8-7b07e5488960,uuid:27cb7aef-21b2-43c3-b5c8-7b07e5488960/data_repeat[1],uuid:27cb7aef-21b2-43c3-b5c8-7b07e5488960/data_repeat
+inside,"","","","",uuid:561ced7b-195e-41a1-a80c-fa144886054b,uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat[1],uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat
+wifi,"","","","",uuid:561ced7b-195e-41a1-a80c-fa144886054b,uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat[2],uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat
+clear_sky,"","","","",uuid:561ced7b-195e-41a1-a80c-fa144886054b,uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat[3],uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat
+none,"","","","",uuid:561ced7b-195e-41a1-a80c-fa144886054b,uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat[4],uuid:561ced7b-195e-41a1-a80c-fa144886054b/data_repeat
+clear_sky,3.3709274,-76.5368373,1016.3999633789062,37.007,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[1],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+clear_sky,3.3719098,-76.5380205,1023.199951171875,23.924,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[2],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+clear_sky,3.3732946,-76.5390312,0.0,31.574,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[3],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+clear_sky,3.3764675,-76.5423548,1019.7999877929688,26.269,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[4],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+clear_sky,3.3723045,-76.5403931,1021.8999633789062,29.621,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[5],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+inside,3.371878,-76.540157,1019.8999633789062,27.711,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[6],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+poor_cell,3.3720494,-76.540484,1023.8999633789062,28.23,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[7],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+inside,3.3720733,-76.5403353,1037.5999755859375,23.396,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb,uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat[8],uuid:a0add1d1-ad23-481b-bbb9-1cfd81ac63fb/data_repeat
+inside wifi poor_cell,"","","","",uuid:561fb88c-25ae-415b-bb43-2e41be255b2c,uuid:561fb88c-25ae-415b-bb43-2e41be255b2c/data_repeat[1],uuid:561fb88c-25ae-415b-bb43-2e41be255b2c/data_repeat
+clear_sky wifi tall_building poor_cell,"","","","",uuid:561fb88c-25ae-415b-bb43-2e41be255b2c,uuid:561fb88c-25ae-415b-bb43-2e41be255b2c/data_repeat[2],uuid:561fb88c-25ae-415b-bb43-2e41be255b2c/data_repeat
+none,"","","","",uuid:a387f827-dbd6-483f-affb-1d4ae6d15663,uuid:a387f827-dbd6-483f-affb-1d4ae6d15663/data_repeat[1],uuid:a387f827-dbd6-483f-affb-1d4ae6d15663/data_repeat
+clear_sky,"","","","",uuid:a387f827-dbd6-483f-affb-1d4ae6d15663,uuid:a387f827-dbd6-483f-affb-1d4ae6d15663/data_repeat[2],uuid:a387f827-dbd6-483f-affb-1d4ae6d15663/data_repeat
+poor_cell,25.5047559,72.202141,0.0,1899.999,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[1],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042377,72.2031822,0.0,149.6,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[2],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[3],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042377,72.2031822,0.0,126.012,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[4],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[5],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042377,72.2031822,0.0,112.571,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[6],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[7],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042377,72.2031822,0.0,105.435,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[8],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[9],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042377,72.2031822,0.0,101.257,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[10],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[11],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5042331,72.2031838,0.0,98.219,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[12],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,"","","","",uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[13],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.504235,72.2031832,0.0,150.103,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[14],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+clear_sky,25.5077553,72.2032515,0.0,600.0,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff,uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat[15],uuid:27d525b9-e93c-4cea-8df0-02faacdf09ff/data_repeat
+inside clear_sky tall_building poor_cell,26.2721705,71.5304674,172.07489013671875,18.796,uuid:57043622-1431-415e-9af8-61ab0ad2eb43,uuid:57043622-1431-415e-9af8-61ab0ad2eb43/data_repeat[1],uuid:57043622-1431-415e-9af8-61ab0ad2eb43/data_repeat
+clear_sky tall_building,"","","","",uuid:28904a26-9f52-4dfb-9509-01af8a765baa,uuid:28904a26-9f52-4dfb-9509-01af8a765baa/data_repeat[1],uuid:28904a26-9f52-4dfb-9509-01af8a765baa/data_repeat
+clear_sky,"","","","",uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511,uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511/data_repeat[1],uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511/data_repeat
+clear_sky,"","","","",uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511,uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511/data_repeat[2],uuid:a3cc4f43-0ef9-4e3d-afcb-50892a5aa511/data_repeat
+inside tall_building,21.9133433,85.7068339,312.68,3.9,uuid:57f22568-cce3-4e47-b447-50a9fefb0b23,uuid:57f22568-cce3-4e47-b447-50a9fefb0b23/data_repeat[1],uuid:57f22568-cce3-4e47-b447-50a9fefb0b23/data_repeat
+wifi,15.7122809,-87.7034344,0.0,16.0,uuid:a3f6aff7-d755-4e06-8352-734b438da954,uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat[1],uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat
+wifi poor_cell clear_sky dense_forest,15.7122607,-87.7034287,19.0,16.084,uuid:a3f6aff7-d755-4e06-8352-734b438da954,uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat[2],uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat
+inside wifi clear_sky tall_building,15.7122575,-87.7034265,12.0,18.061,uuid:a3f6aff7-d755-4e06-8352-734b438da954,uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat[3],uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat
+none,15.7122809,-87.7034344,0.0,16.0,uuid:a3f6aff7-d755-4e06-8352-734b438da954,uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat[4],uuid:a3f6aff7-d755-4e06-8352-734b438da954/data_repeat
+inside,8.2776641,5.0215361,0.0,3176.0,uuid:2998a3f4-4a82-4003-bd44-b826ccafefca,uuid:2998a3f4-4a82-4003-bd44-b826ccafefca/data_repeat[1],uuid:2998a3f4-4a82-4003-bd44-b826ccafefca/data_repeat
+inside,"","","","",uuid:2b12c3c2-79c0-47e4-ae5a-a6c978072256,uuid:2b12c3c2-79c0-47e4-ae5a-a6c978072256/data_repeat[1],uuid:2b12c3c2-79c0-47e4-ae5a-a6c978072256/data_repeat
+poor_cell,"","","","",uuid:a414d990-cf9e-4321-92b7-18393c287255,uuid:a414d990-cf9e-4321-92b7-18393c287255/data_repeat[1],uuid:a414d990-cf9e-4321-92b7-18393c287255/data_repeat
+none,23.3057488,81.3514571,0.0,2299.999,uuid:589f77fd-f4c7-4fdd-8371-507b20da306b,uuid:589f77fd-f4c7-4fdd-8371-507b20da306b/data_repeat[1],uuid:589f77fd-f4c7-4fdd-8371-507b20da306b/data_repeat
+clear_sky,13.1643353,7.7018005,0.0,4436.0,uuid:a4dbc632-166e-46cc-b098-a45dbfa05e70,uuid:a4dbc632-166e-46cc-b098-a45dbfa05e70/data_repeat[1],uuid:a4dbc632-166e-46cc-b098-a45dbfa05e70/data_repeat
+clear_sky,"","","","",uuid:597255df-c846-4d58-ae57-d0f216dbe1b5,uuid:597255df-c846-4d58-ae57-d0f216dbe1b5/data_repeat[1],uuid:597255df-c846-4d58-ae57-d0f216dbe1b5/data_repeat
+wifi dense_forest,18.3445305,-66.0885119,-11.235321044921875,24.577,uuid:a4df60d8-e153-4d02-9e3b-3c05616ebf0f,uuid:a4df60d8-e153-4d02-9e3b-3c05616ebf0f/data_repeat[1],uuid:a4df60d8-e153-4d02-9e3b-3c05616ebf0f/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,27.7475473,75.4699746,0.0,3200.0,uuid:597c5e3a-cfc6-4aef-b81d-e7926b330ebf,uuid:597c5e3a-cfc6-4aef-b81d-e7926b330ebf/data_repeat[1],uuid:597c5e3a-cfc6-4aef-b81d-e7926b330ebf/data_repeat
+clear_sky,-1.3696841,35.2294871,1653.8,132.303,uuid:5a81b160-cb6a-4569-918a-fa4794e8acbe,uuid:5a81b160-cb6a-4569-918a-fa4794e8acbe/data_repeat[1],uuid:5a81b160-cb6a-4569-918a-fa4794e8acbe/data_repeat
+inside,25.7654359,72.2998469,0.0,1000.0,uuid:a51245b4-dcc0-4187-affb-4a0cf3bab750,uuid:a51245b4-dcc0-4187-affb-4a0cf3bab750/data_repeat[1],uuid:a51245b4-dcc0-4187-affb-4a0cf3bab750/data_repeat
+inside clear_sky,27.320962,79.8330007,0.0,2299.999,uuid:5abbb4cb-8a5b-428e-8515-7b74229f90c2,uuid:5abbb4cb-8a5b-428e-8515-7b74229f90c2/data_repeat[1],uuid:5abbb4cb-8a5b-428e-8515-7b74229f90c2/data_repeat
+inside,-7.763271,110.405668,170.73065185546875,6.742,uuid:a53b351b-a309-419b-b630-52a9d5452409,uuid:a53b351b-a309-419b-b630-52a9d5452409/data_repeat[1],uuid:a53b351b-a309-419b-b630-52a9d5452409/data_repeat
+"","","","","",uuid:a58aaef0-d94d-45d5-8005-81182f96c3ec,uuid:a58aaef0-d94d-45d5-8005-81182f96c3ec/data_repeat[1],uuid:a58aaef0-d94d-45d5-8005-81182f96c3ec/data_repeat
+inside,3.8027773,42.5449186,117.15453392876407,6.07,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat[1],uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat
+wifi,3.8027824,42.5449102,116.84775972801631,6.0,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat[2],uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat
+wifi,3.8027723,42.5448916,113.26004135943772,5.447,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c,uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat[3],uuid:a6c8d360-bf78-4130-87a2-4a68e250311c/data_repeat
+tall_building,35.269827,-80.8614305,179.535888671875,13.936,uuid:a7576683-45de-4b7f-98b6-df7fe8126138,uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat[1],uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat
+clear_sky,35.2702664,-80.8589886,189.2335205078125,9.648,uuid:a7576683-45de-4b7f-98b6-df7fe8126138,uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat[2],uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat
+clear_sky,35.2712609,-80.8540296,193.2572021484375,8.576,uuid:a7576683-45de-4b7f-98b6-df7fe8126138,uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat[3],uuid:a7576683-45de-4b7f-98b6-df7fe8126138/data_repeat
+wifi,9.5610325,44.0727284,1252.0,15.299,uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2,uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2/data_repeat[1],uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2/data_repeat
+inside,9.5610315,44.0727369,1252.199951171875,16.0,uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2,uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2/data_repeat[2],uuid:a78bb9ab-69c2-44df-9959-2d4e596a1eb2/data_repeat
+inside wifi tall_building,"","","","",uuid:a7c36564-81c4-48ef-a547-5dac4a7d3582,uuid:a7c36564-81c4-48ef-a547-5dac4a7d3582/data_repeat[1],uuid:a7c36564-81c4-48ef-a547-5dac4a7d3582/data_repeat
+inside,25.7402713,70.6410353,190.2,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[1],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401157,70.6411861,0.0,16.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[2],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+clear_sky,25.7401157,70.6411861,0.0,43.112,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[3],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+clear_sky,25.740524,70.6409811,123.0,5.485,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[4],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+clear_sky,25.740544,70.6409573,123.8,4.29,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[5],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+clear_sky,25.7405517,70.6409659,129.6,5.446,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[6],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.739877,70.6409673,60.6,5.425,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[7],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[8],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7397678,70.6409855,60.7,5.822,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[9],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400059,70.6410379,60.8,6.157,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[10],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400712,70.6410617,60.6,4.273,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[11],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400802,70.6411032,60.5,3.057,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[12],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[13],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.740059,70.6411499,60.8,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[14],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400332,70.6411601,61.0,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[15],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400065,70.641185,61.4,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[16],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[17],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7399821,70.6412038,61.9,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[18],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7399801,70.6412167,61.9,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[19],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[20],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7399841,70.64126,63.0,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[21],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7399868,70.6412908,63.2,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[22],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400073,70.641288,63.2,3.041,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[23],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400464,70.6413634,64.6,3.52,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[24],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[25],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400899,70.6413485,67.2,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[26],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7400997,70.6413301,67.2,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[27],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401042,70.6413292,67.2,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[28],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.740133,70.6412952,71.0,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[29],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+none,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[30],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401443,70.6412897,71.7,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[31],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[32],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401519,70.641291,71.7,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[33],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,"","","","",uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[34],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401566,70.6412917,71.7,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[35],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+inside,25.7401597,70.6412922,71.7,3.0,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538,uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat[36],uuid:a82fe0b2-221d-4a9c-92e9-2899f5114538/data_repeat
+wifi clear_sky,32.7402113,-117.1391634,47.900001525878906,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[1],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+wifi clear_sky,32.7397481,-117.1393284,55.5,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[2],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+wifi clear_sky,32.7394939,-117.1395006,56.20000076293945,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[3],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7390367,-117.1396536,50.79999923706055,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[4],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+wifi,32.7388598,-117.1398019,51.900001525878906,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[5],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7389714,-117.1403048,34.599998474121094,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[6],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7387082,-117.1405218,34.900001525878906,4.271,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[7],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7383014,-117.1408329,29.700000762939453,4.566,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[8],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7382548,-117.140917,33.099998474121094,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[9],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7382327,-117.140987,33.099998474121094,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[10],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7382185,-117.141023,34.0,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[11],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.738187,-117.1411246,36.0,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[12],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7379513,-117.1416661,35.900001525878906,3.041,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[13],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7376504,-117.1423022,30.799999237060547,3.226,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[14],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7375337,-117.1426015,27.899999618530273,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[15],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7373291,-117.1427314,28.0,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[16],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7375203,-117.1428463,26.399999618530273,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[17],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7380896,-117.1426754,30.100000381469727,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[18],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7383613,-117.1419306,44.400001525878906,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[19],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7389553,-117.140539,45.20000076293945,3.506,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[20],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7391576,-117.1397781,45.900001525878906,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[21],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky,32.7395729,-117.1394973,60.400001525878906,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[22],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky wifi,32.7396242,-117.1394935,58.20000076293945,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[23],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky wifi,32.7399988,-117.1394898,37.20000076293945,3.0,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[24],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+clear_sky wifi,32.7399525,-117.1395186,-298.3999938964844,10.719,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094,uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat[25],uuid:5af541a1-eb60-4202-aee5-f0ea8567d094/data_repeat
+none,-16.2658907,34.8669649,52.0,359.615,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[1],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+none,-16.2657786,34.8670814,28.0,65.554,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[2],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+clear_sky,-16.2658059,34.867056,33.0,16.687,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[3],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+clear_sky,-16.2658811,34.8669898,47.0,4.659,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[4],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+none,-16.2658889,34.8669818,47.0,3.822,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[5],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+wifi clear_sky,-16.2658926,34.8669778,47.0,3.436,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[6],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+none,-16.2658957,34.8669747,47.0,3.085,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[7],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+dense_forest poor_cell tall_building clear_sky wifi,-16.2658957,34.8669747,47.0,3.085,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[8],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+wifi,-16.2658969,34.8669735,47.0,3.0,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[9],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+poor_cell,"","","","",uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[10],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+dense_forest,"","","","",uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[11],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+tall_building,-16.2658972,34.8669731,47.0,3.0,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[12],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+poor_cell,"","","","",uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[13],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+inside,-16.2658973,34.866973,47.0,3.071,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[14],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+wifi,-16.2658974,34.866973,47.0,3.217,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[15],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+clear_sky,-16.2658974,34.8669729,47.0,3.561,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425,uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat[16],uuid:5bba6bfe-d902-4aeb-918d-10087f8e6425/data_repeat
+inside,8.1894582,5.0333973,0.0,3730.0,uuid:5be964c7-632a-4b1b-9dbf-c3875ac58c00,uuid:5be964c7-632a-4b1b-9dbf-c3875ac58c00/data_repeat[1],uuid:5be964c7-632a-4b1b-9dbf-c3875ac58c00/data_repeat
+none,"","","","",uuid:2b2cb097-017c-489a-8974-515809c5f1dc,uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat[1],uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat
+wifi,"","","","",uuid:2b2cb097-017c-489a-8974-515809c5f1dc,uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat[2],uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat
+wifi,3.8018358,42.5418571,85.54071880230319,12.0,uuid:2b2cb097-017c-489a-8974-515809c5f1dc,uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat[3],uuid:2b2cb097-017c-489a-8974-515809c5f1dc/data_repeat
+inside,9.1033753,43.1765007,1726.4,4.919,uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d,uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d/data_repeat[1],uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d/data_repeat
+inside,9.1033573,43.1764641,1724.9,3.448,uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d,uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d/data_repeat[2],uuid:5c9b4b12-31af-4ca5-baaf-a0037350700d/data_repeat
+inside,13.6738659,-89.2306948,856.0,11.518,uuid:2b3f6b43-2f50-4f92-bcb9-9bd7c365efb8,uuid:2b3f6b43-2f50-4f92-bcb9-9bd7c365efb8/data_repeat[1],uuid:2b3f6b43-2f50-4f92-bcb9-9bd7c365efb8/data_repeat
+inside,28.8722699,76.6472274,0.0,2099.999,uuid:5ce3691d-2983-4f0d-8fbc-d8b3234809f2,uuid:5ce3691d-2983-4f0d-8fbc-d8b3234809f2/data_repeat[1],uuid:5ce3691d-2983-4f0d-8fbc-d8b3234809f2/data_repeat
+clear_sky,"","","","",uuid:2b72a3ae-d908-4783-9143-120018469b59,uuid:2b72a3ae-d908-4783-9143-120018469b59/data_repeat[1],uuid:2b72a3ae-d908-4783-9143-120018469b59/data_repeat
+inside poor_cell clear_sky,25.7422449,71.3918732,0.0,1625.0,uuid:5d8a22dd-6eaa-4eec-ac9c-533770116ec1,uuid:5d8a22dd-6eaa-4eec-ac9c-533770116ec1/data_repeat[1],uuid:5d8a22dd-6eaa-4eec-ac9c-533770116ec1/data_repeat
+inside wifi tall_building poor_cell,"","","","",uuid:2bee855a-16df-496a-931c-dea8b6377d97,uuid:2bee855a-16df-496a-931c-dea8b6377d97/data_repeat[1],uuid:2bee855a-16df-496a-931c-dea8b6377d97/data_repeat
+none,0.3888571,33.2390116,1132.0,6.457,uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8,uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8/data_repeat[1],uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8/data_repeat
+poor_cell,0.388862,33.2390227,1139.0,5.319,uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8,uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8/data_repeat[2],uuid:a8bd1a2c-8b04-4f4a-8bad-8c0dd8378fc8/data_repeat
+"","","","","",uuid:2c533c32-de48-4011-94e7-41722097a405,uuid:2c533c32-de48-4011-94e7-41722097a405/data_repeat[1],uuid:2c533c32-de48-4011-94e7-41722097a405/data_repeat
+wifi,25.6500229,89.6139347,28.842878561415098,6.445,uuid:aae09129-24f8-4219-bd9d-f149211df126,uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat[1],uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat
+inside wifi,25.6500228,89.6139346,-14.593153755139081,8.527,uuid:aae09129-24f8-4219-bd9d-f149211df126,uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat[2],uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat
+inside,25.6500913,89.6140733,0.0,16.0,uuid:aae09129-24f8-4219-bd9d-f149211df126,uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat[3],uuid:aae09129-24f8-4219-bd9d-f149211df126/data_repeat
+inside wifi clear_sky,"","","","",uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9,uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat[1],uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat
+none,"","","","",uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9,uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat[2],uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat
+inside wifi clear_sky,"","","","",uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9,uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat[3],uuid:2c667f9f-8af0-4c29-9d21-58953dbc5eb9/data_repeat
+clear_sky tall_building poor_cell dense_forest,"","","","",uuid:ab038356-160d-4b9c-85fe-6c28804aabae,uuid:ab038356-160d-4b9c-85fe-6c28804aabae/data_repeat[1],uuid:ab038356-160d-4b9c-85fe-6c28804aabae/data_repeat
+wifi,-21.5120329,-51.4381742,0.0,29.51,uuid:2cbfc108-f080-44d5-bcd5-e310eea980b9,uuid:2cbfc108-f080-44d5-bcd5-e310eea980b9/data_repeat[1],uuid:2cbfc108-f080-44d5-bcd5-e310eea980b9/data_repeat
+none,"","","","",uuid:abb8ea83-0aff-4c19-a98e-0c8deff55424,uuid:abb8ea83-0aff-4c19-a98e-0c8deff55424/data_repeat[1],uuid:abb8ea83-0aff-4c19-a98e-0c8deff55424/data_repeat
+inside,25.5047559,72.202141,0.0,1899.999,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat[1],uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat
+inside,"","","","",uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat[2],uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat
+inside,25.5047559,72.202141,0.0,1899.999,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat[3],uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat
+inside,25.5039826,72.2029468,128.0,19.721,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat[4],uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat
+wifi inside,25.5039468,72.2029391,122.0,14.404,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c,uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat[5],uuid:2d0cc5bb-8564-4083-ad1a-bba383d8510c/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,0.4760283,101.4148917,13.7,9.3,uuid:abf5bb67-bcba-46fa-b515-bccbedaa5377,uuid:abf5bb67-bcba-46fa-b515-bccbedaa5377/data_repeat[1],uuid:abf5bb67-bcba-46fa-b515-bccbedaa5377/data_repeat
+inside,16.8247528,96.1477773,-15.600000381469727,6.125,uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7,uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7/data_repeat[1],uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7/data_repeat
+inside wifi,16.8247521,96.1477677,-15.600000381469727,5.666,uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7,uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7/data_repeat[2],uuid:2d1daf9f-4c87-4705-ac5e-e9c1b86accc7/data_repeat
+inside,25.9561661,71.5169396,0.0,2200.0,uuid:ac5a53bf-de06-4314-af46-e5c23ecac6c1,uuid:ac5a53bf-de06-4314-af46-e5c23ecac6c1/data_repeat[1],uuid:ac5a53bf-de06-4314-af46-e5c23ecac6c1/data_repeat
+clear_sky,"","","","",uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1,uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat[1],uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat
+inside,"","","","",uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1,uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat[2],uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat
+wifi,"","","","",uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1,uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat[3],uuid:5e4bde82-8d9b-43eb-bbf3-a60feb3f36d1/data_repeat
+inside wifi,"","","","",uuid:5e4c21d7-e484-4392-85bc-bcbd599ce74e,uuid:5e4c21d7-e484-4392-85bc-bcbd599ce74e/data_repeat[1],uuid:5e4c21d7-e484-4392-85bc-bcbd599ce74e/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,12.6375119,-8.0186539,0.0,2057.0,uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc,uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc/data_repeat[1],uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc/data_repeat
+wifi poor_cell dense_forest,12.6343487,-8.0147706,0.0,2057.0,uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc,uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc/data_repeat[2],uuid:5eddd9b8-6334-41b9-a689-07e2f20a15bc/data_repeat
+inside wifi,"","","","",uuid:5ee8ef71-bb7b-453d-abe8-642c7d64577d,uuid:5ee8ef71-bb7b-453d-abe8-642c7d64577d/data_repeat[1],uuid:5ee8ef71-bb7b-453d-abe8-642c7d64577d/data_repeat
+none,"","","","",uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424,uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424/data_repeat[1],uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424/data_repeat
+none,"","","","",uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424,uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424/data_repeat[2],uuid:5f79f4f3-fe84-4449-b9e2-be9ed0703424/data_repeat
+clear_sky,"","","","",uuid:2d1fd38c-615f-401f-8699-fc9076cc3436,uuid:2d1fd38c-615f-401f-8699-fc9076cc3436/data_repeat[1],uuid:2d1fd38c-615f-401f-8699-fc9076cc3436/data_repeat
+inside,"","","","",uuid:2dbde4ce-d082-496f-b666-d9609f61aa37,uuid:2dbde4ce-d082-496f-b666-d9609f61aa37/data_repeat[1],uuid:2dbde4ce-d082-496f-b666-d9609f61aa37/data_repeat
+inside wifi tall_building,6.6276228,3.358887,0.0,1799.999,uuid:5fb0e444-4030-4c1c-8aa9-363284024080,uuid:5fb0e444-4030-4c1c-8aa9-363284024080/data_repeat[1],uuid:5fb0e444-4030-4c1c-8aa9-363284024080/data_repeat
+none,"","","","",uuid:2e6da0a8-d523-45d8-befc-e8710391ce9b,uuid:2e6da0a8-d523-45d8-befc-e8710391ce9b/data_repeat[1],uuid:2e6da0a8-d523-45d8-befc-e8710391ce9b/data_repeat
+inside wifi poor_cell,20.098323,82.6404101,0.0,1600.0,uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9,uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9/data_repeat[1],uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9/data_repeat
+dense_forest poor_cell,20.098323,82.6404101,0.0,1600.0,uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9,uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9/data_repeat[2],uuid:2ec2d431-fc19-4bb7-96ef-17d5f57916f9/data_repeat
+clear_sky,"","","","",uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee,uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat[1],uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat
+clear_sky,"","","","",uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee,uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat[2],uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat
+clear_sky,"","","","",uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee,uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat[3],uuid:2f4cb9f0-0ace-49c8-8cc4-153e2debabee/data_repeat
+none,"","","","",uuid:ad41e6e8-cea5-46a7-9e8c-c2ef3d7b1671,uuid:ad41e6e8-cea5-46a7-9e8c-c2ef3d7b1671/data_repeat[1],uuid:ad41e6e8-cea5-46a7-9e8c-c2ef3d7b1671/data_repeat
+clear_sky tall_building,12.273176,9.398706,0.0,2500.0,uuid:ad5ce575-157a-410e-9173-ddbc43b48054,uuid:ad5ce575-157a-410e-9173-ddbc43b48054/data_repeat[1],uuid:ad5ce575-157a-410e-9173-ddbc43b48054/data_repeat
+clear_sky tall_building dense_forest,12.273176,9.398706,0.0,2500.0,uuid:ad5ce575-157a-410e-9173-ddbc43b48054,uuid:ad5ce575-157a-410e-9173-ddbc43b48054/data_repeat[2],uuid:ad5ce575-157a-410e-9173-ddbc43b48054/data_repeat
+inside wifi,46.207113,6.1372971,453.6000061035156,10.504,uuid:adb9f756-82f7-420d-ae79-f28eb39b9f95,uuid:adb9f756-82f7-420d-ae79-f28eb39b9f95/data_repeat[1],uuid:adb9f756-82f7-420d-ae79-f28eb39b9f95/data_repeat
+clear_sky,"","","","",uuid:add1c678-de84-489f-9027-4b1ee810af51,uuid:add1c678-de84-489f-9027-4b1ee810af51/data_repeat[1],uuid:add1c678-de84-489f-9027-4b1ee810af51/data_repeat
+inside,"","","","",uuid:2fda905a-10a8-4576-9ed0-69259f3a53aa,uuid:2fda905a-10a8-4576-9ed0-69259f3a53aa/data_repeat[1],uuid:2fda905a-10a8-4576-9ed0-69259f3a53aa/data_repeat
+inside wifi,"","","","",uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c,uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c/data_repeat[1],uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c/data_repeat
+wifi,"","","","",uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c,uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c/data_repeat[2],uuid:aed43168-0a8b-460c-b7e1-cc4d85868b4c/data_repeat
+inside wifi,"","","","",uuid:af9d5e08-6ae6-4a93-ac8d-85afd2434f53,uuid:af9d5e08-6ae6-4a93-ac8d-85afd2434f53/data_repeat[1],uuid:af9d5e08-6ae6-4a93-ac8d-85afd2434f53/data_repeat
+inside,25.3130375,71.5262922,12.0,17.0,uuid:6006c86a-db66-4f71-b504-f9d8079b5aff,uuid:6006c86a-db66-4f71-b504-f9d8079b5aff/data_repeat[1],uuid:6006c86a-db66-4f71-b504-f9d8079b5aff/data_repeat
+inside,25.3130821,71.5262372,4.0,11.373,uuid:6006c86a-db66-4f71-b504-f9d8079b5aff,uuid:6006c86a-db66-4f71-b504-f9d8079b5aff/data_repeat[2],uuid:6006c86a-db66-4f71-b504-f9d8079b5aff/data_repeat
+inside,25.7962147,75.607169,0.0,800.0,uuid:600c044a-41ba-4f7a-9082-ab4bd183e0e1,uuid:600c044a-41ba-4f7a-9082-ab4bd183e0e1/data_repeat[1],uuid:600c044a-41ba-4f7a-9082-ab4bd183e0e1/data_repeat
+clear_sky,-0.4633282,39.6334445,153.6,3.037,uuid:afaf281e-c99c-45c9-9304-b04aa6733a8b,uuid:afaf281e-c99c-45c9-9304-b04aa6733a8b/data_repeat[1],uuid:afaf281e-c99c-45c9-9304-b04aa6733a8b/data_repeat
+clear_sky,36.3774908,43.1317988,210.37475820674106,11.255,uuid:60696fd9-b63b-468f-a96e-308f57aeef13,uuid:60696fd9-b63b-468f-a96e-308f57aeef13/data_repeat[1],uuid:60696fd9-b63b-468f-a96e-308f57aeef13/data_repeat
+wifi clear_sky,36.3772635,43.1317494,0.0,8.116,uuid:60696fd9-b63b-468f-a96e-308f57aeef13,uuid:60696fd9-b63b-468f-a96e-308f57aeef13/data_repeat[2],uuid:60696fd9-b63b-468f-a96e-308f57aeef13/data_repeat
+inside,"","","","",uuid:b05b7689-e7ba-41fc-bbd8-b945c404291b,uuid:b05b7689-e7ba-41fc-bbd8-b945c404291b/data_repeat[1],uuid:b05b7689-e7ba-41fc-bbd8-b945c404291b/data_repeat
+wifi poor_cell,"","","","",uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839,uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839/data_repeat[1],uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839/data_repeat
+none,"","","","",uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839,uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839/data_repeat[2],uuid:b10ab7b9-5b55-45e9-85fa-abdcc4814839/data_repeat
+inside wifi clear_sky,"","","","",uuid:47f4a7c8-9396-4fe2-8d22-49147c796338,uuid:47f4a7c8-9396-4fe2-8d22-49147c796338/data_repeat[1],uuid:47f4a7c8-9396-4fe2-8d22-49147c796338/data_repeat
+none,"","","","",uuid:47f4a7c8-9396-4fe2-8d22-49147c796338,uuid:47f4a7c8-9396-4fe2-8d22-49147c796338/data_repeat[2],uuid:47f4a7c8-9396-4fe2-8d22-49147c796338/data_repeat
+clear_sky,25.0366329,72.9879603,226.0467529296875,14.333,uuid:484e40b2-185f-4f3e-afda-694cb5dbad67,uuid:484e40b2-185f-4f3e-afda-694cb5dbad67/data_repeat[1],uuid:484e40b2-185f-4f3e-afda-694cb5dbad67/data_repeat
+inside tall_building,27.1433523,81.9726283,0.0,1732.0,uuid:b19d2132-56a3-49d5-a0b9-d04f6c8b0fc9,uuid:b19d2132-56a3-49d5-a0b9-d04f6c8b0fc9/data_repeat[1],uuid:b19d2132-56a3-49d5-a0b9-d04f6c8b0fc9/data_repeat
+"","","","","",uuid:4899a8fa-ea7d-48f3-aecd-4514a0ba065c,uuid:4899a8fa-ea7d-48f3-aecd-4514a0ba065c/data_repeat[1],uuid:4899a8fa-ea7d-48f3-aecd-4514a0ba065c/data_repeat
+inside,25.7658609,72.2946664,0.0,2900.0,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat[1],uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat
+inside,25.7654359,72.2998469,0.0,1000.0,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat[2],uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat
+inside,25.7638565,72.2965376,73.0,30.835,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a,uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat[3],uuid:3089850c-c1b5-42fc-a6d5-b9304281839a/data_repeat
+clear_sky,-6.2381144,106.7917151,38.5,17.618,uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f,uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f/data_repeat[1],uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f/data_repeat
+none,-6.238112,106.7917158,41.79999923706055,12.934,uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f,uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f/data_repeat[2],uuid:48c90b8a-830d-45c3-9e9b-831eda4bbc4f/data_repeat
+inside clear_sky wifi,6.6276228,3.358887,0.0,1799.999,uuid:308d37c2-7206-4821-b035-e88a04f057fd,uuid:308d37c2-7206-4821-b035-e88a04f057fd/data_repeat[1],uuid:308d37c2-7206-4821-b035-e88a04f057fd/data_repeat
+inside,27.6152791,82.5153273,77.0,12.134,uuid:4aecf388-7725-4d60-bd7e-ff1e898816c6,uuid:4aecf388-7725-4d60-bd7e-ff1e898816c6/data_repeat[1],uuid:4aecf388-7725-4d60-bd7e-ff1e898816c6/data_repeat
+inside,"","","","",uuid:4be28cb1-2f8f-4802-99b1-4b952dec834e,uuid:4be28cb1-2f8f-4802-99b1-4b952dec834e/data_repeat[1],uuid:4be28cb1-2f8f-4802-99b1-4b952dec834e/data_repeat
+none,-17.8187707,31.0780788,1549.6,3.0,uuid:b253d344-2899-4a10-8717-fda5b05bdae1,uuid:b253d344-2899-4a10-8717-fda5b05bdae1/data_repeat[1],uuid:b253d344-2899-4a10-8717-fda5b05bdae1/data_repeat
+clear_sky,"","","","",uuid:b29bd155-9255-4a5e-98e6-08499a8941e4,uuid:b29bd155-9255-4a5e-98e6-08499a8941e4/data_repeat[1],uuid:b29bd155-9255-4a5e-98e6-08499a8941e4/data_repeat
+clear_sky,"","","","",uuid:b29bd155-9255-4a5e-98e6-08499a8941e4,uuid:b29bd155-9255-4a5e-98e6-08499a8941e4/data_repeat[2],uuid:b29bd155-9255-4a5e-98e6-08499a8941e4/data_repeat
+inside,8.5104878,4.5185988,0.0,2356.0,uuid:4de5440c-c3d5-4989-ad26-3edb2ea0e02a,uuid:4de5440c-c3d5-4989-ad26-3edb2ea0e02a/data_repeat[1],uuid:4de5440c-c3d5-4989-ad26-3edb2ea0e02a/data_repeat
+clear_sky,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[1],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+clear_sky,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[2],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+dense_forest,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[3],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+dense_forest wifi inside,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[4],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+inside wifi,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[5],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+inside wifi,"","","","",uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8,uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat[6],uuid:31e4d01e-cc40-4b83-9ae1-98d5a7cb6ee8/data_repeat
+tall_building,"","","","",uuid:b2ad43b8-ef6b-438c-87e4-7e554b76c767,uuid:b2ad43b8-ef6b-438c-87e4-7e554b76c767/data_repeat[1],uuid:b2ad43b8-ef6b-438c-87e4-7e554b76c767/data_repeat
+inside,26.2190028,71.5919145,191.8539436981082,5.912,uuid:4e02ae2f-348b-4efb-97f6-ed8937835d5f,uuid:4e02ae2f-348b-4efb-97f6-ed8937835d5f/data_repeat[1],uuid:4e02ae2f-348b-4efb-97f6-ed8937835d5f/data_repeat
+poor_cell,"","","","",uuid:b3948e84-632f-4328-bcdb-80fcdb7263ba,uuid:b3948e84-632f-4328-bcdb-80fcdb7263ba/data_repeat[1],uuid:b3948e84-632f-4328-bcdb-80fcdb7263ba/data_repeat
+inside,"","","","",uuid:4e8435bd-cd3a-4357-9c55-25f3efb201b7,uuid:4e8435bd-cd3a-4357-9c55-25f3efb201b7/data_repeat[1],uuid:4e8435bd-cd3a-4357-9c55-25f3efb201b7/data_repeat
+clear_sky,25.2991478,71.0269332,0.0,3000.0,uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37,uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37/data_repeat[1],uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37/data_repeat
+clear_sky poor_cell,25.2947429,71.0339907,0.0,2000.0,uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37,uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37/data_repeat[2],uuid:32337ea9-2975-4050-9cfe-2b617b3bfb37/data_repeat
+inside tall_building poor_cell,"","","","",uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc,uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat[1],uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat
+wifi,"","","","",uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc,uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat[2],uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat
+wifi,"","","","",uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc,uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat[3],uuid:3402116a-1e46-44e7-a34e-5a96a1a4bbcc/data_repeat
+wifi inside,15.3075596,44.1894707,2310.900146484375,14.83,uuid:4e8e2c56-0526-47b7-8e40-05c671b38688,uuid:4e8e2c56-0526-47b7-8e40-05c671b38688/data_repeat[1],uuid:4e8e2c56-0526-47b7-8e40-05c671b38688/data_repeat
+inside,"","","","",uuid:4ee9422f-ede3-4d90-9a10-22499b00e555,uuid:4ee9422f-ede3-4d90-9a10-22499b00e555/data_repeat[1],uuid:4ee9422f-ede3-4d90-9a10-22499b00e555/data_repeat
+inside,0.3888961,33.238978,1126.0,7.412,uuid:34b39d66-929e-46f9-ba12-ce5e071be11e,uuid:34b39d66-929e-46f9-ba12-ce5e071be11e/data_repeat[1],uuid:34b39d66-929e-46f9-ba12-ce5e071be11e/data_repeat
+inside wifi tall_building,"","","","",uuid:34f9b874-f33d-45f7-998b-38ec339101a1,uuid:34f9b874-f33d-45f7-998b-38ec339101a1/data_repeat[1],uuid:34f9b874-f33d-45f7-998b-38ec339101a1/data_repeat
+inside wifi,10.0584514,-2.4997079,0.0,82.5,uuid:4faea4bd-0579-492d-a294-db7c95936723,uuid:4faea4bd-0579-492d-a294-db7c95936723/data_repeat[1],uuid:4faea4bd-0579-492d-a294-db7c95936723/data_repeat
+inside wifi,10.0583692,-2.4997736,0.0,50.018,uuid:4faea4bd-0579-492d-a294-db7c95936723,uuid:4faea4bd-0579-492d-a294-db7c95936723/data_repeat[2],uuid:4faea4bd-0579-492d-a294-db7c95936723/data_repeat
+inside,3.3643337,-76.5268854,1001.7999877929688,21.089,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat[1],uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat
+clear_sky,3.3658826,-76.5312847,1003.7999877929688,22.136,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat[2],uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat
+inside,3.3658992,-76.5313003,0.0,23.585,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614,uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat[3],uuid:3670bdc7-ea6c-43c4-aa6d-485d6cba4614/data_repeat
+inside,27.5015533,82.5050365,95.2117919921875,8.084,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat[1],uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat
+inside,27.5015533,82.5050365,95.2117919921875,9.457,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat[2],uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat
+inside,27.5015661,82.5050192,107.456298828125,8.181,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768,uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat[3],uuid:4fb1c084-eff3-4310-8cad-2c0dfb8d1768/data_repeat
+none,"","","","",uuid:36a0cfe2-7b9b-4892-bc1a-49e89f5235bb,uuid:36a0cfe2-7b9b-4892-bc1a-49e89f5235bb/data_repeat[1],uuid:36a0cfe2-7b9b-4892-bc1a-49e89f5235bb/data_repeat
+inside wifi,-18.1538866,30.1526885,1199.9,3.9,uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd,uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd/data_repeat[1],uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd/data_repeat
+poor_cell,-18.1538879,30.1526698,1198.9,3.9,uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd,uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd/data_repeat[2],uuid:4ffe565a-2afe-4f7b-a42f-59a5fb134bfd/data_repeat
+inside,25.2923598,71.1208993,0.0,3700.0,uuid:3760c262-15f1-4aac-b988-d7bbb17facfb,uuid:3760c262-15f1-4aac-b988-d7bbb17facfb/data_repeat[1],uuid:3760c262-15f1-4aac-b988-d7bbb17facfb/data_repeat
+none,25.2930751,71.1461979,78.0,7.681,uuid:3760c262-15f1-4aac-b988-d7bbb17facfb,uuid:3760c262-15f1-4aac-b988-d7bbb17facfb/data_repeat[2],uuid:3760c262-15f1-4aac-b988-d7bbb17facfb/data_repeat
+clear_sky,"","","","",uuid:5083c86f-9dc4-4fbb-9e46-c9c7c3a607a6,uuid:5083c86f-9dc4-4fbb-9e46-c9c7c3a607a6/data_repeat[1],uuid:5083c86f-9dc4-4fbb-9e46-c9c7c3a607a6/data_repeat
+inside,"","","","",uuid:5102b296-03d6-4959-b3f0-79661d336ea1,uuid:5102b296-03d6-4959-b3f0-79661d336ea1/data_repeat[1],uuid:5102b296-03d6-4959-b3f0-79661d336ea1/data_repeat
+inside wifi,"","","","",uuid:51394acd-da97-4704-b142-3fbc4346364d,uuid:51394acd-da97-4704-b142-3fbc4346364d/data_repeat[1],uuid:51394acd-da97-4704-b142-3fbc4346364d/data_repeat
+clear_sky,-0.2109769,30.9476002,1297.2,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[1],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky,-0.2109872,30.9475986,1296.9,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[2],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky,-0.2109905,30.9475989,1297.0,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[3],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky,-0.2109989,30.94759,1296.6,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[4],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky,-0.210984,30.9475874,1296.6,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[5],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky,-0.2109823,30.9475856,1296.6,3.0,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc,uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat[6],uuid:37f6c173-58da-49ff-b5aa-09eb03d5f3bc/data_repeat
+clear_sky tall_building poor_cell,8.437829,4.5860486,0.0,2503.0,uuid:52c9ae6e-779f-4a43-b689-a5f4adeed8ac,uuid:52c9ae6e-779f-4a43-b689-a5f4adeed8ac/data_repeat[1],uuid:52c9ae6e-779f-4a43-b689-a5f4adeed8ac/data_repeat
+none,26.2720873,71.530382,191.846435546875,13.011,uuid:398b8f99-3689-4b60-8ef3-c2f5ec5849ae,uuid:398b8f99-3689-4b60-8ef3-c2f5ec5849ae/data_repeat[1],uuid:398b8f99-3689-4b60-8ef3-c2f5ec5849ae/data_repeat
+inside wifi,31.5450279,74.3295173,173.5,23.383,uuid:3a1768af-0eaf-448c-89eb-15a8efb4f400,uuid:3a1768af-0eaf-448c-89eb-15a8efb4f400/data_repeat[1],uuid:3a1768af-0eaf-448c-89eb-15a8efb4f400/data_repeat
+clear_sky wifi,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[1],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[2],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[3],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[4],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[5],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,32.7385253,-117.1401086,49.0,10.619,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[6],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[7],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[8],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[9],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,32.7382975,-117.140226,65.0,9.102,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[10],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,32.7382873,-117.140115,50.0,3.109,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[11],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[12],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[13],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[14],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[15],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+clear_sky,"","","","",uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3,uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat[16],uuid:541f6863-dfd1-4757-8c0e-d594e51cc8f3/data_repeat
+wifi inside,17.3983672,78.494442,0.0,16.0,uuid:3ac039be-9e32-448a-b4a5-e79b76c91924,uuid:3ac039be-9e32-448a-b4a5-e79b76c91924/data_repeat[1],uuid:3ac039be-9e32-448a-b4a5-e79b76c91924/data_repeat
+inside,"","","","",uuid:3cddd314-136f-4357-850e-077e879b4c85,uuid:3cddd314-136f-4357-850e-077e879b4c85/data_repeat[1],uuid:3cddd314-136f-4357-850e-077e879b4c85/data_repeat
+wifi inside clear_sky tall_building,-34.9140991,-56.1713524,39.0462646484375,8.218,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat[1],uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat
+inside wifi clear_sky,-34.9141648,-56.1714267,18.2237548828125,8.985,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat[2],uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat
+inside clear_sky wifi,-34.9141705,-56.1714311,13.73553466796875,6.057,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd,uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat[3],uuid:54329a07-b3e6-4ab7-9135-26a951d2dbdd/data_repeat
+clear_sky tall_building,19.7861553,82.5042507,279.0,5.36,uuid:3d25d4cd-c4ad-4c60-9a8e-6f04147df756,uuid:3d25d4cd-c4ad-4c60-9a8e-6f04147df756/data_repeat[1],uuid:3d25d4cd-c4ad-4c60-9a8e-6f04147df756/data_repeat
+wifi clear_sky,"","","","",uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03,uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat[1],uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat
+poor_cell,"","","","",uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03,uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat[2],uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat
+poor_cell clear_sky wifi,"","","","",uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03,uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat[3],uuid:544eb9ab-ac61-4a80-8b03-3623330b8e03/data_repeat
+inside,"","","","",uuid:54b11305-5525-4f85-8f79-4fe62741d042,uuid:54b11305-5525-4f85-8f79-4fe62741d042/data_repeat[1],uuid:54b11305-5525-4f85-8f79-4fe62741d042/data_repeat
+inside,"","","","",uuid:54b11305-5525-4f85-8f79-4fe62741d042,uuid:54b11305-5525-4f85-8f79-4fe62741d042/data_repeat[2],uuid:54b11305-5525-4f85-8f79-4fe62741d042/data_repeat
+none,11.719786,9.3610541,0.0,2680.0,uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f,uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f/data_repeat[1],uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f/data_repeat
+none,11.7154313,9.3706035,411.3,4.493,uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f,uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f/data_repeat[2],uuid:b3d80e43-a60f-43de-9cd8-3aa4a033815f/data_repeat
+inside wifi clear_sky tall_building,23.2037525,81.5329282,432.2689108856687,6.638,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[1],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+inside,23.2037508,81.5329157,433.3629700324972,5.916,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[2],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+wifi,23.2037506,81.5329147,433.5318625441563,6.024,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[3],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+clear_sky,23.2037503,81.5329135,433.74587618308306,4.532,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[4],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+tall_building,23.2037503,81.5329135,432.66905293027554,3.784,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[5],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+none,23.2037503,81.5329135,432.5626474616032,3.0,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9,uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat[6],uuid:3d823f4d-d932-462f-b9f7-22dfccc5b1b9/data_repeat
+tall_building wifi,"","","","",uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8,uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8/data_repeat[1],uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8/data_repeat
+wifi,31.5450558,74.329547,173.90000915527344,24.748,uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8,uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8/data_repeat[2],uuid:5534e8c7-88bf-4a95-8fa9-49bb49810cc8/data_repeat
+wifi,26.2886458,71.1239168,227.0,11.527,uuid:3dbfea49-9b2d-4e33-8b65-32d2221d97f5,uuid:3dbfea49-9b2d-4e33-8b65-32d2221d97f5/data_repeat[1],uuid:3dbfea49-9b2d-4e33-8b65-32d2221d97f5/data_repeat
+none,0.5897733,34.7769917,1461.4,5.7,uuid:55ae2deb-ed1f-4cb6-b62f-d4b528194140,uuid:55ae2deb-ed1f-4cb6-b62f-d4b528194140/data_repeat[1],uuid:55ae2deb-ed1f-4cb6-b62f-d4b528194140/data_repeat
+inside,25.7654359,72.2998469,0.0,1000.0,uuid:3dee33b1-90fb-4aa1-bd44-5f94e56848f4,uuid:3dee33b1-90fb-4aa1-bd44-5f94e56848f4/data_repeat[1],uuid:3dee33b1-90fb-4aa1-bd44-5f94e56848f4/data_repeat
+inside,8.2705418,5.0214986,0.0,3206.0,uuid:723c37ab-a0a8-4060-91d4-da4ee6f315a2,uuid:723c37ab-a0a8-4060-91d4-da4ee6f315a2/data_repeat[1],uuid:723c37ab-a0a8-4060-91d4-da4ee6f315a2/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,"","","","",uuid:3f26df03-10f9-4ff1-bfd4-fbdb5926600c,uuid:3f26df03-10f9-4ff1-bfd4-fbdb5926600c/data_repeat[1],uuid:3f26df03-10f9-4ff1-bfd4-fbdb5926600c/data_repeat
+inside poor_cell,"","","","",uuid:b436a79d-bd41-419d-a1e1-01c56080e2c1,uuid:b436a79d-bd41-419d-a1e1-01c56080e2c1/data_repeat[1],uuid:b436a79d-bd41-419d-a1e1-01c56080e2c1/data_repeat
+inside,6.1631765,6.8573804,0.0,1299.999,uuid:401bbba8-431a-4115-bf14-caa65230131b,uuid:401bbba8-431a-4115-bf14-caa65230131b/data_repeat[1],uuid:401bbba8-431a-4115-bf14-caa65230131b/data_repeat
+inside,6.1631765,6.8573804,0.0,1299.999,uuid:401bbba8-431a-4115-bf14-caa65230131b,uuid:401bbba8-431a-4115-bf14-caa65230131b/data_repeat[2],uuid:401bbba8-431a-4115-bf14-caa65230131b/data_repeat
+inside clear_sky,25.7407283,70.6400867,191.4,10.295,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[1],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.740747,70.6401533,191.4,9.11,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[2],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.7407343,70.6401662,191.4,19.075,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[3],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.7407292,70.640245,191.4,24.639,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[4],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.7407513,70.6403067,191.4,33.139,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[5],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.7407548,70.6402199,191.4,100.832,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[6],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+inside,25.740062,70.6411568,191.6,3.405,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[7],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+tall_building,25.7400198,70.6411074,190.9,3.0,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[8],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+clear_sky,25.7401971,70.6410551,190.6,4.516,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[9],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+none,25.7402228,70.6409954,190.4,3.0,uuid:73122c20-a858-4296-b8df-a077e81f5582,uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat[10],uuid:73122c20-a858-4296-b8df-a077e81f5582/data_repeat
+poor_cell dense_forest clear_sky,"","","","",uuid:40812284-a7a2-434e-9225-7aafa11664c4,uuid:40812284-a7a2-434e-9225-7aafa11664c4/data_repeat[1],uuid:40812284-a7a2-434e-9225-7aafa11664c4/data_repeat
+clear_sky tall_building,12.9125269,77.621986,818.3999633789062,4.288,uuid:73c467b5-81cc-4426-901b-ddf2f7bf3b32,uuid:73c467b5-81cc-4426-901b-ddf2f7bf3b32/data_repeat[1],uuid:73c467b5-81cc-4426-901b-ddf2f7bf3b32/data_repeat
+poor_cell,26.2250936,72.1757773,137.0,10.0,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat[1],uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat
+poor_cell,26.2251004,72.1757854,139.0,10.0,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat[2],uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat
+poor_cell,26.225104,72.1757705,136.0,10.0,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat[3],uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat
+poor_cell,26.2251031,72.175766,136.0,10.0,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat[4],uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat
+poor_cell,26.2251022,72.1757588,135.0,10.0,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151,uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat[5],uuid:b4922040-c87c-4011-aaa4-f8a2b317f151/data_repeat
+inside,"","","","",uuid:408af73c-8fca-43af-a7f4-233da072edd9,uuid:408af73c-8fca-43af-a7f4-233da072edd9/data_repeat[1],uuid:408af73c-8fca-43af-a7f4-233da072edd9/data_repeat
+inside,7.2333894,10.6273758,239.4,3.0,uuid:741bb670-d49f-41ac-bf65-88083e9e317d,uuid:741bb670-d49f-41ac-bf65-88083e9e317d/data_repeat[1],uuid:741bb670-d49f-41ac-bf65-88083e9e317d/data_repeat
+poor_cell,7.2334063,10.6273601,239.4,3.0,uuid:741bb670-d49f-41ac-bf65-88083e9e317d,uuid:741bb670-d49f-41ac-bf65-88083e9e317d/data_repeat[2],uuid:741bb670-d49f-41ac-bf65-88083e9e317d/data_repeat
+wifi,"","","","",uuid:7448cc32-b74b-4dad-94c0-36e4128b0703,uuid:7448cc32-b74b-4dad-94c0-36e4128b0703/data_repeat[1],uuid:7448cc32-b74b-4dad-94c0-36e4128b0703/data_repeat
+none,"","","","",uuid:7594f120-463a-4c8a-82d5-6094745e35b7,uuid:7594f120-463a-4c8a-82d5-6094745e35b7/data_repeat[1],uuid:7594f120-463a-4c8a-82d5-6094745e35b7/data_repeat
+clear_sky,23.3057488,81.3514571,0.0,2299.999,uuid:b4b98109-5195-447a-8d88-88b56208b540,uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat[1],uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat
+clear_sky,23.3057488,81.3514571,0.0,2299.999,uuid:b4b98109-5195-447a-8d88-88b56208b540,uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat[2],uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat
+inside,23.3057488,81.3514571,0.0,2299.999,uuid:b4b98109-5195-447a-8d88-88b56208b540,uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat[3],uuid:b4b98109-5195-447a-8d88-88b56208b540/data_repeat
+none,-14.9040593,-53.0122907,372.70001220703125,7.518,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat[1],uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat
+none,-14.9040315,-53.0122933,372.70001220703125,6.365,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat[2],uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat
+none,-14.9040309,-53.0122967,372.70001220703125,6.189,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0,uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat[3],uuid:75da3074-6d90-45da-bfc3-0fcec1c7b0b0/data_repeat
+clear_sky,"","","","",uuid:b56d5c3d-52ea-424c-828d-ec49edc6195d,uuid:b56d5c3d-52ea-424c-828d-ec49edc6195d/data_repeat[1],uuid:b56d5c3d-52ea-424c-828d-ec49edc6195d/data_repeat
+inside,7.2334317,10.6273823,242.4,3.0,uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa,uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa/data_repeat[1],uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa/data_repeat
+inside poor_cell,7.2334327,10.6273288,242.5,3.0,uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa,uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa/data_repeat[2],uuid:44c11fbf-decc-45e2-8d20-42ce496cf5fa/data_repeat
+inside tall_building,-1.3075435,36.9011916,0.0,400.0,uuid:76102ef8-6369-4b86-b781-be055c26fa43,uuid:76102ef8-6369-4b86-b781-be055c26fa43/data_repeat[1],uuid:76102ef8-6369-4b86-b781-be055c26fa43/data_repeat
+none,-0.4573104,39.6589507,115.0,5.613,uuid:b6bd69dc-763d-4ee4-bf62-15808c8f1e55,uuid:b6bd69dc-763d-4ee4-bf62-15808c8f1e55/data_repeat[1],uuid:b6bd69dc-763d-4ee4-bf62-15808c8f1e55/data_repeat
+none,25.1410319,73.0638524,153.2,10.0,uuid:76205535-5d6d-4021-b158-45ae6ad35af0,uuid:76205535-5d6d-4021-b158-45ae6ad35af0/data_repeat[1],uuid:76205535-5d6d-4021-b158-45ae6ad35af0/data_repeat
+none,13.0552817,8.4884235,0.0,1916.0,uuid:45900853-80b0-45ac-95b4-628dcb9454f4,uuid:45900853-80b0-45ac-95b4-628dcb9454f4/data_repeat[1],uuid:45900853-80b0-45ac-95b4-628dcb9454f4/data_repeat
+none,13.0552817,8.4884235,0.0,1916.0,uuid:45900853-80b0-45ac-95b4-628dcb9454f4,uuid:45900853-80b0-45ac-95b4-628dcb9454f4/data_repeat[2],uuid:45900853-80b0-45ac-95b4-628dcb9454f4/data_repeat
+inside,"","","","",uuid:b772e2f4-31db-4a4e-8e97-4c09ad5a3552,uuid:b772e2f4-31db-4a4e-8e97-4c09ad5a3552/data_repeat[1],uuid:b772e2f4-31db-4a4e-8e97-4c09ad5a3552/data_repeat
+inside,"","","","",uuid:11d0defc-806a-4717-8e49-f0a1fe638d23,uuid:11d0defc-806a-4717-8e49-f0a1fe638d23/data_repeat[1],uuid:11d0defc-806a-4717-8e49-f0a1fe638d23/data_repeat
+none,"","","","",uuid:76c4ceae-78fe-45d6-ab66-6fcb86110097,uuid:76c4ceae-78fe-45d6-ab66-6fcb86110097/data_repeat[1],uuid:76c4ceae-78fe-45d6-ab66-6fcb86110097/data_repeat
+none,3.8027799,42.5449013,121.58983564447372,3.098,uuid:12474537-101d-407d-a739-312508f0f3de,uuid:12474537-101d-407d-a739-312508f0f3de/data_repeat[1],uuid:12474537-101d-407d-a739-312508f0f3de/data_repeat
+none,3.8027684,42.5448971,125.17807967775639,3.0,uuid:12474537-101d-407d-a739-312508f0f3de,uuid:12474537-101d-407d-a739-312508f0f3de/data_repeat[2],uuid:12474537-101d-407d-a739-312508f0f3de/data_repeat
+inside,26.7284605,71.5777734,0.0,3799.999,uuid:79cee28e-91f3-4325-a4b9-efa0e9790809,uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat[1],uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat
+inside clear_sky,26.711111,71.5852579,0.0,3506.0,uuid:79cee28e-91f3-4325-a4b9-efa0e9790809,uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat[2],uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat
+inside,"","","","",uuid:79cee28e-91f3-4325-a4b9-efa0e9790809,uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat[3],uuid:79cee28e-91f3-4325-a4b9-efa0e9790809/data_repeat
+none,"","","","",uuid:1304b9bb-725b-4a76-babd-755ceab2a6b1,uuid:1304b9bb-725b-4a76-babd-755ceab2a6b1/data_repeat[1],uuid:1304b9bb-725b-4a76-babd-755ceab2a6b1/data_repeat
+inside clear_sky poor_cell,25.4124459,71.3477903,62.0,242.743,uuid:15734f2f-1cde-4636-937b-bad77448d7d5,uuid:15734f2f-1cde-4636-937b-bad77448d7d5/data_repeat[1],uuid:15734f2f-1cde-4636-937b-bad77448d7d5/data_repeat
+inside clear_sky poor_cell dense_forest tall_building,26.2722044,71.530425,189.09771728515625,16.156,uuid:7a184c03-a03e-4a2b-abfe-0f3a8e95746e,uuid:7a184c03-a03e-4a2b-abfe-0f3a8e95746e/data_repeat[1],uuid:7a184c03-a03e-4a2b-abfe-0f3a8e95746e/data_repeat
+inside,"","","","",uuid:16643741-25af-4ad4-bc50-725213bceed3,uuid:16643741-25af-4ad4-bc50-725213bceed3/data_repeat[1],uuid:16643741-25af-4ad4-bc50-725213bceed3/data_repeat
+none,"","","","",uuid:b7933be4-e9b4-4624-9c20-58dda6a357d2,uuid:b7933be4-e9b4-4624-9c20-58dda6a357d2/data_repeat[1],uuid:b7933be4-e9b4-4624-9c20-58dda6a357d2/data_repeat
+clear_sky,28.8721122,73.3324981,152.70703125,12.193,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[1],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+clear_sky,28.8720496,73.3325083,136.8607177734375,6.669,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[2],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+clear_sky,28.8720476,73.332518,145.9794921875,6.252,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[3],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+clear_sky,28.8720607,73.3325084,144.86859130859375,6.412,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[4],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+clear_sky,28.8720548,73.3324978,147.46661376953125,6.406,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[5],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+clear_sky,28.8720562,73.332492,152.20361328125,6.521,uuid:7a56444d-2072-46c3-af75-428b95fd79fe,uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat[6],uuid:7a56444d-2072-46c3-af75-428b95fd79fe/data_repeat
+inside tall_building poor_cell,7.4908377,4.5446383,354.0906982421875,28.297,uuid:7af5ebb0-f4da-449b-8436-5de2429862b0,uuid:7af5ebb0-f4da-449b-8436-5de2429862b0/data_repeat[1],uuid:7af5ebb0-f4da-449b-8436-5de2429862b0/data_repeat
+inside clear_sky,26.4654949,71.0994326,232.0,7.58,uuid:b8997a6e-9af7-4bbe-a02c-ccc61f8ec033,uuid:b8997a6e-9af7-4bbe-a02c-ccc61f8ec033/data_repeat[1],uuid:b8997a6e-9af7-4bbe-a02c-ccc61f8ec033/data_repeat
+inside clear_sky,26.4533615,71.5249765,166.0,92.0,uuid:16761057-f1a0-45e4-9ef6-fee917074ada,uuid:16761057-f1a0-45e4-9ef6-fee917074ada/data_repeat[1],uuid:16761057-f1a0-45e4-9ef6-fee917074ada/data_repeat
+inside wifi tall_building,-1.2198112,36.8890593,0.0,13.706,uuid:7c994fd5-6a70-4ebf-8def-be4e30167abf,uuid:7c994fd5-6a70-4ebf-8def-be4e30167abf/data_repeat[1],uuid:7c994fd5-6a70-4ebf-8def-be4e30167abf/data_repeat
+none,18.5601525,-72.2820263,66.0,10.619,uuid:b8b63f65-c260-4886-998f-e3896431c2c3,uuid:b8b63f65-c260-4886-998f-e3896431c2c3/data_repeat[1],uuid:b8b63f65-c260-4886-998f-e3896431c2c3/data_repeat
+poor_cell,18.5601493,-72.2819989,65.0,9.102,uuid:b8b63f65-c260-4886-998f-e3896431c2c3,uuid:b8b63f65-c260-4886-998f-e3896431c2c3/data_repeat[2],uuid:b8b63f65-c260-4886-998f-e3896431c2c3/data_repeat
+inside wifi,"","","","",uuid:179adf5d-1cfc-4b2f-bd16-60f3eca74b6d,uuid:179adf5d-1cfc-4b2f-bd16-60f3eca74b6d/data_repeat[1],uuid:179adf5d-1cfc-4b2f-bd16-60f3eca74b6d/data_repeat
+inside,2.1133492,-74.7703236,284.3000183105469,17.931,uuid:b8f41fef-4038-4b7d-a49b-84a125e3b8ed,uuid:b8f41fef-4038-4b7d-a49b-84a125e3b8ed/data_repeat[1],uuid:b8f41fef-4038-4b7d-a49b-84a125e3b8ed/data_repeat
+clear_sky,"","","","",uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48,uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48/data_repeat[1],uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48/data_repeat
+clear_sky,"","","","",uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48,uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48/data_repeat[2],uuid:17efa476-5eba-46ab-b6a6-c8fbea06ec48/data_repeat
+inside tall_building,"","","","",uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051,uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051/data_repeat[1],uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051/data_repeat
+dense_forest tall_building,"","","","",uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051,uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051/data_repeat[2],uuid:93d7c97d-c7ba-4726-bcb5-bcc1c0f80051/data_repeat
+"","","","","",uuid:18ff2e15-7973-4de3-bb84-d485b5cd21f4,uuid:18ff2e15-7973-4de3-bb84-d485b5cd21f4/data_repeat[1],uuid:18ff2e15-7973-4de3-bb84-d485b5cd21f4/data_repeat
+none,"","","","",uuid:947bdbbe-1434-4a90-a71a-d4bdca409308,uuid:947bdbbe-1434-4a90-a71a-d4bdca409308/data_repeat[1],uuid:947bdbbe-1434-4a90-a71a-d4bdca409308/data_repeat
+inside,26.3306987,71.6760097,0.0,2453.0,uuid:94c48bd5-da30-43af-af66-ac45675c4d59,uuid:94c48bd5-da30-43af-af66-ac45675c4d59/data_repeat[1],uuid:94c48bd5-da30-43af-af66-ac45675c4d59/data_repeat
+inside,26.7326233,71.5831747,0.0,16.0,uuid:1a1b1f55-f50f-4187-9b52-e0576d20fe74,uuid:1a1b1f55-f50f-4187-9b52-e0576d20fe74/data_repeat[1],uuid:1a1b1f55-f50f-4187-9b52-e0576d20fe74/data_repeat
+inside,5.6598008,-0.255293,81.5,5.089,uuid:1c386f6e-41d7-444e-b206-a098b9da61c3,uuid:1c386f6e-41d7-444e-b206-a098b9da61c3/data_repeat[1],uuid:1c386f6e-41d7-444e-b206-a098b9da61c3/data_repeat
+inside,5.6598597,-0.2552623,83.5999984741211,4.366,uuid:1c386f6e-41d7-444e-b206-a098b9da61c3,uuid:1c386f6e-41d7-444e-b206-a098b9da61c3/data_repeat[2],uuid:1c386f6e-41d7-444e-b206-a098b9da61c3/data_repeat
+inside,10.6993777,122.5543615,0.0,9.232,uuid:7d0792b9-83b3-47f2-b716-555961d51098,uuid:7d0792b9-83b3-47f2-b716-555961d51098/data_repeat[1],uuid:7d0792b9-83b3-47f2-b716-555961d51098/data_repeat
+inside,26.1473117,70.9811959,0.0,62.25,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[1],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+clear_sky,26.1473736,70.9812034,229.11320120852415,20.8,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[2],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+wifi clear_sky tall_building poor_cell,26.147274,70.9812415,219.82455573031763,14.666,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[3],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+clear_sky wifi inside,26.1472493,70.9812134,219.48920280254467,8.0,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[4],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+none,26.1472931,70.9812275,210.83243890311496,6.0,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[5],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+inside,26.1473129,70.9812136,261.3175414396112,43.2,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[6],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+none,26.1473712,70.9812241,233.566588624934,8.0,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[7],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+none,26.1473638,70.9812291,230.38984575996523,6.666,uuid:94e09224-617f-49d9-9aa9-27a54b735f29,uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat[8],uuid:94e09224-617f-49d9-9aa9-27a54b735f29/data_repeat
+inside clear_sky tall_building poor_cell dense_forest,6.4150387,2.3201498,10.7,4.868,uuid:7d7ab219-7f8f-43ea-a981-562601a6986d,uuid:7d7ab219-7f8f-43ea-a981-562601a6986d/data_repeat[1],uuid:7d7ab219-7f8f-43ea-a981-562601a6986d/data_repeat
+clear_sky,"","","","",uuid:1c5c5af2-be02-4183-9828-a201911be56f,uuid:1c5c5af2-be02-4183-9828-a201911be56f/data_repeat[1],uuid:1c5c5af2-be02-4183-9828-a201911be56f/data_repeat
+wifi,"","","","",uuid:95b4b78d-8381-4b2c-bb77-a32df64c3ab7,uuid:95b4b78d-8381-4b2c-bb77-a32df64c3ab7/data_repeat[1],uuid:95b4b78d-8381-4b2c-bb77-a32df64c3ab7/data_repeat
+none,-11.3580012,40.3425441,5.0,3.811,uuid:964bc544-1efd-46b6-aef1-20e8b41c57fc,uuid:964bc544-1efd-46b6-aef1-20e8b41c57fc/data_repeat[1],uuid:964bc544-1efd-46b6-aef1-20e8b41c57fc/data_repeat
+inside wifi,-25.3718796,-51.4655454,0.0,7.625,uuid:7dc30161-8b49-43cc-ac34-6df9440d26a4,uuid:7dc30161-8b49-43cc-ac34-6df9440d26a4/data_repeat[1],uuid:7dc30161-8b49-43cc-ac34-6df9440d26a4/data_repeat
+inside,7.4906653,4.5449038,371.0054931640625,33.005,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat[1],uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat
+inside tall_building,7.4907636,4.5448365,352.70184326171875,15.531,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat[2],uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat
+inside tall_building wifi,7.4907521,4.5448551,355.77685546875,23.041,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3,uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat[3],uuid:1c834f5c-6368-44e5-b5c7-8c5c7e9967d3/data_repeat
+poor_cell,24.2452334,94.7133651,0.0,4099.999,uuid:9710477b-76fb-4ae2-b29f-75ef288f6799,uuid:9710477b-76fb-4ae2-b29f-75ef288f6799/data_repeat[1],uuid:9710477b-76fb-4ae2-b29f-75ef288f6799/data_repeat
+inside,9.153193,43.352081,1593.3002401574067,3.0,uuid:7e4cfa2c-09e0-479d-accf-b8e156e6a33c,uuid:7e4cfa2c-09e0-479d-accf-b8e156e6a33c/data_repeat[1],uuid:7e4cfa2c-09e0-479d-accf-b8e156e6a33c/data_repeat
+none,"","","","",uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a,uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat[1],uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat
+wifi,"","","","",uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a,uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat[2],uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat
+inside,"","","","",uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a,uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat[3],uuid:1cfb5adf-6504-4197-8f4d-887ceb8d4b6a/data_repeat
+inside,"","","","",uuid:1d5e42d1-03d6-4977-b72c-3d3bea4d0561,uuid:1d5e42d1-03d6-4977-b72c-3d3bea4d0561/data_repeat[1],uuid:1d5e42d1-03d6-4977-b72c-3d3bea4d0561/data_repeat
+inside,22.1211655,95.1259747,36.0,1.866,uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e,uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e/data_repeat[1],uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e/data_repeat
+inside,22.1211454,95.1259868,36.0,1.866,uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e,uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e/data_repeat[2],uuid:97a64ba9-7e9d-4049-b184-fa7d19d9117e/data_repeat
+inside,8.4029522,48.4841924,0.0,2099.999,uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3,uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3/data_repeat[1],uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3/data_repeat
+inside,8.4029522,48.4841924,0.0,2099.999,uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3,uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3/data_repeat[2],uuid:7e551eeb-f29c-48f0-ab86-7ce9947c04c3/data_repeat
+inside,"","","","",uuid:97bf54a9-def1-4536-ac0a-dafd11343ba7,uuid:97bf54a9-def1-4536-ac0a-dafd11343ba7/data_repeat[1],uuid:97bf54a9-def1-4536-ac0a-dafd11343ba7/data_repeat
+inside,50.9617255,7.0139609,99.5999984741211,9.538,uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491,uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491/data_repeat[1],uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491/data_repeat
+wifi clear_sky,50.9617345,7.0139601,99.5999984741211,9.095,uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491,uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491/data_repeat[2],uuid:1e1cd3cc-88b7-4b93-9bf6-9f0285d1b491/data_repeat
+wifi,27.4567941,73.7175134,0.0,16.0,uuid:206f2d70-7d94-45d9-826f-cc613572af3a,uuid:206f2d70-7d94-45d9-826f-cc613572af3a/data_repeat[1],uuid:206f2d70-7d94-45d9-826f-cc613572af3a/data_repeat
+wifi,-21.6322217,-41.015843,-3.0,11.277,uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7,uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7/data_repeat[1],uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7/data_repeat
+wifi,-21.632129,-41.016069,-6.0,7.045,uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7,uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7/data_repeat[2],uuid:97fe3fc7-d785-4eea-8b84-420490dff5c7/data_repeat
+wifi,"","","","",uuid:20ee8716-72c4-40a4-b4ee-5a5dd41e9858,uuid:20ee8716-72c4-40a4-b4ee-5a5dd41e9858/data_repeat[1],uuid:20ee8716-72c4-40a4-b4ee-5a5dd41e9858/data_repeat
+inside wifi,"","","","",uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb,uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat[1],uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat
+inside wifi,"","","","",uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb,uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat[2],uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat
+inside wifi,"","","","",uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb,uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat[3],uuid:99b12c1b-0a23-4c3e-9fa4-3a64040dc0bb/data_repeat
+poor_cell,16.163805,43.4363164,1333.199951171875,3.2,uuid:20f16cfa-e08c-460b-8f15-14e893f76d75,uuid:20f16cfa-e08c-460b-8f15-14e893f76d75/data_repeat[1],uuid:20f16cfa-e08c-460b-8f15-14e893f76d75/data_repeat
+clear_sky,54.3806161,18.6064179,56.69999694824219,11.792,uuid:9a788f31-014d-4db5-8b12-3ff93a95e7fc,uuid:9a788f31-014d-4db5-8b12-3ff93a95e7fc/data_repeat[1],uuid:9a788f31-014d-4db5-8b12-3ff93a95e7fc/data_repeat
+inside,-9.8686126,124.2903695,852.0,18.626,uuid:228e7164-81f8-482d-89ce-dbf15a70547a,uuid:228e7164-81f8-482d-89ce-dbf15a70547a/data_repeat[1],uuid:228e7164-81f8-482d-89ce-dbf15a70547a/data_repeat
+inside,26.3296893,71.58982,247.2,3.0,uuid:9af98d1b-e1f0-44ef-8b66-13b98cf7c84f,uuid:9af98d1b-e1f0-44ef-8b66-13b98cf7c84f/data_repeat[1],uuid:9af98d1b-e1f0-44ef-8b66-13b98cf7c84f/data_repeat
+inside tall_building,"","","","",uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851,uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat[1],uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat
+inside tall_building,"","","","",uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851,uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat[2],uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat
+inside tall_building,"","","","",uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851,uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat[3],uuid:9ba283e1-89f5-4a4f-ae04-8494c5743851/data_repeat
+tall_building,24.8873568,72.8544175,0.0,42.025,uuid:9c074f05-2e3c-49cc-a590-08e4b21f2ab7,uuid:9c074f05-2e3c-49cc-a590-08e4b21f2ab7/data_repeat[1],uuid:9c074f05-2e3c-49cc-a590-08e4b21f2ab7/data_repeat
+poor_cell,-1.0933619,35.8701194,1974.0,3.062,uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd,uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd/data_repeat[1],uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd/data_repeat
+inside,-1.0934058,35.8701648,1973.3,3.0,uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd,uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd/data_repeat[2],uuid:9c178075-8fc9-491d-8dec-f694e4c81bdd/data_repeat
+"","","","","",uuid:9c78d904-067e-4547-83af-01e572f5ef88,uuid:9c78d904-067e-4547-83af-01e572f5ef88/data_repeat[1],uuid:9c78d904-067e-4547-83af-01e572f5ef88/data_repeat
+inside,"","","","",uuid:9ce6e7bc-9d0d-4bc5-b012-40c137f22da3,uuid:9ce6e7bc-9d0d-4bc5-b012-40c137f22da3/data_repeat[1],uuid:9ce6e7bc-9d0d-4bc5-b012-40c137f22da3/data_repeat
+tall_building inside,"","","","",uuid:9d1f01b2-9bb8-463d-a7da-f4e061d1aff5,uuid:9d1f01b2-9bb8-463d-a7da-f4e061d1aff5/data_repeat[1],uuid:9d1f01b2-9bb8-463d-a7da-f4e061d1aff5/data_repeat
+inside,26.2658376,71.6030501,0.0,9.186,uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a,uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a/data_repeat[1],uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a/data_repeat
+inside,26.2658372,71.6030509,0.0,7.385,uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a,uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a/data_repeat[2],uuid:9d7d1eb2-2bcd-4223-849c-e2b0589c4e8a/data_repeat
+inside wifi tall_building,44.9871915,-93.3555963,245.5,10.49,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[1],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+inside wifi tall_building,44.9870011,-93.3555511,245.39935302734375,6.984,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[2],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+clear_sky wifi tall_building,44.9868551,-93.3556028,237.19891357421875,6.439,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[3],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+wifi clear_sky tall_building,44.9868922,-93.3563066,240.17510986328125,6.916,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[4],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+wifi clear_sky tall_building,44.9873977,-93.3564108,245.5,6.17,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[5],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+wifi clear_sky tall_building,44.9882778,-93.3563346,238.73199462890625,6.561,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[6],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+wifi clear_sky tall_building dense_forest,44.9881325,-93.3555435,233.86273193359375,6.955,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[7],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+wifi clear_sky tall_building,44.9876243,-93.3554425,245.6131591796875,6.703,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e,uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat[8],uuid:2367ef0f-aa29-4a91-923f-d17a829de42e/data_repeat
+inside wifi,-17.7492157,30.9774536,0.0,7.502,uuid:9e25a4a8-4b7b-44d6-ac69-7a4af04bbfd8,uuid:9e25a4a8-4b7b-44d6-ac69-7a4af04bbfd8/data_repeat[1],uuid:9e25a4a8-4b7b-44d6-ac69-7a4af04bbfd8/data_repeat
+inside wifi poor_cell dense_forest,-17.7826372,31.0529589,1522.7999267578125,16.0,uuid:23bda0c5-d032-4139-a95a-dc1ed7470c45,uuid:23bda0c5-d032-4139-a95a-dc1ed7470c45/data_repeat[1],uuid:23bda0c5-d032-4139-a95a-dc1ed7470c45/data_repeat
+none,0.2872294,34.7613526,0.0,1861.0,uuid:9e26cb2a-7d3f-4c34-8781-cde07e9d8e63,uuid:9e26cb2a-7d3f-4c34-8781-cde07e9d8e63/data_repeat[1],uuid:9e26cb2a-7d3f-4c34-8781-cde07e9d8e63/data_repeat
+inside wifi,"","","","",uuid:9e907297-69e8-4669-bd89-2e5f0923bd2b,uuid:9e907297-69e8-4669-bd89-2e5f0923bd2b/data_repeat[1],uuid:9e907297-69e8-4669-bd89-2e5f0923bd2b/data_repeat
+inside wifi clear_sky,"","","","",uuid:82cb6ed8-6cd0-45a5-aefe-2c250903a2bb,uuid:82cb6ed8-6cd0-45a5-aefe-2c250903a2bb/data_repeat[1],uuid:82cb6ed8-6cd0-45a5-aefe-2c250903a2bb/data_repeat
+inside,"","","","",uuid:82dc65e8-617d-4042-b35e-739bb26d5c53,uuid:82dc65e8-617d-4042-b35e-739bb26d5c53/data_repeat[1],uuid:82dc65e8-617d-4042-b35e-739bb26d5c53/data_repeat
+inside,"","","","",uuid:83eb30e2-431a-4bf7-96ad-dd3c73607eb4,uuid:83eb30e2-431a-4bf7-96ad-dd3c73607eb4/data_repeat[1],uuid:83eb30e2-431a-4bf7-96ad-dd3c73607eb4/data_repeat
+inside,-10.4268957,34.2483501,0.0,20.937,uuid:7fff3067-e75c-4bbf-907d-03f1f04278fd,uuid:7fff3067-e75c-4bbf-907d-03f1f04278fd/data_repeat[1],uuid:7fff3067-e75c-4bbf-907d-03f1f04278fd/data_repeat
+none,26.1633305,71.8953167,141.4461669921875,4.575,uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1,uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1/data_repeat[1],uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1/data_repeat
+none,26.1633078,71.8953102,142.0592041015625,4.155,uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1,uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1/data_repeat[2],uuid:8430e067-fe82-4d09-b5db-24b82fa1a6f1/data_repeat
+inside poor_cell wifi clear_sky,"","","","",uuid:85058c28-b4a2-4f37-8b72-9861311846d2,uuid:85058c28-b4a2-4f37-8b72-9861311846d2/data_repeat[1],uuid:85058c28-b4a2-4f37-8b72-9861311846d2/data_repeat
+inside,"","","","",uuid:85058c28-b4a2-4f37-8b72-9861311846d2,uuid:85058c28-b4a2-4f37-8b72-9861311846d2/data_repeat[2],uuid:85058c28-b4a2-4f37-8b72-9861311846d2/data_repeat
+inside,11.9964678,8.5630025,0.0,200.0,uuid:81091ba1-d78e-49f4-9fbe-95a7d940ab79,uuid:81091ba1-d78e-49f4-9fbe-95a7d940ab79/data_repeat[1],uuid:81091ba1-d78e-49f4-9fbe-95a7d940ab79/data_repeat
+inside,-25.7924603,28.2270053,0.0,22.811,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat[1],uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat
+inside,-25.7924596,28.2271243,1499.0281630420095,10.049,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat[2],uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat
+inside,-25.7924307,28.2270958,1513.0999755859375,5.0,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0,uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat[3],uuid:851849f9-fd83-40e1-8063-6194ec5f50f0/data_repeat
+inside,24.7969084,73.0552531,338.0,10.871,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat[1],uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat
+inside,24.796884,73.0552661,324.0,3.205,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat[2],uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat
+inside,24.796884,73.0552665,324.0,3.123,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat[3],uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat
+inside,24.796884,73.0552668,324.0,3.0,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0,uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat[4],uuid:85ff87e8-a94b-4ba3-b926-0a1290d6a7d0/data_repeat
+inside,8.2830749,5.0201187,496.3,5.518,uuid:8613b788-72d2-462e-8d8b-5c1fb5087ea1,uuid:8613b788-72d2-462e-8d8b-5c1fb5087ea1/data_repeat[1],uuid:8613b788-72d2-462e-8d8b-5c1fb5087ea1/data_repeat
+inside,"","","","",uuid:87d03ed1-ce48-4e2b-9a77-6d053e69467d,uuid:87d03ed1-ce48-4e2b-9a77-6d053e69467d/data_repeat[1],uuid:87d03ed1-ce48-4e2b-9a77-6d053e69467d/data_repeat
+clear_sky,8.2265317,5.077925,603.6,241.676,uuid:821f21b0-64fc-4504-a0d8-8e41eef4b6e3,uuid:821f21b0-64fc-4504-a0d8-8e41eef4b6e3/data_repeat[1],uuid:821f21b0-64fc-4504-a0d8-8e41eef4b6e3/data_repeat
+wifi inside,"","","","",uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4,uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4/data_repeat[1],uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4/data_repeat
+inside,"","","","",uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4,uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4/data_repeat[2],uuid:8950137b-b8d0-4f36-9033-f738dee2f8c4/data_repeat
+inside wifi clear_sky,36.76914,2.9998106,295.1000061035156,18.933,uuid:8953b3a1-a04b-4ff0-b1f9-1dadf937de0b,uuid:8953b3a1-a04b-4ff0-b1f9-1dadf937de0b/data_repeat[1],uuid:8953b3a1-a04b-4ff0-b1f9-1dadf937de0b/data_repeat
+inside,25.1442897,71.4820584,0.0,3244.0,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat[1],uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat
+inside,25.1442897,71.4820584,0.0,3244.0,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat[2],uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat
+inside,25.1442897,71.4820584,0.0,3244.0,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8,uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat[3],uuid:823437fe-7862-41a5-b59a-8b8b514d7ae8/data_repeat
+inside tall_building,"","","","",uuid:6212038e-2afe-4ff1-8c59-831f944e5c69,uuid:6212038e-2afe-4ff1-8c59-831f944e5c69/data_repeat[1],uuid:6212038e-2afe-4ff1-8c59-831f944e5c69/data_repeat
+inside,"","","","",uuid:89a6a67d-4a06-4df0-9764-6b979a8341f5,uuid:89a6a67d-4a06-4df0-9764-6b979a8341f5/data_repeat[1],uuid:89a6a67d-4a06-4df0-9764-6b979a8341f5/data_repeat
+wifi,"","","","",uuid:89b6a196-15df-4c99-a4a9-333374131b9e,uuid:89b6a196-15df-4c99-a4a9-333374131b9e/data_repeat[1],uuid:89b6a196-15df-4c99-a4a9-333374131b9e/data_repeat
+inside,"","","","",uuid:89b6a196-15df-4c99-a4a9-333374131b9e,uuid:89b6a196-15df-4c99-a4a9-333374131b9e/data_repeat[2],uuid:89b6a196-15df-4c99-a4a9-333374131b9e/data_repeat
+inside wifi,0.2940602,34.7637671,0.0,16.9,uuid:8a03990b-ce45-4773-94d1-ce5f03a39a2c,uuid:8a03990b-ce45-4773-94d1-ce5f03a39a2c/data_repeat[1],uuid:8a03990b-ce45-4773-94d1-ce5f03a39a2c/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[1],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[2],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[3],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[4],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[5],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[6],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[7],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[8],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[9],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[10],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[11],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[12],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[13],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+none,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[14],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+tall_building,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[15],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+clear_sky,"","","","",uuid:62893ad8-bb8c-4cea-a41a-487a5c856190,uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat[16],uuid:62893ad8-bb8c-4cea-a41a-487a5c856190/data_repeat
+inside poor_cell,"","","","",uuid:8af53399-cf9b-4d68-8aa2-0bea657729c5,uuid:8af53399-cf9b-4d68-8aa2-0bea657729c5/data_repeat[1],uuid:8af53399-cf9b-4d68-8aa2-0bea657729c5/data_repeat
+inside,12.9967549,7.6060754,0.0,2750.0,uuid:8b3980c6-16ce-43b5-b6a0-ccc8bd90a9e5,uuid:8b3980c6-16ce-43b5-b6a0-ccc8bd90a9e5/data_repeat[1],uuid:8b3980c6-16ce-43b5-b6a0-ccc8bd90a9e5/data_repeat
+inside,-2.8651117,103.8345867,-3.4,9.6,uuid:6374294f-5f70-4352-95ca-c85370881848,uuid:6374294f-5f70-4352-95ca-c85370881848/data_repeat[1],uuid:6374294f-5f70-4352-95ca-c85370881848/data_repeat
+inside,-2.8654042,103.8345235,8.5,3.0,uuid:6374294f-5f70-4352-95ca-c85370881848,uuid:6374294f-5f70-4352-95ca-c85370881848/data_repeat[2],uuid:6374294f-5f70-4352-95ca-c85370881848/data_repeat
+none,"","","","",uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c,uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c/data_repeat[1],uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c/data_repeat
+none,"","","","",uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c,uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c/data_repeat[2],uuid:8b7a2ab2-55f3-4c55-b343-1700b37f652c/data_repeat
+inside,24.9101624,67.0902907,-4.599999904632568,23.383,uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352,uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352/data_repeat[1],uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352/data_repeat
+inside,24.9101629,67.0902907,-4.700000286102295,23.632,uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352,uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352/data_repeat[2],uuid:8c2de556-a42b-4349-b4c6-5e1c89fca352/data_repeat
+inside,8.2705418,5.0214986,0.0,3206.0,uuid:641b0266-a48c-4238-8589-4d9913c9c648,uuid:641b0266-a48c-4238-8589-4d9913c9c648/data_repeat[1],uuid:641b0266-a48c-4238-8589-4d9913c9c648/data_repeat
+poor_cell clear_sky,8.494313,4.5388998,361.2,3.0,uuid:8c3aee4e-0afe-442e-a3a8-e77147618cf5,uuid:8c3aee4e-0afe-442e-a3a8-e77147618cf5/data_repeat[1],uuid:8c3aee4e-0afe-442e-a3a8-e77147618cf5/data_repeat
+inside,8.3970147,-13.1569139,0.0,3400.0,uuid:8ce71fc3-594a-42fe-b74c-2867f9ba4912,uuid:8ce71fc3-594a-42fe-b74c-2867f9ba4912/data_repeat[1],uuid:8ce71fc3-594a-42fe-b74c-2867f9ba4912/data_repeat
+none,"","","","",uuid:8e96c009-e0a9-41e0-8c7a-16e8a907c167,uuid:8e96c009-e0a9-41e0-8c7a-16e8a907c167/data_repeat[1],uuid:8e96c009-e0a9-41e0-8c7a-16e8a907c167/data_repeat
+inside tall_building,"","","","",uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d,uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d/data_repeat[1],uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d/data_repeat
+tall_building inside wifi,-1.8465985,36.7873996,0.0,114.093,uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d,uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d/data_repeat[2],uuid:8edab3ce-6026-4b88-9942-b6ebabb08b3d/data_repeat
+inside clear_sky,25.2447314,71.0821211,0.0,3367.0,uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff,uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff/data_repeat[1],uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff/data_repeat
+inside tall_building,25.2447314,71.0821211,0.0,3367.0,uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff,uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff/data_repeat[2],uuid:90363b7c-d233-4f14-92d8-16955fb2e7ff/data_repeat
+clear_sky,6.2403734,46.2225355,0.0,16.4,uuid:92ed9ea5-9f5b-4400-8463-d27a613b18bf,uuid:92ed9ea5-9f5b-4400-8463-d27a613b18bf/data_repeat[1],uuid:92ed9ea5-9f5b-4400-8463-d27a613b18bf/data_repeat
+inside,26.2352026,71.2160306,0.0,2179.0,uuid:dc49b496-bf24-45b5-800d-5e1e3f25e66a,uuid:dc49b496-bf24-45b5-800d-5e1e3f25e66a/data_repeat[1],uuid:dc49b496-bf24-45b5-800d-5e1e3f25e66a/data_repeat
+inside wifi dense_forest,"","","","",uuid:243e83f0-7c48-4d29-907f-95ee3ef38920,uuid:243e83f0-7c48-4d29-907f-95ee3ef38920/data_repeat[1],uuid:243e83f0-7c48-4d29-907f-95ee3ef38920/data_repeat
+inside wifi tall_building poor_cell,"","","","",uuid:243e83f0-7c48-4d29-907f-95ee3ef38920,uuid:243e83f0-7c48-4d29-907f-95ee3ef38920/data_repeat[2],uuid:243e83f0-7c48-4d29-907f-95ee3ef38920/data_repeat
+none,10.6744163,-1.3549422,0.0,2810.0,uuid:dc58455e-c2e8-49bf-b660-de04298a3097,uuid:dc58455e-c2e8-49bf-b660-de04298a3097/data_repeat[1],uuid:dc58455e-c2e8-49bf-b660-de04298a3097/data_repeat
+none,10.6744163,-1.3549422,0.0,2810.0,uuid:dc58455e-c2e8-49bf-b660-de04298a3097,uuid:dc58455e-c2e8-49bf-b660-de04298a3097/data_repeat[2],uuid:dc58455e-c2e8-49bf-b660-de04298a3097/data_repeat
+wifi,9.1225563,7.4082268,0.0,1799.999,uuid:ddbec61f-326d-4bf8-847b-36c177fda565,uuid:ddbec61f-326d-4bf8-847b-36c177fda565/data_repeat[1],uuid:ddbec61f-326d-4bf8-847b-36c177fda565/data_repeat
+wifi,9.1245727,7.4074875,574.0,4.083,uuid:ddbec61f-326d-4bf8-847b-36c177fda565,uuid:ddbec61f-326d-4bf8-847b-36c177fda565/data_repeat[2],uuid:ddbec61f-326d-4bf8-847b-36c177fda565/data_repeat
+inside wifi,52.5090768,13.4043665,72.4000015258789,15.721,uuid:ddee1d12-5e95-4368-a3c4-9aea400bb0a4,uuid:ddee1d12-5e95-4368-a3c4-9aea400bb0a4/data_repeat[1],uuid:ddee1d12-5e95-4368-a3c4-9aea400bb0a4/data_repeat
+none,13.0513446,8.493246,0.0,3150.0,uuid:deee68ae-774b-4743-8b12-dd086d6aec36,uuid:deee68ae-774b-4743-8b12-dd086d6aec36/data_repeat[1],uuid:deee68ae-774b-4743-8b12-dd086d6aec36/data_repeat
+none,13.0513446,8.493246,0.0,3150.0,uuid:deee68ae-774b-4743-8b12-dd086d6aec36,uuid:deee68ae-774b-4743-8b12-dd086d6aec36/data_repeat[2],uuid:deee68ae-774b-4743-8b12-dd086d6aec36/data_repeat
+inside,"","","","",uuid:26f038d0-e84a-428c-a727-2de962b99cfc,uuid:26f038d0-e84a-428c-a727-2de962b99cfc/data_repeat[1],uuid:26f038d0-e84a-428c-a727-2de962b99cfc/data_repeat
+wifi,"","","","",uuid:dfed414e-b894-4e85-89c9-2f6b710c0a5f,uuid:dfed414e-b894-4e85-89c9-2f6b710c0a5f/data_repeat[1],uuid:dfed414e-b894-4e85-89c9-2f6b710c0a5f/data_repeat
+inside wifi,6.6806902,125.3026662,0.0,3304.0,uuid:e00225a1-76c9-4b7d-b25a-a97dde5423a7,uuid:e00225a1-76c9-4b7d-b25a-a97dde5423a7/data_repeat[1],uuid:e00225a1-76c9-4b7d-b25a-a97dde5423a7/data_repeat
+wifi,"","","","",uuid:e0492afa-4020-4751-9933-298afd481ce7,uuid:e0492afa-4020-4751-9933-298afd481ce7/data_repeat[1],uuid:e0492afa-4020-4751-9933-298afd481ce7/data_repeat
+poor_cell tall_building,19.8018487,84.537454,0.0,3099.999,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat[1],uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat
+poor_cell,19.7993911,84.5426727,60.0,18.276,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat[2],uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat
+poor_cell,19.7994118,84.5427019,51.0,14.0,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81,uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat[3],uuid:e06cd06f-6181-447d-8d1d-fc8749ffac81/data_repeat
+inside clear_sky poor_cell,-0.5062226,39.4791314,194.68939208984375,5.825,uuid:e0b9e5c8-61f3-48da-837b-d6293187ee1e,uuid:e0b9e5c8-61f3-48da-837b-d6293187ee1e/data_repeat[1],uuid:e0b9e5c8-61f3-48da-837b-d6293187ee1e/data_repeat
+inside,"","","","",uuid:00222857-c180-4042-9ac9-9fbca9d7066b,uuid:00222857-c180-4042-9ac9-9fbca9d7066b/data_repeat[1],uuid:00222857-c180-4042-9ac9-9fbca9d7066b/data_repeat
+clear_sky,27.5112957,71.7217298,0.0,1833.0,uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da,uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da/data_repeat[1],uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da/data_repeat
+inside,27.5112957,71.7217298,0.0,1833.0,uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da,uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da/data_repeat[2],uuid:e0f1427d-b9d2-4ce7-bcc6-77b1e92b38da/data_repeat
+inside,"","","","",uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086,uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086/data_repeat[1],uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086/data_repeat
+clear_sky,"","","","",uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086,uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086/data_repeat[2],uuid:00c55f18-7ad5-4d28-a5e0-a6070a518086/data_repeat
+inside wifi clear_sky,6.6286167,3.3598319,0.0,2200.0,uuid:64793390-770e-464b-b720-4293122d38b8,uuid:64793390-770e-464b-b720-4293122d38b8/data_repeat[1],uuid:64793390-770e-464b-b720-4293122d38b8/data_repeat
+none,26.3027914,71.6346618,187.0,2.18,uuid:e1649cb0-0772-4710-be88-f161f5c40f8b,uuid:e1649cb0-0772-4710-be88-f161f5c40f8b/data_repeat[1],uuid:e1649cb0-0772-4710-be88-f161f5c40f8b/data_repeat
+wifi,"","","","",uuid:65289e3d-639c-4110-a690-e6242842a64c,uuid:65289e3d-639c-4110-a690-e6242842a64c/data_repeat[1],uuid:65289e3d-639c-4110-a690-e6242842a64c/data_repeat
+inside,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[1],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+clear_sky,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[2],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+tall_building,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[3],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+dense_forest,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[4],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+poor_cell,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[5],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+poor_cell,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[6],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+wifi,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[7],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+none,"","","","",uuid:e333b24c-b591-4d03-a05e-98125a06faca,uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat[8],uuid:e333b24c-b591-4d03-a05e-98125a06faca/data_repeat
+clear_sky tall_building,8.4539739,4.5541736,0.0,2901.0,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat[1],uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat
+clear_sky tall_building,8.4496497,4.5589263,0.0,2901.0,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat[2],uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat
+clear_sky tall_building poor_cell dense_forest,8.4493258,4.5629609,0.0,2724.0,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe,uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat[3],uuid:65b0dddb-4d64-4b80-a5b0-cb173be4bafe/data_repeat
+inside,19.6619922,82.2120066,532.0,6.789,uuid:65be7899-3c10-41da-97dc-585caa4b7a8c,uuid:65be7899-3c10-41da-97dc-585caa4b7a8c/data_repeat[1],uuid:65be7899-3c10-41da-97dc-585caa4b7a8c/data_repeat
+inside,"","","","",uuid:e3ab3d7c-7d4b-4859-b95e-c1636563d673,uuid:e3ab3d7c-7d4b-4859-b95e-c1636563d673/data_repeat[1],uuid:e3ab3d7c-7d4b-4859-b95e-c1636563d673/data_repeat
+wifi,52.5090556,13.4043331,72.9000015258789,16.084,uuid:65fe5078-ddaa-40e5-a5fd-8d018e21d619,uuid:65fe5078-ddaa-40e5-a5fd-8d018e21d619/data_repeat[1],uuid:65fe5078-ddaa-40e5-a5fd-8d018e21d619/data_repeat
+"","","","","",uuid:e3e25272-9fc6-481c-8e9b-2f9842bb8e72,uuid:e3e25272-9fc6-481c-8e9b-2f9842bb8e72/data_repeat[1],uuid:e3e25272-9fc6-481c-8e9b-2f9842bb8e72/data_repeat
+inside clear_sky poor_cell,25.7422449,71.3918732,0.0,1625.0,uuid:e492a4f1-8c88-4317-b8ad-c1f0364b0fcf,uuid:e492a4f1-8c88-4317-b8ad-c1f0364b0fcf/data_repeat[1],uuid:e492a4f1-8c88-4317-b8ad-c1f0364b0fcf/data_repeat
+wifi,"","","","",uuid:6741013d-2d50-43cf-b426-e72bb6d0b14f,uuid:6741013d-2d50-43cf-b426-e72bb6d0b14f/data_repeat[1],uuid:6741013d-2d50-43cf-b426-e72bb6d0b14f/data_repeat
+none,14.2092564,-86.6041618,608.092529296875,3.809,uuid:67665adf-9398-4bfd-94dc-dcd757dc9738,uuid:67665adf-9398-4bfd-94dc-dcd757dc9738/data_repeat[1],uuid:67665adf-9398-4bfd-94dc-dcd757dc9738/data_repeat
+clear_sky,14.2092566,-86.6041616,608.092529296875,4.342,uuid:67665adf-9398-4bfd-94dc-dcd757dc9738,uuid:67665adf-9398-4bfd-94dc-dcd757dc9738/data_repeat[2],uuid:67665adf-9398-4bfd-94dc-dcd757dc9738/data_repeat
+inside wifi,18.5066115,-88.304081,7.4627685546875,7.01,uuid:e4dcebd4-4ff7-47c0-bc5e-66a1240549c1,uuid:e4dcebd4-4ff7-47c0-bc5e-66a1240549c1/data_repeat[1],uuid:e4dcebd4-4ff7-47c0-bc5e-66a1240549c1/data_repeat
+poor_cell,14.3688451,-87.7053796,671.0,28.8,uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3,uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3/data_repeat[1],uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3/data_repeat
+poor_cell wifi,14.368856,-87.705399,678.0,18.714,uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3,uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3/data_repeat[2],uuid:69596bae-8bfd-4f1f-bfbc-67d143fd4ed3/data_repeat
+none,25.6709401,71.0761122,179.0,8.462,uuid:e636bfdb-211b-4383-9925-9eda2ab38e78,uuid:e636bfdb-211b-4383-9925-9eda2ab38e78/data_repeat[1],uuid:e636bfdb-211b-4383-9925-9eda2ab38e78/data_repeat
+clear_sky,8.2036863,5.1872367,0.0,5000.0,uuid:e8f879a7-e805-4d09-9755-2c526834d7e3,uuid:e8f879a7-e805-4d09-9755-2c526834d7e3/data_repeat[1],uuid:e8f879a7-e805-4d09-9755-2c526834d7e3/data_repeat
+wifi inside tall_building,-1.3166543,36.8494632,0.0,68.4,uuid:e9f0994e-030d-42ce-8219-cf12430c90c6,uuid:e9f0994e-030d-42ce-8219-cf12430c90c6/data_repeat[1],uuid:e9f0994e-030d-42ce-8219-cf12430c90c6/data_repeat
+inside,"","","","",uuid:ea3c6a62-0b97-4832-96d4-2e5f1e196657,uuid:ea3c6a62-0b97-4832-96d4-2e5f1e196657/data_repeat[1],uuid:ea3c6a62-0b97-4832-96d4-2e5f1e196657/data_repeat
+"","","","","",uuid:eac1680e-b8e6-4d79-a017-d828937e0afc,uuid:eac1680e-b8e6-4d79-a017-d828937e0afc/data_repeat[1],uuid:eac1680e-b8e6-4d79-a017-d828937e0afc/data_repeat
+clear_sky,-1.5308233,39.57806,157.8,3.0,uuid:eb5648b1-56fe-461e-9b79-f00a4b00c84a,uuid:eb5648b1-56fe-461e-9b79-f00a4b00c84a/data_repeat[1],uuid:eb5648b1-56fe-461e-9b79-f00a4b00c84a/data_repeat
+poor_cell,25.2730061,71.0143387,0.0,3469.0,uuid:ebf3c411-13bd-45be-9566-1685639a13ea,uuid:ebf3c411-13bd-45be-9566-1685639a13ea/data_repeat[1],uuid:ebf3c411-13bd-45be-9566-1685639a13ea/data_repeat
+clear_sky tall_building,25.5758981,70.8535651,186.0,3.0,uuid:ec9d8005-aaac-4ea5-9e12-9a3883911542,uuid:ec9d8005-aaac-4ea5-9e12-9a3883911542/data_repeat[1],uuid:ec9d8005-aaac-4ea5-9e12-9a3883911542/data_repeat
+inside wifi,27.7436527,75.4721819,473.0,69.782,uuid:0265359c-ad41-46f9-8d66-b7460150b5d7,uuid:0265359c-ad41-46f9-8d66-b7460150b5d7/data_repeat[1],uuid:0265359c-ad41-46f9-8d66-b7460150b5d7/data_repeat
+inside,32.4217871,-80.7200908,11.9844970703125,7.626,uuid:699a6f49-974d-4e98-b75d-9a5779e16207,uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat[1],uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat
+none,32.4300563,-80.6740804,-30.19999885559082,33.883,uuid:699a6f49-974d-4e98-b75d-9a5779e16207,uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat[2],uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat
+clear_sky wifi tall_building,32.4291733,-80.6729604,-30.999998092651367,3.79,uuid:699a6f49-974d-4e98-b75d-9a5779e16207,uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat[3],uuid:699a6f49-974d-4e98-b75d-9a5779e16207/data_repeat
+wifi,25.8210379,74.9630946,376.3,5.068,uuid:6a60b8d1-5431-4de1-8bdd-6116d287e0e6,uuid:6a60b8d1-5431-4de1-8bdd-6116d287e0e6/data_repeat[1],uuid:6a60b8d1-5431-4de1-8bdd-6116d287e0e6/data_repeat
+inside poor_cell,19.8804131,82.0725006,593.90234375,7.504,uuid:6a8c519d-5ab8-4c93-9f00-43d10eaaeb54,uuid:6a8c519d-5ab8-4c93-9f00-43d10eaaeb54/data_repeat[1],uuid:6a8c519d-5ab8-4c93-9f00-43d10eaaeb54/data_repeat
+inside,25.8910917,71.7571533,258.8,422.751,uuid:6c4e567d-97ed-4bb8-8786-c576a6dd384d,uuid:6c4e567d-97ed-4bb8-8786-c576a6dd384d/data_repeat[1],uuid:6c4e567d-97ed-4bb8-8786-c576a6dd384d/data_repeat
+inside,5.1651098,5.9207898,0.0,2862.0,uuid:6cc88abd-53f5-4883-91bd-a5a5a33d6e64,uuid:6cc88abd-53f5-4883-91bd-a5a5a33d6e64/data_repeat[1],uuid:6cc88abd-53f5-4883-91bd-a5a5a33d6e64/data_repeat
+tall_building,"","","","",uuid:6d0131eb-71c2-4517-8332-a24ef662a1ba,uuid:6d0131eb-71c2-4517-8332-a24ef662a1ba/data_repeat[1],uuid:6d0131eb-71c2-4517-8332-a24ef662a1ba/data_repeat
+clear_sky,"","","","",uuid:6d01513e-3c5c-4c53-a007-5468e4e2737e,uuid:6d01513e-3c5c-4c53-a007-5468e4e2737e/data_repeat[1],uuid:6d01513e-3c5c-4c53-a007-5468e4e2737e/data_repeat
+dense_forest,24.5186738,72.867847,0.0,2149.0,uuid:6fec0b6f-6256-41f7-8cee-ac56a6d0a01d,uuid:6fec0b6f-6256-41f7-8cee-ac56a6d0a01d/data_repeat[1],uuid:6fec0b6f-6256-41f7-8cee-ac56a6d0a01d/data_repeat
+inside poor_cell,25.3884644,71.3773233,0.0,3013.0,uuid:71004c1c-a129-48f4-8ebe-b585c0ff0357,uuid:71004c1c-a129-48f4-8ebe-b585c0ff0357/data_repeat[1],uuid:71004c1c-a129-48f4-8ebe-b585c0ff0357/data_repeat
+inside,10.6996101,122.5537707,0.0,9.219,uuid:eca5635a-e72e-4048-ac56-184806c3eddb,uuid:eca5635a-e72e-4048-ac56-184806c3eddb/data_repeat[1],uuid:eca5635a-e72e-4048-ac56-184806c3eddb/data_repeat
+inside,10.6996101,122.5537707,0.0,14.361,uuid:eca5635a-e72e-4048-ac56-184806c3eddb,uuid:eca5635a-e72e-4048-ac56-184806c3eddb/data_repeat[2],uuid:eca5635a-e72e-4048-ac56-184806c3eddb/data_repeat
+inside wifi,31.5450272,74.3295426,0.0,22.117,uuid:0366dda7-1df0-48e7-98a4-d95df58fe091,uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat[1],uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat
+inside clear_sky poor_cell dense_forest,"","","","",uuid:0366dda7-1df0-48e7-98a4-d95df58fe091,uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat[2],uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat
+none,31.545027,74.329507,173.5,22.876,uuid:0366dda7-1df0-48e7-98a4-d95df58fe091,uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat[3],uuid:0366dda7-1df0-48e7-98a4-d95df58fe091/data_repeat
+inside wifi,23.7907131,90.411604,-22.399999618530273,17.741,uuid:71641694-e647-42e0-ba69-3048154886bb,uuid:71641694-e647-42e0-ba69-3048154886bb/data_repeat[1],uuid:71641694-e647-42e0-ba69-3048154886bb/data_repeat
+inside wifi,23.7906909,90.4115241,-22.399999618530273,26.216,uuid:71641694-e647-42e0-ba69-3048154886bb,uuid:71641694-e647-42e0-ba69-3048154886bb/data_repeat[2],uuid:71641694-e647-42e0-ba69-3048154886bb/data_repeat
+none,"","","","",uuid:0367e8c6-01df-457c-8723-401b0a0ec65b,uuid:0367e8c6-01df-457c-8723-401b0a0ec65b/data_repeat[1],uuid:0367e8c6-01df-457c-8723-401b0a0ec65b/data_repeat
+none,"","","","",uuid:0367e8c6-01df-457c-8723-401b0a0ec65b,uuid:0367e8c6-01df-457c-8723-401b0a0ec65b/data_repeat[2],uuid:0367e8c6-01df-457c-8723-401b0a0ec65b/data_repeat
+inside,26.9922332,71.9468336,0.0,6.978,uuid:71ed46c5-77b3-4777-9bca-2450ce261910,uuid:71ed46c5-77b3-4777-9bca-2450ce261910/data_repeat[1],uuid:71ed46c5-77b3-4777-9bca-2450ce261910/data_repeat
+inside clear_sky,26.9922199,71.9468341,196.20562744140625,6.436,uuid:71ed46c5-77b3-4777-9bca-2450ce261910,uuid:71ed46c5-77b3-4777-9bca-2450ce261910/data_repeat[2],uuid:71ed46c5-77b3-4777-9bca-2450ce261910/data_repeat
+clear_sky,"","","","",uuid:03f09b27-1da2-49ee-9812-428f9cb4dc9d,uuid:03f09b27-1da2-49ee-9812-428f9cb4dc9d/data_repeat[1],uuid:03f09b27-1da2-49ee-9812-428f9cb4dc9d/data_repeat
+poor_cell,"","","","",uuid:cf1d7778-474f-45a8-aac9-470bc5f049be,uuid:cf1d7778-474f-45a8-aac9-470bc5f049be/data_repeat[1],uuid:cf1d7778-474f-45a8-aac9-470bc5f049be/data_repeat
+poor_cell,"","","","",uuid:cf1d7778-474f-45a8-aac9-470bc5f049be,uuid:cf1d7778-474f-45a8-aac9-470bc5f049be/data_repeat[2],uuid:cf1d7778-474f-45a8-aac9-470bc5f049be/data_repeat
+wifi,"","","","",uuid:cf850c9e-9037-40cf-8cc8-2a5418a394e8,uuid:cf850c9e-9037-40cf-8cc8-2a5418a394e8/data_repeat[1],uuid:cf850c9e-9037-40cf-8cc8-2a5418a394e8/data_repeat
+inside clear_sky poor_cell,"","","","",uuid:d08c781b-49ff-4ae6-a999-850081b1caf2,uuid:d08c781b-49ff-4ae6-a999-850081b1caf2/data_repeat[1],uuid:d08c781b-49ff-4ae6-a999-850081b1caf2/data_repeat
+inside clear_sky tall_building poor_cell,"","","","",uuid:d08c781b-49ff-4ae6-a999-850081b1caf2,uuid:d08c781b-49ff-4ae6-a999-850081b1caf2/data_repeat[2],uuid:d08c781b-49ff-4ae6-a999-850081b1caf2/data_repeat
+clear_sky poor_cell,8.2942411,4.8213802,-395.7,34.408,uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f,uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f/data_repeat[1],uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f/data_repeat
+clear_sky poor_cell,8.2942411,4.8213802,-395.7,44.705,uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f,uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f/data_repeat[2],uuid:ed072bd8-1577-49d1-9d2c-62b28c65f57f/data_repeat
+none,-14.5420963,-52.788458,521.0,7.928,uuid:04b8d48c-be59-4235-b07f-242cdeb4fe56,uuid:04b8d48c-be59-4235-b07f-242cdeb4fe56/data_repeat[1],uuid:04b8d48c-be59-4235-b07f-242cdeb4fe56/data_repeat
+wifi inside,28.393349,79.4628276,0.0,13.813,uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94,uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94/data_repeat[1],uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94/data_repeat
+inside wifi,28.393349,79.4628276,0.0,14.701,uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94,uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94/data_repeat[2],uuid:d09fcce7-a483-41c0-aa57-e6236cb98f94/data_repeat
+clear_sky,8.2341781,5.086488,601.3,3.0,uuid:d0a6b753-bfd2-4fb3-91f9-63c954091c3a,uuid:d0a6b753-bfd2-4fb3-91f9-63c954091c3a/data_repeat[1],uuid:d0a6b753-bfd2-4fb3-91f9-63c954091c3a/data_repeat
+wifi,17.0235036,-96.7607715,0.0,24.173,uuid:05314c76-220d-464d-b939-839ed3c5b587,uuid:05314c76-220d-464d-b939-839ed3c5b587/data_repeat[1],uuid:05314c76-220d-464d-b939-839ed3c5b587/data_repeat
+inside,31.5603319,74.4090859,171.20001220703125,17.953,uuid:f08a2c99-a669-4ef9-9c6a-684d9834c625,uuid:f08a2c99-a669-4ef9-9c6a-684d9834c625/data_repeat[1],uuid:f08a2c99-a669-4ef9-9c6a-684d9834c625/data_repeat
+wifi,9.1245037,7.4075534,535.0,14.4,uuid:05373c8b-d5ce-4cc2-9ced-3ca708b2c75e,uuid:05373c8b-d5ce-4cc2-9ced-3ca708b2c75e/data_repeat[1],uuid:05373c8b-d5ce-4cc2-9ced-3ca708b2c75e/data_repeat
+"","","","","",uuid:05723540-492b-47d8-b067-ea1d76412fb6,uuid:05723540-492b-47d8-b067-ea1d76412fb6/data_repeat[1],uuid:05723540-492b-47d8-b067-ea1d76412fb6/data_repeat
+poor_cell,"","","","",uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997,uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat[1],uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat
+dense_forest,"","","","",uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997,uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat[2],uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat
+poor_cell,"","","","",uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997,uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat[3],uuid:f3b4dcd0-d6c5-41b1-abdd-1be2e744d997/data_repeat
+clear_sky poor_cell,27.1429512,81.9726011,0.0,1732.0,uuid:d165cf41-a2b4-4e92-ab1e-6bb6c4036f3f,uuid:d165cf41-a2b4-4e92-ab1e-6bb6c4036f3f/data_repeat[1],uuid:d165cf41-a2b4-4e92-ab1e-6bb6c4036f3f/data_repeat
+clear_sky,"","","","",uuid:05977dbd-59dc-4a79-9af4-0ea14b86a410,uuid:05977dbd-59dc-4a79-9af4-0ea14b86a410/data_repeat[1],uuid:05977dbd-59dc-4a79-9af4-0ea14b86a410/data_repeat
+wifi,16.8247466,96.1477775,-9.527584929857992,4.75,uuid:f618db98-8813-479c-baf1-80c71194a8c5,uuid:f618db98-8813-479c-baf1-80c71194a8c5/data_repeat[1],uuid:f618db98-8813-479c-baf1-80c71194a8c5/data_repeat
+none,11.719786,9.3610541,0.0,2680.0,uuid:05e42b63-85fe-485b-87dd-70ace771eff6,uuid:05e42b63-85fe-485b-87dd-70ace771eff6/data_repeat[1],uuid:05e42b63-85fe-485b-87dd-70ace771eff6/data_repeat
+poor_cell dense_forest,25.2883604,71.2671972,63.0,6.157,uuid:d171d4fc-9e7e-4a5a-b7ff-e2e93c9e7b0e,uuid:d171d4fc-9e7e-4a5a-b7ff-e2e93c9e7b0e/data_repeat[1],uuid:d171d4fc-9e7e-4a5a-b7ff-e2e93c9e7b0e/data_repeat
+inside wifi tall_building dense_forest,23.7242601,90.4045738,-38.60000228881836,16.039,uuid:f6655839-7328-42fa-9214-918948890bbe,uuid:f6655839-7328-42fa-9214-918948890bbe/data_repeat[1],uuid:f6655839-7328-42fa-9214-918948890bbe/data_repeat
+inside clear_sky,23.7242576,90.40456,-38.60000228881836,27.282,uuid:f6655839-7328-42fa-9214-918948890bbe,uuid:f6655839-7328-42fa-9214-918948890bbe/data_repeat[2],uuid:f6655839-7328-42fa-9214-918948890bbe/data_repeat
+inside,"","","","",uuid:06836247-c3d3-4357-9f27-70046444b2b1,uuid:06836247-c3d3-4357-9f27-70046444b2b1/data_repeat[1],uuid:06836247-c3d3-4357-9f27-70046444b2b1/data_repeat
+inside wifi,"","","","",uuid:06836247-c3d3-4357-9f27-70046444b2b1,uuid:06836247-c3d3-4357-9f27-70046444b2b1/data_repeat[2],uuid:06836247-c3d3-4357-9f27-70046444b2b1/data_repeat
+clear_sky,19.6248105,82.2477036,609.9,2.35,uuid:f7478ed7-42d6-4b38-95e2-ec4829504881,uuid:f7478ed7-42d6-4b38-95e2-ec4829504881/data_repeat[1],uuid:f7478ed7-42d6-4b38-95e2-ec4829504881/data_repeat
+clear_sky,19.6248188,82.2476575,609.4,2.22,uuid:f7478ed7-42d6-4b38-95e2-ec4829504881,uuid:f7478ed7-42d6-4b38-95e2-ec4829504881/data_repeat[2],uuid:f7478ed7-42d6-4b38-95e2-ec4829504881/data_repeat
+inside clear_sky,"","","","",uuid:069826e3-9382-417c-ace6-f2b179f73a99,uuid:069826e3-9382-417c-ace6-f2b179f73a99/data_repeat[1],uuid:069826e3-9382-417c-ace6-f2b179f73a99/data_repeat
+clear_sky inside,"","","","",uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572,uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572/data_repeat[1],uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572/data_repeat
+inside clear_sky dense_forest poor_cell tall_building wifi,"","","","",uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572,uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572/data_repeat[2],uuid:f7a2bbd2-133d-4e94-8efc-3bbc23ab5572/data_repeat
+clear_sky tall_building poor_cell wifi inside dense_forest,24.6351339,72.7661709,0.0,2458.0,uuid:f7ad31f3-8742-48bd-8cd3-a0146fd4a6e0,uuid:f7ad31f3-8742-48bd-8cd3-a0146fd4a6e0/data_repeat[1],uuid:f7ad31f3-8742-48bd-8cd3-a0146fd4a6e0/data_repeat
+clear_sky poor_cell,"","","","",uuid:069b5bbf-5958-4e2e-8ceb-5dc53225c991,uuid:069b5bbf-5958-4e2e-8ceb-5dc53225c991/data_repeat[1],uuid:069b5bbf-5958-4e2e-8ceb-5dc53225c991/data_repeat
+inside,0.3887556,33.2390804,1146.0,7.422,uuid:f9968440-896e-4d57-b8da-676c874cb642,uuid:f9968440-896e-4d57-b8da-676c874cb642/data_repeat[1],uuid:f9968440-896e-4d57-b8da-676c874cb642/data_repeat
+clear_sky poor_cell,27.7084256,82.1469027,59.0,18.249,uuid:0922a8cc-c567-4b9a-a7af-4aafb7b775c0,uuid:0922a8cc-c567-4b9a-a7af-4aafb7b775c0/data_repeat[1],uuid:0922a8cc-c567-4b9a-a7af-4aafb7b775c0/data_repeat
+none,"","","","",uuid:09d19b6f-da46-4fe3-bbbb-bb6234ecaa90,uuid:09d19b6f-da46-4fe3-bbbb-bb6234ecaa90/data_repeat[1],uuid:09d19b6f-da46-4fe3-bbbb-bb6234ecaa90/data_repeat
+inside,-18.9175525,47.5433991,1275.0,15.882,uuid:fa2a083a-e3d7-4ca6-a4cd-d87d8a7ad033,uuid:fa2a083a-e3d7-4ca6-a4cd-d87d8a7ad033/data_repeat[1],uuid:fa2a083a-e3d7-4ca6-a4cd-d87d8a7ad033/data_repeat
+none,-33.5667914,-70.5835301,679.367919921875,5.023,uuid:0b26ad6c-a5cd-4b1a-88e3-2e235c5f1d3d,uuid:0b26ad6c-a5cd-4b1a-88e3-2e235c5f1d3d/data_repeat[1],uuid:0b26ad6c-a5cd-4b1a-88e3-2e235c5f1d3d/data_repeat
+none,-22.9326946,-43.1805595,51.19999694824219,15.95,uuid:faad4420-ba55-4eb3-9883-08e122aee879,uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat[1],uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat
+none,-22.9327341,-43.180354,51.19999694824219,40.736,uuid:faad4420-ba55-4eb3-9883-08e122aee879,uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat[2],uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat
+wifi,"","","","",uuid:faad4420-ba55-4eb3-9883-08e122aee879,uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat[3],uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat
+inside,-22.9327583,-43.1802827,51.19999694824219,41.51,uuid:faad4420-ba55-4eb3-9883-08e122aee879,uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat[4],uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat
+poor_cell,-22.9327632,-43.1803029,51.19999694824219,41.272,uuid:faad4420-ba55-4eb3-9883-08e122aee879,uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat[5],uuid:faad4420-ba55-4eb3-9883-08e122aee879/data_repeat
+inside,"","","","",uuid:fb7228f7-7f5d-46d7-9476-bb63464afd87,uuid:fb7228f7-7f5d-46d7-9476-bb63464afd87/data_repeat[1],uuid:fb7228f7-7f5d-46d7-9476-bb63464afd87/data_repeat
+inside wifi,"","","","",uuid:0c6ecb0e-36c6-487c-a3cf-9c81e46af1f8,uuid:0c6ecb0e-36c6-487c-a3cf-9c81e46af1f8/data_repeat[1],uuid:0c6ecb0e-36c6-487c-a3cf-9c81e46af1f8/data_repeat
+wifi,12.5998508,-7.9881542,359.4,3.166,uuid:0d64630c-c0c2-42c4-b804-de2b8916afc0,uuid:0d64630c-c0c2-42c4-b804-de2b8916afc0/data_repeat[1],uuid:0d64630c-c0c2-42c4-b804-de2b8916afc0/data_repeat
+wifi inside,26.144342,70.9813695,211.02794285631737,6.0,uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5,uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5/data_repeat[1],uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5/data_repeat
+dense_forest,26.144378,70.9813483,224.51716986878816,6.8,uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5,uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5/data_repeat[2],uuid:fbc4076d-6cb4-42d6-8680-135cbfcbdba5/data_repeat
+inside,21.9244277,86.7476249,-0.78857421875,16.189,uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c,uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c/data_repeat[1],uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c/data_repeat
+inside,21.9244023,86.7476301,-1.109619140625,39.55,uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c,uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c/data_repeat[2],uuid:fc2f3e81-8804-4552-aa74-efc3a0f7371c/data_repeat
+inside clear_sky tall_building,"","","","",uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed,uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat[1],uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat
+inside clear_sky,"","","","",uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed,uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat[2],uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat
+inside clear_sky,"","","","",uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed,uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat[3],uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat
+inside wifi,"","","","",uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed,uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat[4],uuid:0dfcf77c-af5c-4c13-9d6e-c678e54ae0ed/data_repeat
+inside,"","","","",uuid:d38cdeed-d533-427d-a5a3-d7188043dbfa,uuid:d38cdeed-d533-427d-a5a3-d7188043dbfa/data_repeat[1],uuid:d38cdeed-d533-427d-a5a3-d7188043dbfa/data_repeat
+inside wifi tall_building,9.0706811,7.4333483,475.1000061035156,17.529,uuid:fc97a65d-152c-4e95-bcaf-dee7c9097631,uuid:fc97a65d-152c-4e95-bcaf-dee7c9097631/data_repeat[1],uuid:fc97a65d-152c-4e95-bcaf-dee7c9097631/data_repeat
+dense_forest,"","","","",uuid:0fc618db-4309-4d82-afe7-fa4041e66807,uuid:0fc618db-4309-4d82-afe7-fa4041e66807/data_repeat[1],uuid:0fc618db-4309-4d82-afe7-fa4041e66807/data_repeat
+poor_cell,"","","","",uuid:0fc618db-4309-4d82-afe7-fa4041e66807,uuid:0fc618db-4309-4d82-afe7-fa4041e66807/data_repeat[2],uuid:0fc618db-4309-4d82-afe7-fa4041e66807/data_repeat
+wifi,"","","","",uuid:0fd61b6e-ad93-4fbc-9cb9-f73d3a9cf840,uuid:0fd61b6e-ad93-4fbc-9cb9-f73d3a9cf840/data_repeat[1],uuid:0fd61b6e-ad93-4fbc-9cb9-f73d3a9cf840/data_repeat
+inside,26.5717252,84.0918657,0.0,145.844,uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f,uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f/data_repeat[1],uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f/data_repeat
+inside,26.5717252,84.0918657,0.0,113.338,uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f,uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f/data_repeat[2],uuid:fcc84194-4c2f-4458-906b-4f0e65e5805f/data_repeat
+inside,11.8253018,13.0804087,331.0,19.833,uuid:104f06b4-b02a-4131-8a3a-58a592530443,uuid:104f06b4-b02a-4131-8a3a-58a592530443/data_repeat[1],uuid:104f06b4-b02a-4131-8a3a-58a592530443/data_repeat
+inside,"","","","",uuid:fda89f70-73d4-4e50-a53a-74610605372e,uuid:fda89f70-73d4-4e50-a53a-74610605372e/data_repeat[1],uuid:fda89f70-73d4-4e50-a53a-74610605372e/data_repeat
+clear_sky,"","","","",uuid:d3df4a50-3fae-4fa5-87a0-e0f6c65b8125,uuid:d3df4a50-3fae-4fa5-87a0-e0f6c65b8125/data_repeat[1],uuid:d3df4a50-3fae-4fa5-87a0-e0f6c65b8125/data_repeat
+inside,"","","","",uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb,uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb/data_repeat[1],uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb/data_repeat
+inside,"","","","",uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb,uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb/data_repeat[2],uuid:d4099a2b-c1ee-4b22-8eee-f09d206c84eb/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,"","","","",uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8,uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8/data_repeat[1],uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8/data_repeat
+inside wifi clear_sky,"","","","",uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8,uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8/data_repeat[2],uuid:b9485855-7ccd-44c2-9dc0-85c0966a84a8/data_repeat
+inside wifi poor_cell,27.7418525,75.4703386,0.0,2299.999,uuid:d4601f5b-fca1-41b5-a9f1-661be4276d6f,uuid:d4601f5b-fca1-41b5-a9f1-661be4276d6f/data_repeat[1],uuid:d4601f5b-fca1-41b5-a9f1-661be4276d6f/data_repeat
+inside,25.730809,72.468072,0.0,3377.0,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat[1],uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat
+inside,25.730809,72.468072,0.0,3377.0,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat[2],uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat
+clear_sky,25.730809,72.468072,0.0,3377.0,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat[3],uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat
+poor_cell,25.730809,72.468072,0.0,3377.0,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b,uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat[4],uuid:b96b3d99-494c-445c-91e2-b70f3b6ede3b/data_repeat
+inside,-6.7606241,39.2702911,-17.19999885559082,16.174,uuid:b97247ed-16fe-4755-afda-ead911de7d13,uuid:b97247ed-16fe-4755-afda-ead911de7d13/data_repeat[1],uuid:b97247ed-16fe-4755-afda-ead911de7d13/data_repeat
+inside wifi clear_sky,"","","","",uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff,uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat[1],uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat
+clear_sky,13.0397006,7.7330974,0.0,5000.0,uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff,uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat[2],uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat
+wifi inside clear_sky,13.0397006,7.7330974,0.0,5000.0,uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff,uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat[3],uuid:d4d506f6-f304-4ca9-97a2-dd11b8d544ff/data_repeat
+clear_sky tall_building,8.3098739,5.0392402,476.8,3.0,uuid:d52660ac-6e3e-4ad5-a936-0fc01ccf1aa4,uuid:d52660ac-6e3e-4ad5-a936-0fc01ccf1aa4/data_repeat[1],uuid:d52660ac-6e3e-4ad5-a936-0fc01ccf1aa4/data_repeat
+none,"","","","",uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d,uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d/data_repeat[1],uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d/data_repeat
+dense_forest,"","","","",uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d,uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d/data_repeat[2],uuid:ba39a7de-00f1-42d9-95b1-87fa8577164d/data_repeat
+poor_cell,"","","","",uuid:ba844719-4560-45d9-a780-dfc2036fefb4,uuid:ba844719-4560-45d9-a780-dfc2036fefb4/data_repeat[1],uuid:ba844719-4560-45d9-a780-dfc2036fefb4/data_repeat
+inside,10.6168157,47.3714968,1756.9000244140625,79.675,uuid:d5d52878-dfef-4718-bc0a-d89f71783d60,uuid:d5d52878-dfef-4718-bc0a-d89f71783d60/data_repeat[1],uuid:d5d52878-dfef-4718-bc0a-d89f71783d60/data_repeat
+wifi,10.6168157,47.3714968,1756.9000244140625,72.9,uuid:d5d52878-dfef-4718-bc0a-d89f71783d60,uuid:d5d52878-dfef-4718-bc0a-d89f71783d60/data_repeat[2],uuid:d5d52878-dfef-4718-bc0a-d89f71783d60/data_repeat
+clear_sky,"","","","",uuid:d62594f2-ebba-4315-b046-46ef91320327,uuid:d62594f2-ebba-4315-b046-46ef91320327/data_repeat[1],uuid:d62594f2-ebba-4315-b046-46ef91320327/data_repeat
+inside,26.2604744,71.5896422,0.0,3599.999,uuid:bb170220-ef34-4666-8874-ae7f458690dc,uuid:bb170220-ef34-4666-8874-ae7f458690dc/data_repeat[1],uuid:bb170220-ef34-4666-8874-ae7f458690dc/data_repeat
+wifi,-12.5359338,39.641432,311.6,3.9,uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e,uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e/data_repeat[1],uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e/data_repeat
+wifi,-12.5359045,39.6414686,309.5,3.0,uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e,uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e/data_repeat[2],uuid:bb8dcdbd-e3f4-4629-9a43-f12349982c2e/data_repeat
+wifi inside,-25.2990807,-57.5920329,138.10000610351562,24.951,uuid:bc1a637b-a7c2-4db4-b539-fc0168761108,uuid:bc1a637b-a7c2-4db4-b539-fc0168761108/data_repeat[1],uuid:bc1a637b-a7c2-4db4-b539-fc0168761108/data_repeat
+inside,-25.2990801,-57.5920368,138.10000610351562,25.0,uuid:bc1a637b-a7c2-4db4-b539-fc0168761108,uuid:bc1a637b-a7c2-4db4-b539-fc0168761108/data_repeat[2],uuid:bc1a637b-a7c2-4db4-b539-fc0168761108/data_repeat
+clear_sky poor_cell,"","","","",uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c,uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat[1],uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat
+wifi inside clear_sky poor_cell,"","","","",uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c,uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat[2],uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat
+wifi,"","","","",uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c,uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat[3],uuid:bf05b942-9995-45f6-b7cc-bff1f01b6f9c/data_repeat
+inside,24.6527623,72.8977677,0.0,2057.0,uuid:bf73f5bf-3a39-45c4-b357-173e97210244,uuid:bf73f5bf-3a39-45c4-b357-173e97210244/data_repeat[1],uuid:bf73f5bf-3a39-45c4-b357-173e97210244/data_repeat
+inside,25.7357732,71.5752521,0.0,5.594,uuid:d62fd675-e315-4071-8bc7-a445a6683138,uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat[1],uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat
+inside,25.7357733,71.5752495,0.0,4.762,uuid:d62fd675-e315-4071-8bc7-a445a6683138,uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat[2],uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat
+inside,25.7357735,71.575248,0.0,5.093,uuid:d62fd675-e315-4071-8bc7-a445a6683138,uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat[3],uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat
+inside,"","","","",uuid:d62fd675-e315-4071-8bc7-a445a6683138,uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat[4],uuid:d62fd675-e315-4071-8bc7-a445a6683138/data_repeat
+none,"","","","",uuid:c006b9ac-5fb2-4381-9e62-d8baa2b5717c,uuid:c006b9ac-5fb2-4381-9e62-d8baa2b5717c/data_repeat[1],uuid:c006b9ac-5fb2-4381-9e62-d8baa2b5717c/data_repeat
+clear_sky wifi,"","","","",uuid:d63852c5-d10a-4d61-900b-e3322966328a,uuid:d63852c5-d10a-4d61-900b-e3322966328a/data_repeat[1],uuid:d63852c5-d10a-4d61-900b-e3322966328a/data_repeat
+inside,"","","","",uuid:d63852c5-d10a-4d61-900b-e3322966328a,uuid:d63852c5-d10a-4d61-900b-e3322966328a/data_repeat[2],uuid:d63852c5-d10a-4d61-900b-e3322966328a/data_repeat
+clear_sky poor_cell,-32.9626271,-60.6559379,44.099998474121094,50.467,uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f,uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f/data_repeat[1],uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f/data_repeat
+clear_sky,-32.9627032,-60.6551042,44.099998474121094,65.085,uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f,uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f/data_repeat[2],uuid:c028c9be-a5d7-4030-bb42-2c9454f14b2f/data_repeat
+inside,26.7368461,70.779476,0.0,2599.999,uuid:d6a5a4ef-8d90-4563-9649-f85aae410b75,uuid:d6a5a4ef-8d90-4563-9649-f85aae410b75/data_repeat[1],uuid:d6a5a4ef-8d90-4563-9649-f85aae410b75/data_repeat
+clear_sky poor_cell,"","","","",uuid:c110e7f6-8f9b-45df-8dc6-461a08783109,uuid:c110e7f6-8f9b-45df-8dc6-461a08783109/data_repeat[1],uuid:c110e7f6-8f9b-45df-8dc6-461a08783109/data_repeat
+inside wifi tall_building,15.3171229,38.9134033,2335.0,6.0,uuid:c11d6e3f-cde6-41a5-911b-bbc481458a36,uuid:c11d6e3f-cde6-41a5-911b-bbc481458a36/data_repeat[1],uuid:c11d6e3f-cde6-41a5-911b-bbc481458a36/data_repeat
+none,-33.5667182,-70.583607,678.05224609375,13.909,uuid:d6d4a7cd-0388-46ca-87a2-1a1044c7219c,uuid:d6d4a7cd-0388-46ca-87a2-1a1044c7219c/data_repeat[1],uuid:d6d4a7cd-0388-46ca-87a2-1a1044c7219c/data_repeat
+inside wifi tall_building,"","","","",uuid:d6e1ec44-2c66-4fea-8220-0050844a661d,uuid:d6e1ec44-2c66-4fea-8220-0050844a661d/data_repeat[1],uuid:d6e1ec44-2c66-4fea-8220-0050844a661d/data_repeat
+clear_sky tall_building,26.7021636,71.201095,207.413818359375,4.385,uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4,uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4/data_repeat[1],uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4/data_repeat
+clear_sky tall_building,26.7021635,71.2010949,206.95611572265625,4.873,uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4,uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4/data_repeat[2],uuid:c4bbbd69-943b-4ad1-8cd6-295616c08ab4/data_repeat
+clear_sky tall_building,8.3057362,5.0386132,466.5,3.0,uuid:d7d644ba-5dd5-4c9c-8c1b-f392e35da3b9,uuid:d7d644ba-5dd5-4c9c-8c1b-f392e35da3b9/data_repeat[1],uuid:d7d644ba-5dd5-4c9c-8c1b-f392e35da3b9/data_repeat
+inside,24.9101451,67.0902711,-7.599999904632568,23.5,uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99,uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99/data_repeat[1],uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99/data_repeat
+tall_building,24.9101309,67.0902575,-4.599999904632568,28.141,uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99,uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99/data_repeat[2],uuid:c5f0f0f8-f854-449a-bb29-dc6a0aa3dc99/data_repeat
+none,-12.2906444,30.6242142,0.0,11.564,uuid:c825d61f-ac16-4ed1-8544-21d798fd715e,uuid:c825d61f-ac16-4ed1-8544-21d798fd715e/data_repeat[1],uuid:c825d61f-ac16-4ed1-8544-21d798fd715e/data_repeat
+tall_building poor_cell,"","","","",uuid:d8197b9d-ade5-4ae3-a496-0234b8ecf856,uuid:d8197b9d-ade5-4ae3-a496-0234b8ecf856/data_repeat[1],uuid:d8197b9d-ade5-4ae3-a496-0234b8ecf856/data_repeat
+inside wifi tall_building,"","","","",uuid:c987f1ee-2c6c-4590-87ee-fc09318c02ce,uuid:c987f1ee-2c6c-4590-87ee-fc09318c02ce/data_repeat[1],uuid:c987f1ee-2c6c-4590-87ee-fc09318c02ce/data_repeat
+clear_sky,8.3013192,5.0374315,475.7,3.0,uuid:d89c6177-6651-458d-b844-95717ef30670,uuid:d89c6177-6651-458d-b844-95717ef30670/data_repeat[1],uuid:d89c6177-6651-458d-b844-95717ef30670/data_repeat
+wifi,"","","","",uuid:c99d4693-bdc3-4576-b20d-c1589a4ba344,uuid:c99d4693-bdc3-4576-b20d-c1589a4ba344/data_repeat[1],uuid:c99d4693-bdc3-4576-b20d-c1589a4ba344/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,26.1875303,71.244316,208.93967143117322,3.0,uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e,uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e/data_repeat[1],uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e/data_repeat
+inside wifi clear_sky tall_building poor_cell dense_forest,26.1875316,71.2443224,208.59057080842481,3.0,uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e,uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e/data_repeat[2],uuid:d9200136-7217-41ce-b16d-8ee5bcf5358e/data_repeat
+clear_sky poor_cell,"","","","",uuid:ca368f3d-d81d-47d8-b5a1-d90d1d55563f,uuid:ca368f3d-d81d-47d8-b5a1-d90d1d55563f/data_repeat[1],uuid:ca368f3d-d81d-47d8-b5a1-d90d1d55563f/data_repeat
+inside,29.7018193,79.8336912,0.0,2837.0,uuid:d95234f2-4ab7-468b-a67b-9440b764bade,uuid:d95234f2-4ab7-468b-a67b-9440b764bade/data_repeat[1],uuid:d95234f2-4ab7-468b-a67b-9440b764bade/data_repeat
+inside,29.7018193,79.8336912,0.0,2837.0,uuid:d95234f2-4ab7-468b-a67b-9440b764bade,uuid:d95234f2-4ab7-468b-a67b-9440b764bade/data_repeat[2],uuid:d95234f2-4ab7-468b-a67b-9440b764bade/data_repeat
+inside wifi clear_sky,"","","","",uuid:cbb40bb3-2b88-4e12-bed0-0929fda10d4c,uuid:cbb40bb3-2b88-4e12-bed0-0929fda10d4c/data_repeat[1],uuid:cbb40bb3-2b88-4e12-bed0-0929fda10d4c/data_repeat
+clear_sky,25.5758824,70.853646,176.5,3.0,uuid:cbbf03df-f422-4899-96c0-2a4107192ae5,uuid:cbbf03df-f422-4899-96c0-2a4107192ae5/data_repeat[1],uuid:cbbf03df-f422-4899-96c0-2a4107192ae5/data_repeat
+clear_sky poor_cell,25.5759248,70.853599,176.8,3.0,uuid:cbbf03df-f422-4899-96c0-2a4107192ae5,uuid:cbbf03df-f422-4899-96c0-2a4107192ae5/data_repeat[2],uuid:cbbf03df-f422-4899-96c0-2a4107192ae5/data_repeat
+wifi,26.0834034,72.2720498,81.49586963064253,53.355,uuid:cbc5d71a-e5cb-4455-acfa-5cca4b3362fe,uuid:cbc5d71a-e5cb-4455-acfa-5cca4b3362fe/data_repeat[1],uuid:cbc5d71a-e5cb-4455-acfa-5cca4b3362fe/data_repeat
+clear_sky,9.1506251,7.3791755,0.0,1700.0,uuid:ce1ff76b-a62f-4d97-80e4-86846f87e2aa,uuid:ce1ff76b-a62f-4d97-80e4-86846f87e2aa/data_repeat[1],uuid:ce1ff76b-a62f-4d97-80e4-86846f87e2aa/data_repeat
+inside,"","","","",uuid:fdb4f42f-779f-4e31-b47e-4333d363ab46,uuid:fdb4f42f-779f-4e31-b47e-4333d363ab46/data_repeat[1],uuid:fdb4f42f-779f-4e31-b47e-4333d363ab46/data_repeat
+inside clear_sky tall_building poor_cell dense_forest,"","","","",uuid:ff4d72dc-30ba-412f-94e8-4ca53803b9d9,uuid:ff4d72dc-30ba-412f-94e8-4ca53803b9d9/data_repeat[1],uuid:ff4d72dc-30ba-412f-94e8-4ca53803b9d9/data_repeat
+wifi inside tall_building poor_cell,12.8170947,79.738913,0.0,23.315,uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4,uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4/data_repeat[1],uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4/data_repeat
+clear_sky,12.8170949,79.7389134,0.0,28.963,uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4,uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4/data_repeat[2],uuid:ff6dabbe-164e-4a82-9a24-751de3ea7bc4/data_repeat
+none,-14.5421532,-52.7884244,511.0,7.929,uuid:ff782ade-75b1-4d1e-b5de-abaa9c5b0b4b,uuid:ff782ade-75b1-4d1e-b5de-abaa9c5b0b4b/data_repeat[1],uuid:ff782ade-75b1-4d1e-b5de-abaa9c5b0b4b/data_repeat
+wifi,30.7499503,76.7648382,298.20001220703125,19.99,uuid:ff7e9d69-0c3b-4244-9f17-388ba30e2aed,uuid:ff7e9d69-0c3b-4244-9f17-388ba30e2aed/data_repeat[1],uuid:ff7e9d69-0c3b-4244-9f17-388ba30e2aed/data_repeat
+wifi inside,8.922678,43.7410162,1418.6561279296875,8.714,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat[1],uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat
+poor_cell dense_forest,8.9226863,43.7410227,1414.114501953125,6.445,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat[2],uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat
+inside,8.9227,43.7410355,1413.18994140625,3.774,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240,uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat[3],uuid:ff9524f5-eb21-454b-a25b-a72a2bc59240/data_repeat

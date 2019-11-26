@@ -1,0 +1,13 @@
+1/23/19
+530-630
+Hosted call
+
+1/26/19
+130-445
+530-624
+
+1/27/19
+1040-1230
+320-647
+730-830
+Got reactives to work correctly and update data while maintaining historical data. Dates are very difficult to work with.

@@ -1,0 +1,32 @@
+
+1/15/19
+8-9 am
+Call with larger PAC group to discuss maintenance deliverables
+
+1/16/19
+530-630
+730-908
+On for call with IT group
+Summarizing costs of different reporting tools
+
+1/18/19
+345-511
+630-704
+Working on email example - got a working example. In email to her make sure to say how long it took
+and that you could do other things like just put the number of rows. 
+
+1/20/19
+815-1150
+250-
+Finalized email example
+Finished slides for Theresa summarizing analytics tools - sent
+Made invoice 2 - Sent
+Changed UI in app - added ways to alter the data, also condensed the UI
+Made the table in the eTool a little smaller (fewer columns)
+Created a way for the etool to use just the most recent data available while keeping historical data as well
+Added reactive logic so user could edit data behind the application - still need to get it working properly
+Add Blastula to the final report (done)
+Created a proof of concept to email notifications
+Present current version to larger group (DONE)
+Create pricing guide for row level security - price out rs connect, PBI, Tableau (DONE)
+

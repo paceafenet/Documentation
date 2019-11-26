@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head><!-- ODK Aggregate upload time: 2019-07-17T22:38:09.063+0000 on https://opendatakit.appspot.com -->
+    <h:title>Collect v1.23 Beta: Background Geopoint Test</h:title>
+    <model>
+      <instance>
+        <background-geopoint-beta id="background-geopoint-beta" version="2019071701">
+          <open_location/>
+          <welcome_group>
+            <welcome_note/>
+            <learn_more>https://forum.opendatakit.org/t/odk-collect-v1-23-beta/20731</learn_more>
+            <consent/>
+          </welcome_group>
+          <data_repeat>
+            <characteristics/>
+            <repeat_location/>
+          </data_repeat>
+          <comments/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </background-geopoint-beta>
+      </instance>
+      <bind nodeset="/background-geopoint-beta/open_location" type="geopoint"/>
+      <odk:setgeopoint ref="/background-geopoint-beta/open_location" event="odk-instance-first-load"/>
+      <bind nodeset="/background-geopoint-beta/welcome_group/welcome_note" readonly="true()" type="string"/>
+      <bind nodeset="/background-geopoint-beta/welcome_group/learn_more" type="string"/>
+      <bind nodeset="/background-geopoint-beta/welcome_group/consent" required="true()"/>
+      <bind constraint="not(contains(., 'none')) or count-selected(.) = 1" nodeset="/background-geopoint-beta/data_repeat/characteristics" required="true()" type="select"/>
+      <bind nodeset="/background-geopoint-beta/data_repeat/repeat_location" type="geopoint"/>
+      <bind nodeset="/background-geopoint-beta/comments" type="string"/>
+      <bind jr:preload="uid" nodeset="/background-geopoint-beta/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list" ref="/background-geopoint-beta/welcome_group">
+      <input ref="/background-geopoint-beta/welcome_group/welcome_note">
+        <label>This form demonstrates the background geopoint feature added to ODK Collect v1.23.0-beta.1. You must have that beta or a later version to try it.&lt;br/&gt;&lt;br/&gt;This form records location once at form open and every time the question about your location is asked. If you choose to submit the data you collect, the developers will use it to improve the feature. Thanks for trying it out!&lt;br/&gt;&lt;br/&gt;The functionality is not yet available in XLSForm but will be soon.</label>
+      </input>
+      <input appearance="url" ref="/background-geopoint-beta/welcome_group/learn_more">
+        <label>Learn more about this feature and Collect v1.23.0-beta.1</label>
+      </input>
+      <trigger ref="/background-geopoint-beta/welcome_group/consent">
+        <label>I understand that this form records my location. I understand that if I choose to submit it to the ODK test server, anyone will be able to see the locations I have captured.</label>
+      </trigger>
+    </group>
+    <group ref="/background-geopoint-beta/data_repeat">
+      <label>Location</label>
+      <repeat nodeset="/background-geopoint-beta/data_repeat">
+        <select ref="/background-geopoint-beta/data_repeat/characteristics">
+          <label>Please walk for a little bit and then answer the question below and swipe right. &lt;br/&gt;&lt;br/&gt;If you would like to continue testing the feature, please tap "Add group". When you are done trying out the background geopoint feature, please tap "Do not add." &lt;br/&gt;&lt;br/&gt; Which of these is true about your current location? Please check all that apply.</label>
+          <item>
+            <label>It is inside of a building</label>
+            <value>inside</value>
+          </item>
+          <item>
+            <label>There is Wi-Fi</label>
+            <value>wifi</value>
+          </item>
+          <item>
+            <label>It is outside of a building and there is a clear view of the sky</label>
+            <value>clear_sky</value>
+          </item>
+          <item>
+            <label>There is at least one building that is two stories or taller</label>
+            <value>tall_building</value>
+          </item>
+          <item>
+            <label>There is poor cell connection (&lt;2 bars)</label>
+            <value>poor_cell</value>
+          </item>
+          <item>
+            <label>There is dense forest above me</label>
+            <value>dense_forest</value>
+          </item>
+          <item>
+            <label>None of the above</label>
+            <value>none</value>
+          </item>
+          <odk:setgeopoint ref="/background-geopoint-beta/data_repeat/repeat_location" event="xforms-value-changed"/>
+        </select>
+      </repeat>
+    </group>
+    <input ref="/background-geopoint-beta/comments">
+      <label>Comments (please do not share identifying information such as names, phone numbers, etc)</label>
+    </input>
+  </h:body>
+</h:html>

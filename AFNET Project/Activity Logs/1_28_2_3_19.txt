@@ -1,0 +1,26 @@
+2/1/19
+720-833
+Updating packages, adding message prompts to app (for both buttons)
+
+2/2/19
+1130-1239
+406-539
+Reviewing contract deliverables - outlined progress towards them on progress report
+Updating documentation
+
+2/10/19
+1006-1235
+Made eTool dev repository private, added collaborators, sent Mimi recept, added everyone to private
+eTool dev repository as collaborators, left the final report and progress reports repos as public
+since nothing sensitive and worth showing outsiders
+Will need the OK for the email list attached, then I will send the sign in page link to them,
+they will need to sign up for an account at that page (encourage them to use the same email as for 
+calendar invites), then when I add them as a collaborator they will be sent an email asking if they
+want to be a collaborator, then they will be able to see ALL the contents of the page, also helpful
+once I set a provate repo for shinyapps since github account (or gmail) are accepted authentication 
+methods (be sure I send her all the accessible links to include in the calenar invite)
+Went through the equipment inventory from Ruth that she received from Biologic Solutions, could be useful
+if these are in the actual Cameroon data, however, is this all the information they have about these
+equipment? Nothing other than type, do they have service dates? Or perhaps this is just info they don't
+have? I would really like to know how specific their data is.
+

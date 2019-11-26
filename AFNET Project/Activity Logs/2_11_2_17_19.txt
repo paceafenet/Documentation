@@ -1,0 +1,53 @@
+2/15/19
+836-930
+1030-11
+1230-1
+224-3
+
+Working on outline for eTool (Deliverable 2 in SOW) - finish this weekend
+
+2/16/19
+1200-330
+Finished outline, rendered report
+Updated progress
+
+Working on outline for eTool (Deliverable 2 in SOW) - finish this weekend
+
+Current to do
+
+Download install_github("nik01010/dashboardthemes")
+Create fake data for dashbaord (may not be a fineal deliverable)
+
+Outline (done)
+Add link on jump page to eTool outline - add after pushing to github
+
+
+gt library finally installed, try out, would be great for current or future job.
+
+send email to Mimi (done)
+Another to Ruth (done)
+
+Summarize eTool features (once I get the green light)
+
+Get to work on making dashboard for supervisors (once I get the green light) - would also really need
+to play around with the eTool to alter the original data
+
+Turn the selected cells into an input (maybe)
+
+Make mobile friendly UI (eventually)
+
+Post another app for mobile (try out the miniUI library, also see if flexdashboards has a mobile 
+chunk setting) (eventually)
+
+See examples of shinyBS - has more settings - not promising
+shinyjs - incredible package (much better UI experience and ability
+to really customize the behavior of the UI) contact the author dean@attalitech.com
+website https://deanattali.com/aboutme/
+shinytoastr - use to give the user feedback
+Make professional wesbite (eventually)
+
+
+
+
+
+Eventually - discuss long term and their past postings for web developer type positions with fatima

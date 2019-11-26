@@ -1,0 +1,32 @@
+12/31/18
+950-1045
+1230-330
+400-430
+Working on eTool layout
+
+1/2/19
+530-630
+Weekly call
+
+1/5/19
+1245-230
+415-500
+Working on layout and graphs in eTool. 
+
+1/7/18
+718-0800
+Updating final report DONE
+Updating progress report
+make weekly commits
+
+Current to do
+
+Add leaflet section to final report - sunday
+Add DT section to the final report as well - sunday
+Mess with the y-axis on the charts - DONE
+Take snapshots of the layout and save refer to in the progress report
+Weekly commits - sunday
+
+Continue adding the bar graphs on the other panels
+
+Sometime soon - need to review my criteria for requiring attention to verify it's working properly

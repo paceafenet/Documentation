@@ -1,0 +1,16 @@
+Project logins
+
+Gmail (same username and password for github):
+pacafenet@gmail.com
+projectpi2018
+bday: 11/8/1988
+Male
+
+Same user name and password for ODK Build
+and Ona
+
+mapquest api - developer.mapquest.com
+projectpi2018 (username and password)
+Key: Be4vSTacpJJcLYBXLp1Al50nI8LGGhtA
+Secret: jzkBuamCYaxrrehd
+lab_geocode

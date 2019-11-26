@@ -1,0 +1,59 @@
+12/5
+530-630 AM
+Conference call
+Received feedback on approach, Ruth will f/u on invoice process, I need to reach out to Cameroon
+
+315-345
+Continued to harmonize equipment data
+
+822-909
+Continued to harmonize equipment data
+Combined equipment data
+
+1236-145
+obtained facility information
+Attempting to geocode addresses, major changes in Google maps API is making this difficult
+Organizing facility data
+
+3.85
+
+848-932, 1045-1100
+cleaning lab data and obtaining facility info
+Converted date to year, very few had manufacture dates, and even fewer had the month
+Combined equipment data with facility data 
+Obtained open maps API key - used project email (issues, not accepting api key)
+
+610-1312
+315-445
+Attempting to geocode addresses again - success, addresses as written are of limited utility
+combined lab characteristics with equipment data
+Emailed Mimi regarding reimburstmets
+Described completeness of data and issues - report formatted and rendered along iwht explanations and annotations
+	Report rendered as pretty html document, also published as Github friendly but less pretty md docuemnt
+
+13.35
+
+12/9
+555-715
+Copied fake data to project google sheet, successfully interfaced with the data and saved a short 
+script that I can use for the eTool app
+
+Current to do:
+
+Reach out to Cameroon for in country data (cc Ruth + Fatima) (emailed 12/6) DONE FOR NOW
+Make requests according to Ruth's instructions (emailed followup questions) DONE FOR NOW
+Organize facility data so as to later combine with equipment data DONE
+Consider date formatting from Access (fixed - just years) DONE
+Annotate equipment code DONE
+Update project main page readme - add link to new Rmd DONE
+Updated final report with rodbc and geocoding libraries DONE
+
+Add pdquickmap package to Final report (geocoding addresses)
+Update final report with RODBC description. DONE
+Add fake data to google sheet and configure google sheet for access in R DONE
+
+Update progress report
+
+Backup general AFENET file to external - everything else is already on GitHub
+
+Consider if Shiny runtime would be helpful - review contract for what should be described about these data

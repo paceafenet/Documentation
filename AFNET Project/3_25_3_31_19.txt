@@ -1,0 +1,27 @@
+3/25/19-3/31/19
+
+3/30
+235-700
+Created mandatory fields
+Finished annotations for rstudio cloud lesson on maintaining the eTool code
+
+1120-200
+Documentation and email
+
+4/5
+241-348
+Made rstudio cloud lesson for new additions form
+
+Current to do
+
+Make RStudio Cloud Lessons
+
+Digging into your data
+Creating reports
+
+Make mobile friendly UI (eventually maybe)
+
+Make professional wesbite (eventually)
+
+
+Eventually - discuss long term and their past postings for web developer type positions with fatima

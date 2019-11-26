@@ -1,0 +1,38 @@
+12/27
+820-915
+1100-140
+Got pdf output to work correctly in R
+Drafted and sent the first invoice
+Finalized Nigeria report (be sure to summarize the results during call - make a note to myself in
+the agenda to pull up that section of the report)
+
+12/18/18
+530-630
+Weekly call - reviewed progress and received marching orders to invoice subscr
+for the entire year on first invoice
+
+Current to do
+
+download mikteck and get pdf to work (done)
+install survey monkey r package (done)
+
+Email Fatima - re the guidebook that gives ROT's for how often equipment should be looked at (done)
+
+Additions for Nigeria portion of report (done)
+	Summarize the service provider variable
+	See if the progress report can be output as word document (done)
+	(save a copy to github-add to discussion items)
+
+Submit first monthly invoice to Mimi (CC ruth and fatima) (done)
+	Invoice github and shinyapps subscriptions for whole year
+	Might wnat to do Github separately (not in original contract)
+
+Start making app with fake data
+
+Need to get Cameroon data however asap
+
+Order GitHub and Shiny apps.io account at the end of the month when I invoice them
+
+Backup general AFENET file to external - everything else is already on GitHub
+
+Consider if Shiny runtime would be helpful - review contract for what should be described about these data

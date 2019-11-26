@@ -1,0 +1,244 @@
+---
+title: "Tying_Progress_Reports_Together"
+output: html_document
+---
+
+1. Make sure the PTBMIS report has the same date as today in the file name located at "H:\\VH\\Travis Sondgerath\\PTMBIS Reports\\"
+2. Make sure there is a folder at "H:\VH\Case Navigators\Progress Reports" with the same date as the file above.
+3. Run chuncks below, look over reports
+
+
+```{r warning=FALSE, message=FALSE}
+library(rmarkdown)
+library(lubridate)
+library(stringr)
+
+# file_date <- paste(month(Sys.Date()), day(Sys.Date()), str_sub(year(Sys.Date()), 3, 4), sep = "_")
+
+# file_date <- "2_14_18"
+
+file_year <- year(Sys.Date())
+
+file_quarter <- ""
+
+file_quarter[month(Sys.Date()) %in% c(1, 2, 3)] <- "Q1"
+file_quarter[month(Sys.Date()) %in% c(4, 5, 6)] <- "Q2"
+file_quarter[month(Sys.Date()) %in% c(7, 8, 9)] <- "Q3"
+file_quarter[month(Sys.Date()) %in% c(10, 11, 12)] <- "Q4"
+
+file_month <- ""
+
+file_month[month(Sys.Date()) == 1] <- "January"
+file_month[month(Sys.Date()) == 2] <- "February"
+file_month[month(Sys.Date()) == 3] <- "March"
+file_month[month(Sys.Date()) == 4] <- "April"
+file_month[month(Sys.Date()) == 5] <- "May"
+file_month[month(Sys.Date()) == 6] <- "June"
+file_month[month(Sys.Date()) == 7] <- "July"
+file_month[month(Sys.Date()) == 8] <- "August"
+file_month[month(Sys.Date()) == 9] <- "September"
+file_month[month(Sys.Date()) == 10] <- "October"
+file_month[month(Sys.Date()) == 11] <- "November"
+file_month[month(Sys.Date()) == 12] <- "December"
+
+output_location <- paste(file_year, file_quarter, file_month, sep = "\\")
+
+# output_location <- "2017"
+
+setwd("H:\\VH\\Case Navigators\\Progress Reports")
+```
+
+```{r, warning=FALSE, message=FALSE}
+# For now, set the statewide stuff to not evaluate until everyone has it
+
+rmarkdown::render(input = "ETR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "UCR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "SER.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "SCR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "NER.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "MCR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "WTR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "NDR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "MSR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))  # No statewide testing - add those sections once it's up and running
+rmarkdown::render(input = "CHR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))
+rmarkdown::render(input = "KKR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))  # No statewide testing - add those sections once it's up and running FIXXXX
+rmarkdown::render(input = "SUL.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))  # No statewide testing - add those sections once it's up and running
+rmarkdown::render(input = "JMR.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))  # No statewide testing - add those sections once it's up and running
+rmarkdown::render(input = "Statewide.Rmd", output_dir = paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location))  ## FIX
+
+####Add a separate Quarterly testing results report
+```
+
+# Add chunk for sending emails with attachments
+
+```{r, warning=FALSE, message=FALSE}
+library(RDCOMClient)
+
+# Possibly include in the body of the email that changes have been made to the navigator section of the report??
+
+regions <- c("CHR", "ETR", "JMR", "KKR", "MCR", "MSR", "NDR", "NER", "SCR", "SER", "SUL", "UCR", "WTR")
+
+recipients <- ""
+
+included <- "Heather.Wingate@tn.gov; Jennifer.Black@tn.gov; Lindsey.Sizemore@tn.gov; Carolyn.Wester@tn.gov; Catherine.Goff@tn.gov; Travis.Sondgerath@tn.gov"
+
+# included <- "travis.sondgerath@tn.gov"  # For testing
+
+for(i in regions){
+  
+  # i <- "ETR"  # For testing
+  
+  # recipients[i == "JMR"] <- "Travis.Sondgerath@tn.gov"  # For testing
+  
+  # Lookup table subject to change with staffing changes
+  # Errors would likely be due to typos in addresses or inactive addresses due to turnover
+  recipients[i == "CHR"] <- "RandallV@HamiltonTN.gov; BevF@hamiltontn.gov"
+  recipients[i == "ETR"] <- "Kandis.Cornette@tn.gov; Joy.Garrett@tn.gov"
+  recipients[i == "JMR"] <- "Catherine.Goff@tn.gov"
+  recipients[i == "KKR"] <- "Gina.Carter@knoxcounty.org; jane.crowe@knoxcounty.org; Kelly.Cooper@knoxcounty.org"
+  recipients[i == "MCR"] <- "Jolene.Karol@tn.gov; Teresa.A.Vantrease@tn.gov"
+  recipients[i == "MSR"] <- "Laila.Walani@shelbycountytn.gov; David.Sweat@shelbycountytn.gov"
+  recipients[i == "NDR"] <- "Cynthia.Woodard@nashville.gov; rachel.majors@nashville.gov"
+  recipients[i == "NER"] <- "Leslie.D.Jones@tn.gov; Beth.A.Denney@tn.gov"
+  recipients[i == "SCR"] <- "Catherine.Goff@tn.gov"
+  recipients[i == "SER"] <- "Elizabeth.Thomas@tn.gov; Deborah.Walker@tn.gov"  # New nurse starting soon, may want to include this person eventually.
+  recipients[i == "SUL"] <- "hmullins@sullivanhealth.org; plewis@sullivanhealth.org"
+  recipients[i == "UCR"] <- "Dana.Fike@tn.gov; Debbie.Hoy@tn.gov"
+  recipients[i == "WTR"] <- "Catherine.Goff@tn.gov"
+  
+  if(i %in% c("SCR", "WTR")){  # These two are Cathy only, so is JMR - REVISE as staffing changes
+    next
+  }
+  
+  outlook_app <- COMCreate("Outlook.Application")
+  
+  outgoing_mail <- outlook_app$CreateItem(0)
+  
+  outgoing_mail[["To"]] <- recipients
+  outgoing_mail[["Cc"]] <- included
+  outgoing_mail[["BodyFormat"]] <- 2
+  
+  if(i == "JMR"){  # For Cathy only, revise as new staff come on board
+      outgoing_mail[["Subject"]] <- paste("VHCN Progress Report -", "Jurisdictions Without Navigators")
+      outgoing_mail[["HTMLbody"]] <- 
+    "
+    <html>
+    <body>
+    <p class = MsoNormal> <font size = 4 face = Calibri>
+    Greetings Cathy, <br>
+    <br>
+    Attached are the progress reports for each region without a designated VHCN. Additionally, there is a separate report containing an overview of statewide testing by region and VHCN efforts statewide. <br>
+    <br>
+    Regards,<br>
+    <br>
+    Travis, Sondgerath MS, MPH <br>
+    Communicable and Environmental Disease and Emergency Preparedness | Viral Hepatitis Surveillance <br>
+    Andrew Johnson Tower, 4th Floor <br>
+    710 James Robertson Parkway, Nashville, TN 37243 <br>
+    Phone 615-253-4452 <br>
+    travis.sondgerath@tn.gov <br>
+    tn.gov/health <br>
+    <br>
+    </p>
+    </body>
+    </html>
+    "
+  
+  outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\Statewide.docx"))
+  outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\", "JMR", ".docx"))
+  outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\", "SCR", ".docx"))
+  outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\", "WTR", ".docx"))
+  
+  outgoing_mail$Send()
+  
+  rm(outgoing_mail)
+  
+  }
+  
+  if(!(i %in% c("SCR", "WTR", "JMR"))){
+    outgoing_mail[["Subject"]] <- paste("VHCN Progress Report -", i)
+    outgoing_mail[["HTMLbody"]] <- 
+    "
+    <html>
+    <body>
+    <p class = MsoNormal> <font size = 4 face = Calibri>
+    Greetings,<br>
+    <br>
+    Attached is the Viral Hepatitis Case Navigator (VHCN) Progress Report for your region. This Progress Report describes statewide HCV testing results by county in your region as well as navigation efforts denoted in REDCap. Additionally, there is a separate report containing an overview of statewide testing by region and VHCN efforts statewide. <br>
+    <br>
+    Please do not hesitate to reach out to central office staff with any questions or comments.<br>
+    <br>
+    Regards,<br>
+    <br>
+    Travis, Sondgerath MS, MPH <br>
+    Communicable and Environmental Disease and Emergency Preparedness | Viral Hepatitis Surveillance <br>
+    Andrew Johnson Tower, 4th Floor <br>
+    710 James Robertson Parkway, Nashville, TN 37243 <br>
+    Phone 615-253-4452 <br>
+    travis.sondgerath@tn.gov <br>
+    tn.gov/health <br>
+    <br>
+    </p>
+    </body>
+    </html>
+    "
+    
+    outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\Statewide.docx"))
+    outgoing_mail[["Attachments"]]$Add(paste0("H:\\VH\\Case Navigators\\Progress Reports\\", output_location, "\\", i, ".docx"))
+    
+    outgoing_mail$Send()
+    
+    rm(outgoing_mail)
+  }
+}
+```
+
+### Work in Progress
+
+```{r warning=FALSE, message=FALSE, eval=FALSE}
+# Lts of potential - but it looks like the swintype library doesn't work with current r verison - and I can't find my dll file
+
+# Seeing what methods are available - move to other document
+
+library(dplyr)
+library(RDCOMClient)
+library(SWinTypeLibs)
+
+# Difficulties looking up specific methods - may need to reference the .dll files from program files
+outlook_app <- COMCreate("Outlook.Application")  # Creates the object
+
+tt <- LoadTypeLib(outlook_app)  # DOESN'T WORK although this is what the vignette says to do
+
+tt <- LoadTypeLib("C:\\Windows\\System32\\Microsoft.Uev.Office2013CustomActions.dll")  # Works, but have no idea how to find the right dll. This is just a random dll in my program files that happened to return a list of functions.
+
+xx <- names(tt) %>% as.data.frame()
+
+rm(outgoing_mail)
+
+# Takes more exploration
+
+files_df <- list.files(path = "C:\\Windows\\System32", pattern = "actions", ignore.case = T) %>% 
+  as.data.frame() %>% 
+  rename(`File Names` = ".")
+
+files <- list.files(path = "C:\\Windows\\System32", pattern = "actions", ignore.case = T)
+
+i <- files[4]
+
+tt <- LoadTypeLib(paste0("C:\\Windows\\System32\\", i)) %>% 
+  names() %>% 
+  as.data.frame()
+
+tt <- LoadTypeLib("C:\\Program Files\\Microsoft Office\\Office14\\oisctrl.dll")
+
+
+```
+
+
+
+
+
+
+
+
+

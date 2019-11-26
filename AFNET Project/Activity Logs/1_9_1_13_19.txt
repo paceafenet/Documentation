@@ -1,0 +1,21 @@
+1/9/19
+530-630
+Weekly meeting with Ruth
+
+1/11/19
+232-240
+Pushing newest version of the app code to shinyapps server (no sensitive data) - DONE
+
+1/12/19
+1244-329
+445-5515
+Post current app to shinyapps.io (done)
+Finalized initial layout of tool, edit data functionality to come later - background colors, text placement,
+some ui customization (done)
+send Ruth the link - be sure to tell her that it isn't optimized for mobile yet (done)
+add app link to eTool Home page (done)
+
+1/13/19
+630-730
+Read up on ONA - discuss during this week's call, give feedback, update progress reports
+

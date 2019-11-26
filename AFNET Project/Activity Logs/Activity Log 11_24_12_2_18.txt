@@ -1,0 +1,42 @@
+Day
+11/24/18
+1230-245
+Configured github pages for progress reports and final report
+245-305, 421-430, 
+Reviewed possible scorecard metrics
+718-854
+Examined info for VL scorecard, began making final report sections and 
+documenting tools used
+645-700
+Fixed github pages issue
+
+11/26
+635-923
+Continued working on final report
+Updated agenda items
+Learned how to put sparklines in a datatable
+1154-1224, 100-339
+generated fake data for demo app
+Reviewed Uganda VL Scorecard - sent brief proposal to Ruth
+
+11/29
+1205-1235
+Finished making fake data
+
+10.5
+
+12/1
+555-8
+1150-700
+Reviewing Nigeria data
+issues with accdb compatability
+Sucessfully accessed - will examine and evaluate
+Big problem with equipment data - for each machine type, one row per lab, allows them to say more than one machine but only one serial # showing
+
+12/2
+1115-1130
+Updated progress report
+Made weekly commits
+
+
+

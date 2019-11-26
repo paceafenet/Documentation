@@ -1,0 +1,793 @@
+2019-10-15 15:30:58,440 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start pulling form and submissions
+2019-10-15 15:30:58,446 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading form
+2019-10-15 15:30:58,699 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Form downloaded
+2019-10-15 15:30:58,706 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start getting submission IDs
+2019-10-15 15:30:59,795 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Got all the submission IDs
+2019-10-15 15:30:59,808 [ForkJoinPool-4-worker-1] INFO  o.o.briefcase.util.FileSystemUtils - Creating database directory C:\Users\Travis Sondgerath\OneDrive - Atiba LLC\Personal Projects\AFNET Project\ODK Storage\ODK Briefcase Storage\forms\Collect v1_23 Beta_ Background Geopoint Test\info.hsqldb
+2019-10-15 15:31:01,295 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 1 of 390
+2019-10-15 15:31:01,295 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 3 of 390
+2019-10-15 15:31:01,295 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 2 of 390
+2019-10-15 15:31:01,762 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 3 of 390 downloaded
+2019-10-15 15:31:01,768 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 4 of 390
+2019-10-15 15:31:01,779 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 1 of 390 downloaded
+2019-10-15 15:31:01,780 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 5 of 390
+2019-10-15 15:31:01,789 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 2 of 390 downloaded
+2019-10-15 15:31:01,790 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 6 of 390
+2019-10-15 15:31:02,028 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 4 of 390 downloaded
+2019-10-15 15:31:02,030 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 7 of 390
+2019-10-15 15:31:02,043 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 6 of 390 downloaded
+2019-10-15 15:31:02,044 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 8 of 390
+2019-10-15 15:31:02,053 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 5 of 390 downloaded
+2019-10-15 15:31:02,054 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 9 of 390
+2019-10-15 15:31:02,168 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 8 of 390 downloaded
+2019-10-15 15:31:02,169 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 10 of 390
+2019-10-15 15:31:02,173 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 7 of 390 downloaded
+2019-10-15 15:31:02,174 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 11 of 390
+2019-10-15 15:31:02,196 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 9 of 390 downloaded
+2019-10-15 15:31:02,196 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 12 of 390
+2019-10-15 15:31:02,311 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 10 of 390 downloaded
+2019-10-15 15:31:02,314 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 13 of 390
+2019-10-15 15:31:02,393 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 12 of 390 downloaded
+2019-10-15 15:31:02,394 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 14 of 390
+2019-10-15 15:31:02,556 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 11 of 390 downloaded
+2019-10-15 15:31:02,558 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 15 of 390
+2019-10-15 15:31:02,583 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 13 of 390 downloaded
+2019-10-15 15:31:02,584 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 16 of 390
+2019-10-15 15:31:02,590 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 14 of 390 downloaded
+2019-10-15 15:31:02,591 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 17 of 390
+2019-10-15 15:31:02,717 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 16 of 390 downloaded
+2019-10-15 15:31:02,719 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 18 of 390
+2019-10-15 15:31:02,754 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 15 of 390 downloaded
+2019-10-15 15:31:02,755 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 19 of 390
+2019-10-15 15:31:02,755 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 17 of 390 downloaded
+2019-10-15 15:31:02,756 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 20 of 390
+2019-10-15 15:31:02,861 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 18 of 390 downloaded
+2019-10-15 15:31:02,862 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 21 of 390
+2019-10-15 15:31:02,899 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 20 of 390 downloaded
+2019-10-15 15:31:02,900 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 22 of 390
+2019-10-15 15:31:02,948 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 19 of 390 downloaded
+2019-10-15 15:31:02,949 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 23 of 390
+2019-10-15 15:31:02,987 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 21 of 390 downloaded
+2019-10-15 15:31:02,988 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 24 of 390
+2019-10-15 15:31:03,054 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 22 of 390 downloaded
+2019-10-15 15:31:03,055 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 25 of 390
+2019-10-15 15:31:03,148 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 24 of 390 downloaded
+2019-10-15 15:31:03,151 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 26 of 390
+2019-10-15 15:31:03,185 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 23 of 390 downloaded
+2019-10-15 15:31:03,186 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 27 of 390
+2019-10-15 15:31:03,208 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 25 of 390 downloaded
+2019-10-15 15:31:03,208 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 28 of 390
+2019-10-15 15:31:03,268 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 26 of 390 downloaded
+2019-10-15 15:31:03,269 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 29 of 390
+2019-10-15 15:31:03,310 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 27 of 390 downloaded
+2019-10-15 15:31:03,311 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 30 of 390
+2019-10-15 15:31:03,482 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 30 of 390 downloaded
+2019-10-15 15:31:03,483 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 31 of 390
+2019-10-15 15:31:03,488 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 28 of 390 downloaded
+2019-10-15 15:31:03,489 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 29 of 390 downloaded
+2019-10-15 15:31:03,490 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 32 of 390
+2019-10-15 15:31:03,490 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 33 of 390
+2019-10-15 15:31:03,667 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 33 of 390 downloaded
+2019-10-15 15:31:03,668 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 34 of 390
+2019-10-15 15:31:03,670 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 31 of 390 downloaded
+2019-10-15 15:31:03,671 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 35 of 390
+2019-10-15 15:31:03,710 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 32 of 390 downloaded
+2019-10-15 15:31:03,711 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 36 of 390
+2019-10-15 15:31:03,872 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 35 of 390 downloaded
+2019-10-15 15:31:03,873 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 37 of 390
+2019-10-15 15:31:03,920 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 34 of 390 downloaded
+2019-10-15 15:31:03,921 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 38 of 390
+2019-10-15 15:31:03,971 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 36 of 390 downloaded
+2019-10-15 15:31:03,971 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 39 of 390
+2019-10-15 15:31:04,168 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 38 of 390 downloaded
+2019-10-15 15:31:04,170 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 40 of 390
+2019-10-15 15:31:04,201 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 39 of 390 downloaded
+2019-10-15 15:31:04,202 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 41 of 390
+2019-10-15 15:31:04,221 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 37 of 390 downloaded
+2019-10-15 15:31:04,223 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 42 of 390
+2019-10-15 15:31:04,362 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 40 of 390 downloaded
+2019-10-15 15:31:04,363 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 43 of 390
+2019-10-15 15:31:04,374 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 41 of 390 downloaded
+2019-10-15 15:31:04,375 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 44 of 390
+2019-10-15 15:31:04,442 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 42 of 390 downloaded
+2019-10-15 15:31:04,442 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 45 of 390
+2019-10-15 15:31:04,497 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 43 of 390 downloaded
+2019-10-15 15:31:04,498 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 46 of 390
+2019-10-15 15:31:04,591 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 45 of 390 downloaded
+2019-10-15 15:31:04,591 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 47 of 390
+2019-10-15 15:31:04,629 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 46 of 390 downloaded
+2019-10-15 15:31:04,630 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 48 of 390
+2019-10-15 15:31:04,633 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 44 of 390 downloaded
+2019-10-15 15:31:04,634 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 49 of 390
+2019-10-15 15:31:04,729 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 47 of 390 downloaded
+2019-10-15 15:31:04,729 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 50 of 390
+2019-10-15 15:31:04,753 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 48 of 390 downloaded
+2019-10-15 15:31:04,754 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 51 of 390
+2019-10-15 15:31:04,766 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 49 of 390 downloaded
+2019-10-15 15:31:04,767 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 52 of 390
+2019-10-15 15:31:04,894 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 51 of 390 downloaded
+2019-10-15 15:31:04,895 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 53 of 390
+2019-10-15 15:31:04,940 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 52 of 390 downloaded
+2019-10-15 15:31:04,941 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 54 of 390
+2019-10-15 15:31:04,999 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 50 of 390 downloaded
+2019-10-15 15:31:05,000 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 55 of 390
+2019-10-15 15:31:05,132 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 53 of 390 downloaded
+2019-10-15 15:31:05,133 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 56 of 390
+2019-10-15 15:31:05,143 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 54 of 390 downloaded
+2019-10-15 15:31:05,144 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 57 of 390
+2019-10-15 15:31:05,163 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 55 of 390 downloaded
+2019-10-15 15:31:05,164 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 58 of 390
+2019-10-15 15:31:05,261 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 56 of 390 downloaded
+2019-10-15 15:31:05,261 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 59 of 390
+2019-10-15 15:31:05,295 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 57 of 390 downloaded
+2019-10-15 15:31:05,296 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 60 of 390
+2019-10-15 15:31:05,488 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 59 of 390 downloaded
+2019-10-15 15:31:05,489 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 61 of 390
+2019-10-15 15:31:05,550 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 60 of 390 downloaded
+2019-10-15 15:31:05,551 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 62 of 390
+2019-10-15 15:31:05,654 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 58 of 390 downloaded
+2019-10-15 15:31:05,655 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 63 of 390
+2019-10-15 15:31:05,764 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 61 of 390 downloaded
+2019-10-15 15:31:05,765 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 64 of 390
+2019-10-15 15:31:05,845 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 62 of 390 downloaded
+2019-10-15 15:31:05,845 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 65 of 390
+2019-10-15 15:31:06,051 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 64 of 390 downloaded
+2019-10-15 15:31:06,053 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 66 of 390
+2019-10-15 15:31:06,098 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 63 of 390 downloaded
+2019-10-15 15:31:06,099 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 67 of 390
+2019-10-15 15:31:06,149 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 65 of 390 downloaded
+2019-10-15 15:31:06,150 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 68 of 390
+2019-10-15 15:31:06,253 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 67 of 390 downloaded
+2019-10-15 15:31:06,254 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 69 of 390
+2019-10-15 15:31:06,295 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 68 of 390 downloaded
+2019-10-15 15:31:06,296 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 70 of 390
+2019-10-15 15:31:06,339 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 66 of 390 downloaded
+2019-10-15 15:31:06,340 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 71 of 390
+2019-10-15 15:31:06,386 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 69 of 390 downloaded
+2019-10-15 15:31:06,387 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 72 of 390
+2019-10-15 15:31:06,462 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 71 of 390 downloaded
+2019-10-15 15:31:06,463 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 73 of 390
+2019-10-15 15:31:06,486 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 70 of 390 downloaded
+2019-10-15 15:31:06,487 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 74 of 390
+2019-10-15 15:31:06,520 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 72 of 390 downloaded
+2019-10-15 15:31:06,520 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 75 of 390
+2019-10-15 15:31:06,593 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 73 of 390 downloaded
+2019-10-15 15:31:06,594 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 76 of 390
+2019-10-15 15:31:06,645 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 74 of 390 downloaded
+2019-10-15 15:31:06,645 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 77 of 390
+2019-10-15 15:31:06,668 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 75 of 390 downloaded
+2019-10-15 15:31:06,669 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 78 of 390
+2019-10-15 15:31:06,743 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 76 of 390 downloaded
+2019-10-15 15:31:06,744 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 79 of 390
+2019-10-15 15:31:06,792 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 77 of 390 downloaded
+2019-10-15 15:31:06,792 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 80 of 390
+2019-10-15 15:31:06,849 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 78 of 390 downloaded
+2019-10-15 15:31:06,850 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 81 of 390
+2019-10-15 15:31:06,947 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 79 of 390 downloaded
+2019-10-15 15:31:06,949 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 82 of 390
+2019-10-15 15:31:06,973 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 80 of 390 downloaded
+2019-10-15 15:31:06,979 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 83 of 390
+2019-10-15 15:31:07,043 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 81 of 390 downloaded
+2019-10-15 15:31:07,044 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 84 of 390
+2019-10-15 15:31:07,100 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 82 of 390 downloaded
+2019-10-15 15:31:07,100 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 85 of 390
+2019-10-15 15:31:07,147 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 83 of 390 downloaded
+2019-10-15 15:31:07,147 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 86 of 390
+2019-10-15 15:31:07,245 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 84 of 390 downloaded
+2019-10-15 15:31:07,246 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 87 of 390
+2019-10-15 15:31:07,341 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 86 of 390 downloaded
+2019-10-15 15:31:07,342 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 88 of 390
+2019-10-15 15:31:07,391 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 87 of 390 downloaded
+2019-10-15 15:31:07,392 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 89 of 390
+2019-10-15 15:31:07,400 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 85 of 390 downloaded
+2019-10-15 15:31:07,401 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 90 of 390
+2019-10-15 15:31:07,542 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 88 of 390 downloaded
+2019-10-15 15:31:07,543 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 91 of 390
+2019-10-15 15:31:07,569 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 89 of 390 downloaded
+2019-10-15 15:31:07,569 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 92 of 390
+2019-10-15 15:31:07,854 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 91 of 390 downloaded
+2019-10-15 15:31:07,854 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 92 of 390 downloaded
+2019-10-15 15:31:07,856 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 93 of 390
+2019-10-15 15:31:07,856 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 94 of 390
+2019-10-15 15:31:07,951 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 90 of 390 downloaded
+2019-10-15 15:31:07,952 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 95 of 390
+2019-10-15 15:31:08,144 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 94 of 390 downloaded
+2019-10-15 15:31:08,145 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 96 of 390
+2019-10-15 15:31:08,149 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 93 of 390 downloaded
+2019-10-15 15:31:08,150 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 97 of 390
+2019-10-15 15:31:08,271 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 95 of 390 downloaded
+2019-10-15 15:31:08,276 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 98 of 390
+2019-10-15 15:31:08,356 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 97 of 390 downloaded
+2019-10-15 15:31:08,358 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 99 of 390
+2019-10-15 15:31:08,366 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 96 of 390 downloaded
+2019-10-15 15:31:08,367 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 100 of 390
+2019-10-15 15:31:08,453 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 98 of 390 downloaded
+2019-10-15 15:31:08,453 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 101 of 390
+2019-10-15 15:31:08,484 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 99 of 390 downloaded
+2019-10-15 15:31:08,485 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 102 of 390
+2019-10-15 15:31:08,493 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 100 of 390 downloaded
+2019-10-15 15:31:08,494 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 103 of 390
+2019-10-15 15:31:08,665 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 101 of 390 downloaded
+2019-10-15 15:31:08,667 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 104 of 390
+2019-10-15 15:31:08,667 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 103 of 390 downloaded
+2019-10-15 15:31:08,668 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 105 of 390
+2019-10-15 15:31:08,672 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 102 of 390 downloaded
+2019-10-15 15:31:08,673 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 106 of 390
+2019-10-15 15:31:08,807 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 104 of 390 downloaded
+2019-10-15 15:31:08,809 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 107 of 390
+2019-10-15 15:31:08,846 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 106 of 390 downloaded
+2019-10-15 15:31:08,847 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 108 of 390
+2019-10-15 15:31:08,876 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 105 of 390 downloaded
+2019-10-15 15:31:08,877 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 109 of 390
+2019-10-15 15:31:08,943 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 107 of 390 downloaded
+2019-10-15 15:31:08,944 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 110 of 390
+2019-10-15 15:31:08,968 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 108 of 390 downloaded
+2019-10-15 15:31:08,969 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 111 of 390
+2019-10-15 15:31:09,041 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 109 of 390 downloaded
+2019-10-15 15:31:09,042 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 112 of 390
+2019-10-15 15:31:09,101 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 110 of 390 downloaded
+2019-10-15 15:31:09,101 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 113 of 390
+2019-10-15 15:31:09,170 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 111 of 390 downloaded
+2019-10-15 15:31:09,171 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 114 of 390
+2019-10-15 15:31:09,189 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 112 of 390 downloaded
+2019-10-15 15:31:09,189 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 115 of 390
+2019-10-15 15:31:09,265 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 113 of 390 downloaded
+2019-10-15 15:31:09,266 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 116 of 390
+2019-10-15 15:31:09,347 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 115 of 390 downloaded
+2019-10-15 15:31:09,348 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 117 of 390
+2019-10-15 15:31:09,397 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 114 of 390 downloaded
+2019-10-15 15:31:09,398 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 118 of 390
+2019-10-15 15:31:09,409 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 116 of 390 downloaded
+2019-10-15 15:31:09,411 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 119 of 390
+2019-10-15 15:31:09,515 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 117 of 390 downloaded
+2019-10-15 15:31:09,516 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 120 of 390
+2019-10-15 15:31:09,549 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 118 of 390 downloaded
+2019-10-15 15:31:09,549 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 119 of 390 downloaded
+2019-10-15 15:31:09,550 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 122 of 390
+2019-10-15 15:31:09,550 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 121 of 390
+2019-10-15 15:31:09,640 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 120 of 390 downloaded
+2019-10-15 15:31:09,641 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 123 of 390
+2019-10-15 15:31:09,712 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 122 of 390 downloaded
+2019-10-15 15:31:09,713 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 124 of 390
+2019-10-15 15:31:09,757 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 123 of 390 downloaded
+2019-10-15 15:31:09,757 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 125 of 390
+2019-10-15 15:31:09,791 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 121 of 390 downloaded
+2019-10-15 15:31:09,792 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 126 of 390
+2019-10-15 15:31:09,846 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 124 of 390 downloaded
+2019-10-15 15:31:09,846 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 127 of 390
+2019-10-15 15:31:09,904 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 125 of 390 downloaded
+2019-10-15 15:31:09,905 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 128 of 390
+2019-10-15 15:31:09,956 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 126 of 390 downloaded
+2019-10-15 15:31:09,956 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 129 of 390
+2019-10-15 15:31:09,995 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 127 of 390 downloaded
+2019-10-15 15:31:09,996 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 130 of 390
+2019-10-15 15:31:10,041 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 128 of 390 downloaded
+2019-10-15 15:31:10,042 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 131 of 390
+2019-10-15 15:31:10,106 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 129 of 390 downloaded
+2019-10-15 15:31:10,106 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 132 of 390
+2019-10-15 15:31:10,183 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 130 of 390 downloaded
+2019-10-15 15:31:10,183 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 133 of 390
+2019-10-15 15:31:10,263 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 131 of 390 downloaded
+2019-10-15 15:31:10,263 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 134 of 390
+2019-10-15 15:31:10,323 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 133 of 390 downloaded
+2019-10-15 15:31:10,323 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 135 of 390
+2019-10-15 15:31:10,385 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 132 of 390 downloaded
+2019-10-15 15:31:10,386 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 136 of 390
+2019-10-15 15:31:10,446 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 134 of 390 downloaded
+2019-10-15 15:31:10,446 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 137 of 390
+2019-10-15 15:31:10,472 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 135 of 390 downloaded
+2019-10-15 15:31:10,473 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 138 of 390
+2019-10-15 15:31:10,591 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 138 of 390 downloaded
+2019-10-15 15:31:10,592 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 139 of 390
+2019-10-15 15:31:10,601 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 137 of 390 downloaded
+2019-10-15 15:31:10,601 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 140 of 390
+2019-10-15 15:31:10,662 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 136 of 390 downloaded
+2019-10-15 15:31:10,663 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 141 of 390
+2019-10-15 15:31:10,802 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 139 of 390 downloaded
+2019-10-15 15:31:10,802 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 142 of 390
+2019-10-15 15:31:10,843 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 140 of 390 downloaded
+2019-10-15 15:31:10,843 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 143 of 390
+2019-10-15 15:31:10,854 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 141 of 390 downloaded
+2019-10-15 15:31:10,854 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 144 of 390
+2019-10-15 15:31:10,953 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 142 of 390 downloaded
+2019-10-15 15:31:10,953 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 145 of 390
+2019-10-15 15:31:11,035 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 143 of 390 downloaded
+2019-10-15 15:31:11,035 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 146 of 390
+2019-10-15 15:31:11,053 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 144 of 390 downloaded
+2019-10-15 15:31:11,054 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 147 of 390
+2019-10-15 15:31:11,094 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 145 of 390 downloaded
+2019-10-15 15:31:11,095 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 148 of 390
+2019-10-15 15:31:11,188 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 147 of 390 downloaded
+2019-10-15 15:31:11,188 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 149 of 390
+2019-10-15 15:31:11,319 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 148 of 390 downloaded
+2019-10-15 15:31:11,320 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 150 of 390
+2019-10-15 15:31:11,332 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 149 of 390 downloaded
+2019-10-15 15:31:11,332 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 151 of 390
+2019-10-15 15:31:11,354 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 146 of 390 downloaded
+2019-10-15 15:31:11,355 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 152 of 390
+2019-10-15 15:31:11,464 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 150 of 390 downloaded
+2019-10-15 15:31:11,465 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 153 of 390
+2019-10-15 15:31:11,474 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 151 of 390 downloaded
+2019-10-15 15:31:11,474 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 154 of 390
+2019-10-15 15:31:11,503 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 152 of 390 downloaded
+2019-10-15 15:31:11,503 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 155 of 390
+2019-10-15 15:31:11,770 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 154 of 390 downloaded
+2019-10-15 15:31:11,771 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 156 of 390
+2019-10-15 15:31:11,795 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 153 of 390 downloaded
+2019-10-15 15:31:11,796 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 157 of 390
+2019-10-15 15:31:11,825 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 155 of 390 downloaded
+2019-10-15 15:31:11,826 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 158 of 390
+2019-10-15 15:31:11,901 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 156 of 390 downloaded
+2019-10-15 15:31:11,901 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 159 of 390
+2019-10-15 15:31:11,990 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 158 of 390 downloaded
+2019-10-15 15:31:11,990 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 157 of 390 downloaded
+2019-10-15 15:31:11,990 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 160 of 390
+2019-10-15 15:31:11,991 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 161 of 390
+2019-10-15 15:31:12,105 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 159 of 390 downloaded
+2019-10-15 15:31:12,105 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 162 of 390
+2019-10-15 15:31:12,133 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 161 of 390 downloaded
+2019-10-15 15:31:12,134 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 163 of 390
+2019-10-15 15:31:12,224 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 160 of 390 downloaded
+2019-10-15 15:31:12,225 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 164 of 390
+2019-10-15 15:31:12,243 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 162 of 390 downloaded
+2019-10-15 15:31:12,244 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 165 of 390
+2019-10-15 15:31:12,292 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 163 of 390 downloaded
+2019-10-15 15:31:12,292 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 166 of 390
+2019-10-15 15:31:12,359 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 164 of 390 downloaded
+2019-10-15 15:31:12,360 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 167 of 390
+2019-10-15 15:31:12,443 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 165 of 390 downloaded
+2019-10-15 15:31:12,444 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 168 of 390
+2019-10-15 15:31:12,475 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 166 of 390 downloaded
+2019-10-15 15:31:12,476 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 169 of 390
+2019-10-15 15:31:12,559 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 168 of 390 downloaded
+2019-10-15 15:31:12,560 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 170 of 390
+2019-10-15 15:31:12,597 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 167 of 390 downloaded
+2019-10-15 15:31:12,600 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 171 of 390
+2019-10-15 15:31:12,611 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 169 of 390 downloaded
+2019-10-15 15:31:12,611 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 172 of 390
+2019-10-15 15:31:12,770 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 172 of 390 downloaded
+2019-10-15 15:31:12,771 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 173 of 390
+2019-10-15 15:31:12,832 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 171 of 390 downloaded
+2019-10-15 15:31:12,832 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 174 of 390
+2019-10-15 15:31:12,853 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 170 of 390 downloaded
+2019-10-15 15:31:12,854 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 175 of 390
+2019-10-15 15:31:12,935 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 173 of 390 downloaded
+2019-10-15 15:31:12,936 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 176 of 390
+2019-10-15 15:31:12,994 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 174 of 390 downloaded
+2019-10-15 15:31:12,995 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 177 of 390
+2019-10-15 15:31:13,040 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 175 of 390 downloaded
+2019-10-15 15:31:13,041 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 178 of 390
+2019-10-15 15:31:13,151 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 177 of 390 downloaded
+2019-10-15 15:31:13,151 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 179 of 390
+2019-10-15 15:31:13,178 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 178 of 390 downloaded
+2019-10-15 15:31:13,181 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 180 of 390
+2019-10-15 15:31:13,270 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 179 of 390 downloaded
+2019-10-15 15:31:13,271 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 181 of 390
+2019-10-15 15:31:13,278 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 176 of 390 downloaded
+2019-10-15 15:31:13,279 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 182 of 390
+2019-10-15 15:31:13,360 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 180 of 390 downloaded
+2019-10-15 15:31:13,361 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 183 of 390
+2019-10-15 15:31:13,417 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 181 of 390 downloaded
+2019-10-15 15:31:13,417 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 184 of 390
+2019-10-15 15:31:13,548 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 182 of 390 downloaded
+2019-10-15 15:31:13,549 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 185 of 390
+2019-10-15 15:31:13,556 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 183 of 390 downloaded
+2019-10-15 15:31:13,556 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 186 of 390
+2019-10-15 15:31:13,564 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 184 of 390 downloaded
+2019-10-15 15:31:13,566 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 187 of 390
+2019-10-15 15:31:13,764 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 187 of 390 downloaded
+2019-10-15 15:31:13,767 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 188 of 390
+2019-10-15 15:31:13,842 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 185 of 390 downloaded
+2019-10-15 15:31:13,843 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 189 of 390
+2019-10-15 15:31:13,939 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 188 of 390 downloaded
+2019-10-15 15:31:13,939 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 190 of 390
+2019-10-15 15:31:13,952 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 186 of 390 downloaded
+2019-10-15 15:31:13,953 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 191 of 390
+2019-10-15 15:31:14,023 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 189 of 390 downloaded
+2019-10-15 15:31:14,024 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 192 of 390
+2019-10-15 15:31:14,087 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 191 of 390 downloaded
+2019-10-15 15:31:14,087 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 190 of 390 downloaded
+2019-10-15 15:31:14,087 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 193 of 390
+2019-10-15 15:31:14,088 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 194 of 390
+2019-10-15 15:31:14,213 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 194 of 390 downloaded
+2019-10-15 15:31:14,213 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 195 of 390
+2019-10-15 15:31:14,233 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 193 of 390 downloaded
+2019-10-15 15:31:14,233 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 196 of 390
+2019-10-15 15:31:14,263 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 192 of 390 downloaded
+2019-10-15 15:31:14,263 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 197 of 390
+2019-10-15 15:31:14,450 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 196 of 390 downloaded
+2019-10-15 15:31:14,451 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 198 of 390
+2019-10-15 15:31:14,461 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 195 of 390 downloaded
+2019-10-15 15:31:14,462 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 197 of 390 downloaded
+2019-10-15 15:31:14,462 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 199 of 390
+2019-10-15 15:31:14,463 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 200 of 390
+2019-10-15 15:31:14,589 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 200 of 390 downloaded
+2019-10-15 15:31:14,591 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 201 of 390
+2019-10-15 15:31:14,595 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 198 of 390 downloaded
+2019-10-15 15:31:14,597 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 202 of 390
+2019-10-15 15:31:14,608 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 199 of 390 downloaded
+2019-10-15 15:31:14,609 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 203 of 390
+2019-10-15 15:31:14,755 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 201 of 390 downloaded
+2019-10-15 15:31:14,757 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 204 of 390
+2019-10-15 15:31:14,764 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 202 of 390 downloaded
+2019-10-15 15:31:14,764 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 205 of 390
+2019-10-15 15:31:14,788 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 203 of 390 downloaded
+2019-10-15 15:31:14,788 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 206 of 390
+2019-10-15 15:31:14,921 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 206 of 390 downloaded
+2019-10-15 15:31:14,921 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 207 of 390
+2019-10-15 15:31:14,942 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 205 of 390 downloaded
+2019-10-15 15:31:14,943 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 204 of 390 downloaded
+2019-10-15 15:31:14,944 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 209 of 390
+2019-10-15 15:31:14,944 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 208 of 390
+2019-10-15 15:31:15,106 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 207 of 390 downloaded
+2019-10-15 15:31:15,106 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 210 of 390
+2019-10-15 15:31:15,149 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 208 of 390 downloaded
+2019-10-15 15:31:15,149 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 211 of 390
+2019-10-15 15:31:15,217 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 209 of 390 downloaded
+2019-10-15 15:31:15,218 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 212 of 390
+2019-10-15 15:31:15,239 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 210 of 390 downloaded
+2019-10-15 15:31:15,240 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 213 of 390
+2019-10-15 15:31:15,424 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 212 of 390 downloaded
+2019-10-15 15:31:15,425 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 214 of 390
+2019-10-15 15:31:15,470 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 213 of 390 downloaded
+2019-10-15 15:31:15,470 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 215 of 390
+2019-10-15 15:31:15,530 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 211 of 390 downloaded
+2019-10-15 15:31:15,531 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 216 of 390
+2019-10-15 15:31:15,535 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 214 of 390 downloaded
+2019-10-15 15:31:15,536 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 217 of 390
+2019-10-15 15:31:15,593 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 215 of 390 downloaded
+2019-10-15 15:31:15,594 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 218 of 390
+2019-10-15 15:31:15,671 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 216 of 390 downloaded
+2019-10-15 15:31:15,672 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 219 of 390
+2019-10-15 15:31:15,681 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 217 of 390 downloaded
+2019-10-15 15:31:15,689 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 220 of 390
+2019-10-15 15:31:15,713 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 218 of 390 downloaded
+2019-10-15 15:31:15,713 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 221 of 390
+2019-10-15 15:31:15,807 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 219 of 390 downloaded
+2019-10-15 15:31:15,807 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 222 of 390
+2019-10-15 15:31:15,818 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 220 of 390 downloaded
+2019-10-15 15:31:15,819 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 223 of 390
+2019-10-15 15:31:15,844 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 221 of 390 downloaded
+2019-10-15 15:31:15,845 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 224 of 390
+2019-10-15 15:31:16,014 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 222 of 390 downloaded
+2019-10-15 15:31:16,014 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 225 of 390
+2019-10-15 15:31:16,143 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 225 of 390 downloaded
+2019-10-15 15:31:16,144 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 226 of 390
+2019-10-15 15:31:16,257 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 223 of 390 downloaded
+2019-10-15 15:31:16,257 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 227 of 390
+2019-10-15 15:31:16,308 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 226 of 390 downloaded
+2019-10-15 15:31:16,309 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 228 of 390
+2019-10-15 15:31:16,457 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 228 of 390 downloaded
+2019-10-15 15:31:16,458 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 229 of 390
+2019-10-15 15:31:16,479 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 227 of 390 downloaded
+2019-10-15 15:31:16,480 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 230 of 390
+2019-10-15 15:31:16,491 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 224 of 390 downloaded
+2019-10-15 15:31:16,492 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 231 of 390
+2019-10-15 15:31:16,630 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 231 of 390 downloaded
+2019-10-15 15:31:16,630 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 232 of 390
+2019-10-15 15:31:16,749 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 229 of 390 downloaded
+2019-10-15 15:31:16,749 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 230 of 390 downloaded
+2019-10-15 15:31:16,749 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 233 of 390
+2019-10-15 15:31:16,751 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 234 of 390
+2019-10-15 15:31:16,837 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 232 of 390 downloaded
+2019-10-15 15:31:16,837 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 235 of 390
+2019-10-15 15:31:16,906 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 233 of 390 downloaded
+2019-10-15 15:31:16,906 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 236 of 390
+2019-10-15 15:31:16,922 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 234 of 390 downloaded
+2019-10-15 15:31:16,923 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 237 of 390
+2019-10-15 15:31:16,962 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 235 of 390 downloaded
+2019-10-15 15:31:16,963 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 238 of 390
+2019-10-15 15:31:17,074 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 236 of 390 downloaded
+2019-10-15 15:31:17,075 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 239 of 390
+2019-10-15 15:31:17,105 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 237 of 390 downloaded
+2019-10-15 15:31:17,106 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 240 of 390
+2019-10-15 15:31:17,112 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 238 of 390 downloaded
+2019-10-15 15:31:17,113 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 241 of 390
+2019-10-15 15:31:17,229 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 239 of 390 downloaded
+2019-10-15 15:31:17,230 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 242 of 390
+2019-10-15 15:31:17,271 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 240 of 390 downloaded
+2019-10-15 15:31:17,272 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 243 of 390
+2019-10-15 15:31:17,288 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 241 of 390 downloaded
+2019-10-15 15:31:17,289 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 244 of 390
+2019-10-15 15:31:17,382 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 242 of 390 downloaded
+2019-10-15 15:31:17,383 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 245 of 390
+2019-10-15 15:31:17,390 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 243 of 390 downloaded
+2019-10-15 15:31:17,391 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 246 of 390
+2019-10-15 15:31:17,462 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 244 of 390 downloaded
+2019-10-15 15:31:17,463 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 247 of 390
+2019-10-15 15:31:17,574 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 246 of 390 downloaded
+2019-10-15 15:31:17,575 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 248 of 390
+2019-10-15 15:31:17,605 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 247 of 390 downloaded
+2019-10-15 15:31:17,605 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 245 of 390 downloaded
+2019-10-15 15:31:17,606 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 249 of 390
+2019-10-15 15:31:17,607 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 250 of 390
+2019-10-15 15:31:17,699 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 248 of 390 downloaded
+2019-10-15 15:31:17,700 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 251 of 390
+2019-10-15 15:31:17,750 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 250 of 390 downloaded
+2019-10-15 15:31:17,751 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 252 of 390
+2019-10-15 15:31:17,754 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 249 of 390 downloaded
+2019-10-15 15:31:17,754 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 253 of 390
+2019-10-15 15:31:17,837 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 251 of 390 downloaded
+2019-10-15 15:31:17,837 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 254 of 390
+2019-10-15 15:31:17,870 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 252 of 390 downloaded
+2019-10-15 15:31:17,871 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 255 of 390
+2019-10-15 15:31:17,883 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 253 of 390 downloaded
+2019-10-15 15:31:17,884 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 256 of 390
+2019-10-15 15:31:17,959 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 254 of 390 downloaded
+2019-10-15 15:31:17,961 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 257 of 390
+2019-10-15 15:31:18,026 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 255 of 390 downloaded
+2019-10-15 15:31:18,028 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 258 of 390
+2019-10-15 15:31:18,030 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 256 of 390 downloaded
+2019-10-15 15:31:18,031 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 259 of 390
+2019-10-15 15:31:18,097 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 257 of 390 downloaded
+2019-10-15 15:31:18,098 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 260 of 390
+2019-10-15 15:31:18,173 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 258 of 390 downloaded
+2019-10-15 15:31:18,174 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 261 of 390
+2019-10-15 15:31:18,192 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 259 of 390 downloaded
+2019-10-15 15:31:18,193 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 262 of 390
+2019-10-15 15:31:18,237 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 260 of 390 downloaded
+2019-10-15 15:31:18,237 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 263 of 390
+2019-10-15 15:31:18,304 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 261 of 390 downloaded
+2019-10-15 15:31:18,304 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 264 of 390
+2019-10-15 15:31:18,305 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 262 of 390 downloaded
+2019-10-15 15:31:18,306 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 265 of 390
+2019-10-15 15:31:18,365 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 263 of 390 downloaded
+2019-10-15 15:31:18,365 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 266 of 390
+2019-10-15 15:31:18,539 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 264 of 390 downloaded
+2019-10-15 15:31:18,539 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 265 of 390 downloaded
+2019-10-15 15:31:18,539 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 266 of 390 downloaded
+2019-10-15 15:31:18,540 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 268 of 390
+2019-10-15 15:31:18,540 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 269 of 390
+2019-10-15 15:31:18,542 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 267 of 390
+2019-10-15 15:31:18,694 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 268 of 390 downloaded
+2019-10-15 15:31:18,694 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 269 of 390 downloaded
+2019-10-15 15:31:18,695 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 270 of 390
+2019-10-15 15:31:18,695 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 271 of 390
+2019-10-15 15:31:18,696 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 267 of 390 downloaded
+2019-10-15 15:31:18,696 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 272 of 390
+2019-10-15 15:31:18,823 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 271 of 390 downloaded
+2019-10-15 15:31:18,823 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 273 of 390
+2019-10-15 15:31:18,831 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 272 of 390 downloaded
+2019-10-15 15:31:18,832 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 274 of 390
+2019-10-15 15:31:18,841 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 270 of 390 downloaded
+2019-10-15 15:31:18,841 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 275 of 390
+2019-10-15 15:31:18,944 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 273 of 390 downloaded
+2019-10-15 15:31:18,945 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 276 of 390
+2019-10-15 15:31:18,979 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 274 of 390 downloaded
+2019-10-15 15:31:18,979 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 277 of 390
+2019-10-15 15:31:19,009 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 275 of 390 downloaded
+2019-10-15 15:31:19,010 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 278 of 390
+2019-10-15 15:31:19,091 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 276 of 390 downloaded
+2019-10-15 15:31:19,092 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 279 of 390
+2019-10-15 15:31:19,150 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 278 of 390 downloaded
+2019-10-15 15:31:19,150 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 280 of 390
+2019-10-15 15:31:19,168 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 277 of 390 downloaded
+2019-10-15 15:31:19,169 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 281 of 390
+2019-10-15 15:31:19,211 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 279 of 390 downloaded
+2019-10-15 15:31:19,212 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 282 of 390
+2019-10-15 15:31:19,368 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 280 of 390 downloaded
+2019-10-15 15:31:19,368 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 283 of 390
+2019-10-15 15:31:19,418 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 282 of 390 downloaded
+2019-10-15 15:31:19,418 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 284 of 390
+2019-10-15 15:31:19,448 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 281 of 390 downloaded
+2019-10-15 15:31:19,449 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 285 of 390
+2019-10-15 15:31:19,574 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 285 of 390 downloaded
+2019-10-15 15:31:19,575 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 286 of 390
+2019-10-15 15:31:19,660 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 283 of 390 downloaded
+2019-10-15 15:31:19,660 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 287 of 390
+2019-10-15 15:31:19,724 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 286 of 390 downloaded
+2019-10-15 15:31:19,725 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 288 of 390
+2019-10-15 15:31:19,742 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 284 of 390 downloaded
+2019-10-15 15:31:19,743 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 289 of 390
+2019-10-15 15:31:19,774 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 287 of 390 downloaded
+2019-10-15 15:31:19,775 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 290 of 390
+2019-10-15 15:31:19,886 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 289 of 390 downloaded
+2019-10-15 15:31:19,887 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 291 of 390
+2019-10-15 15:31:19,940 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 290 of 390 downloaded
+2019-10-15 15:31:19,941 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 292 of 390
+2019-10-15 15:31:19,976 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 288 of 390 downloaded
+2019-10-15 15:31:19,977 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 293 of 390
+2019-10-15 15:31:20,023 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 291 of 390 downloaded
+2019-10-15 15:31:20,024 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 294 of 390
+2019-10-15 15:31:20,160 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 292 of 390 downloaded
+2019-10-15 15:31:20,160 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 295 of 390
+2019-10-15 15:31:20,182 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 293 of 390 downloaded
+2019-10-15 15:31:20,183 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 296 of 390
+2019-10-15 15:31:20,198 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 294 of 390 downloaded
+2019-10-15 15:31:20,199 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 297 of 390
+2019-10-15 15:31:20,311 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 296 of 390 downloaded
+2019-10-15 15:31:20,311 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 298 of 390
+2019-10-15 15:31:20,329 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 297 of 390 downloaded
+2019-10-15 15:31:20,330 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 299 of 390
+2019-10-15 15:31:20,353 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 295 of 390 downloaded
+2019-10-15 15:31:20,354 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 300 of 390
+2019-10-15 15:31:20,446 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 299 of 390 downloaded
+2019-10-15 15:31:20,446 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 301 of 390
+2019-10-15 15:31:20,496 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 300 of 390 downloaded
+2019-10-15 15:31:20,496 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 302 of 390
+2019-10-15 15:31:20,582 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 298 of 390 downloaded
+2019-10-15 15:31:20,583 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 303 of 390
+2019-10-15 15:31:20,658 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 301 of 390 downloaded
+2019-10-15 15:31:20,658 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 304 of 390
+2019-10-15 15:31:20,672 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 302 of 390 downloaded
+2019-10-15 15:31:20,673 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 305 of 390
+2019-10-15 15:31:20,863 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 305 of 390 downloaded
+2019-10-15 15:31:20,864 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 306 of 390
+2019-10-15 15:31:20,884 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 304 of 390 downloaded
+2019-10-15 15:31:20,884 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 307 of 390
+2019-10-15 15:31:21,012 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 307 of 390 downloaded
+2019-10-15 15:31:21,013 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 303 of 390 downloaded
+2019-10-15 15:31:21,013 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 306 of 390 downloaded
+2019-10-15 15:31:21,013 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 310 of 390
+2019-10-15 15:31:21,013 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 309 of 390
+2019-10-15 15:31:21,013 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 308 of 390
+2019-10-15 15:31:21,153 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 309 of 390 downloaded
+2019-10-15 15:31:21,153 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 310 of 390 downloaded
+2019-10-15 15:31:21,154 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 311 of 390
+2019-10-15 15:31:21,154 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 312 of 390
+2019-10-15 15:31:21,167 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 308 of 390 downloaded
+2019-10-15 15:31:21,168 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 313 of 390
+2019-10-15 15:31:21,293 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 311 of 390 downloaded
+2019-10-15 15:31:21,293 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 314 of 390
+2019-10-15 15:31:21,299 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 313 of 390 downloaded
+2019-10-15 15:31:21,300 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 315 of 390
+2019-10-15 15:31:21,370 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 312 of 390 downloaded
+2019-10-15 15:31:21,371 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 316 of 390
+2019-10-15 15:31:21,414 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 314 of 390 downloaded
+2019-10-15 15:31:21,414 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 315 of 390 downloaded
+2019-10-15 15:31:21,415 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 317 of 390
+2019-10-15 15:31:21,415 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 318 of 390
+2019-10-15 15:31:21,511 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 316 of 390 downloaded
+2019-10-15 15:31:21,513 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 319 of 390
+2019-10-15 15:31:21,616 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 318 of 390 downloaded
+2019-10-15 15:31:21,616 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 320 of 390
+2019-10-15 15:31:21,704 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 317 of 390 downloaded
+2019-10-15 15:31:21,706 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 321 of 390
+2019-10-15 15:31:21,733 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 320 of 390 downloaded
+2019-10-15 15:31:21,734 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 322 of 390
+2019-10-15 15:31:21,882 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 321 of 390 downloaded
+2019-10-15 15:31:21,882 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 322 of 390 downloaded
+2019-10-15 15:31:21,883 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 323 of 390
+2019-10-15 15:31:21,883 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 324 of 390
+2019-10-15 15:31:21,961 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 319 of 390 downloaded
+2019-10-15 15:31:21,961 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 325 of 390
+2019-10-15 15:31:22,041 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 324 of 390 downloaded
+2019-10-15 15:31:22,041 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 326 of 390
+2019-10-15 15:31:22,042 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 323 of 390 downloaded
+2019-10-15 15:31:22,043 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 327 of 390
+2019-10-15 15:31:22,102 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 325 of 390 downloaded
+2019-10-15 15:31:22,103 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 328 of 390
+2019-10-15 15:31:22,172 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 326 of 390 downloaded
+2019-10-15 15:31:22,172 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 329 of 390
+2019-10-15 15:31:22,188 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 327 of 390 downloaded
+2019-10-15 15:31:22,189 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 330 of 390
+2019-10-15 15:31:22,228 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 328 of 390 downloaded
+2019-10-15 15:31:22,228 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 331 of 390
+2019-10-15 15:31:22,315 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 330 of 390 downloaded
+2019-10-15 15:31:22,315 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 332 of 390
+2019-10-15 15:31:22,339 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 329 of 390 downloaded
+2019-10-15 15:31:22,341 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 333 of 390
+2019-10-15 15:31:22,363 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 331 of 390 downloaded
+2019-10-15 15:31:22,363 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 334 of 390
+2019-10-15 15:31:22,501 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 332 of 390 downloaded
+2019-10-15 15:31:22,501 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 335 of 390
+2019-10-15 15:31:22,561 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 334 of 390 downloaded
+2019-10-15 15:31:22,561 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 336 of 390
+2019-10-15 15:31:22,614 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 333 of 390 downloaded
+2019-10-15 15:31:22,614 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 337 of 390
+2019-10-15 15:31:22,702 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 336 of 390 downloaded
+2019-10-15 15:31:22,702 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 338 of 390
+2019-10-15 15:31:22,748 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 337 of 390 downloaded
+2019-10-15 15:31:22,748 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 339 of 390
+2019-10-15 15:31:22,845 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 335 of 390 downloaded
+2019-10-15 15:31:22,845 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 338 of 390 downloaded
+2019-10-15 15:31:22,845 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 341 of 390
+2019-10-15 15:31:22,846 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 340 of 390
+2019-10-15 15:31:22,927 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 339 of 390 downloaded
+2019-10-15 15:31:22,928 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 342 of 390
+2019-10-15 15:31:23,000 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 341 of 390 downloaded
+2019-10-15 15:31:23,000 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 343 of 390
+2019-10-15 15:31:23,010 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 340 of 390 downloaded
+2019-10-15 15:31:23,011 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 344 of 390
+2019-10-15 15:31:23,082 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 342 of 390 downloaded
+2019-10-15 15:31:23,083 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 345 of 390
+2019-10-15 15:31:23,143 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 343 of 390 downloaded
+2019-10-15 15:31:23,143 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 346 of 390
+2019-10-15 15:31:23,152 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 344 of 390 downloaded
+2019-10-15 15:31:23,153 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 347 of 390
+2019-10-15 15:31:23,240 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 345 of 390 downloaded
+2019-10-15 15:31:23,241 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 348 of 390
+2019-10-15 15:31:23,295 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 346 of 390 downloaded
+2019-10-15 15:31:23,296 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 349 of 390
+2019-10-15 15:31:23,303 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 347 of 390 downloaded
+2019-10-15 15:31:23,303 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 350 of 390
+2019-10-15 15:31:23,366 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 348 of 390 downloaded
+2019-10-15 15:31:23,366 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 351 of 390
+2019-10-15 15:31:23,449 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 349 of 390 downloaded
+2019-10-15 15:31:23,450 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 352 of 390
+2019-10-15 15:31:23,475 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 351 of 390 downloaded
+2019-10-15 15:31:23,479 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 353 of 390
+2019-10-15 15:31:23,613 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 352 of 390 downloaded
+2019-10-15 15:31:23,614 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 354 of 390
+2019-10-15 15:31:23,649 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 353 of 390 downloaded
+2019-10-15 15:31:23,650 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 355 of 390
+2019-10-15 15:31:23,757 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 350 of 390 downloaded
+2019-10-15 15:31:23,757 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 356 of 390
+2019-10-15 15:31:23,760 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 355 of 390 downloaded
+2019-10-15 15:31:23,760 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 357 of 390
+2019-10-15 15:31:23,783 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 354 of 390 downloaded
+2019-10-15 15:31:23,783 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 358 of 390
+2019-10-15 15:31:23,926 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 358 of 390 downloaded
+2019-10-15 15:31:23,926 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 359 of 390
+2019-10-15 15:31:23,986 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 357 of 390 downloaded
+2019-10-15 15:31:23,987 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 360 of 390
+2019-10-15 15:31:24,062 [ForkJoinPool-4-worker-2] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 359 of 390 downloaded
+2019-10-15 15:31:24,102 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 356 of 390 downloaded
+2019-10-15 15:31:24,102 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 361 of 390
+2019-10-15 15:31:24,114 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 360 of 390 downloaded
+2019-10-15 15:31:24,114 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 362 of 390
+2019-10-15 15:31:24,242 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 362 of 390 downloaded
+2019-10-15 15:31:24,242 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 363 of 390
+2019-10-15 15:31:24,303 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 361 of 390 downloaded
+2019-10-15 15:31:24,303 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 364 of 390
+2019-10-15 15:31:24,372 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 363 of 390 downloaded
+2019-10-15 15:31:24,372 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 365 of 390
+2019-10-15 15:31:24,443 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 364 of 390 downloaded
+2019-10-15 15:31:24,443 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 366 of 390
+2019-10-15 15:31:24,501 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 365 of 390 downloaded
+2019-10-15 15:31:24,502 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 367 of 390
+2019-10-15 15:31:24,576 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 366 of 390 downloaded
+2019-10-15 15:31:24,576 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 368 of 390
+2019-10-15 15:31:24,699 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 368 of 390 downloaded
+2019-10-15 15:31:24,699 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 369 of 390
+2019-10-15 15:31:24,705 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 367 of 390 downloaded
+2019-10-15 15:31:24,706 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 370 of 390
+2019-10-15 15:31:24,815 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 369 of 390 downloaded
+2019-10-15 15:31:24,816 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 371 of 390
+2019-10-15 15:31:24,830 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 370 of 390 downloaded
+2019-10-15 15:31:24,830 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 372 of 390
+2019-10-15 15:31:24,953 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 371 of 390 downloaded
+2019-10-15 15:31:24,953 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 372 of 390 downloaded
+2019-10-15 15:31:24,953 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 373 of 390
+2019-10-15 15:31:24,954 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 374 of 390
+2019-10-15 15:31:25,089 [ForkJoinPool-4-worker-3] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 373 of 390 downloaded
+2019-10-15 15:31:25,111 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 374 of 390 downloaded
+2019-10-15 15:31:25,112 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 375 of 390
+2019-10-15 15:31:25,247 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 375 of 390 downloaded
+2019-10-15 15:31:25,248 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 376 of 390
+2019-10-15 15:31:25,399 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 376 of 390 downloaded
+2019-10-15 15:31:25,400 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 377 of 390
+2019-10-15 15:31:25,654 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 377 of 390 downloaded
+2019-10-15 15:31:25,655 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 378 of 390
+2019-10-15 15:31:25,870 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 378 of 390 downloaded
+2019-10-15 15:31:25,870 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 379 of 390
+2019-10-15 15:31:26,114 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 379 of 390 downloaded
+2019-10-15 15:31:26,114 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 380 of 390
+2019-10-15 15:31:26,281 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 380 of 390 downloaded
+2019-10-15 15:31:26,282 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 381 of 390
+2019-10-15 15:31:26,415 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 381 of 390 downloaded
+2019-10-15 15:31:26,417 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 382 of 390
+2019-10-15 15:31:26,564 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 382 of 390 downloaded
+2019-10-15 15:31:26,566 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 383 of 390
+2019-10-15 15:31:26,715 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 383 of 390 downloaded
+2019-10-15 15:31:26,717 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 384 of 390
+2019-10-15 15:31:26,847 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 384 of 390 downloaded
+2019-10-15 15:31:26,847 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 385 of 390
+2019-10-15 15:31:27,049 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 385 of 390 downloaded
+2019-10-15 15:31:27,050 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 386 of 390
+2019-10-15 15:31:27,184 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 386 of 390 downloaded
+2019-10-15 15:31:27,184 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 387 of 390
+2019-10-15 15:31:27,321 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 387 of 390 downloaded
+2019-10-15 15:31:27,322 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 388 of 390
+2019-10-15 15:31:27,482 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 388 of 390 downloaded
+2019-10-15 15:31:27,483 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 389 of 390
+2019-10-15 15:31:27,634 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 389 of 390 downloaded
+2019-10-15 15:31:27,634 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Start downloading submission 390 of 390
+2019-10-15 15:31:27,764 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Submission 390 of 390 downloaded
+2019-10-15 15:31:27,768 [ForkJoinPool-4-worker-1] INFO  o.o.b.p.a.PullFromAggregateTracker - Pull Collect v1.23 Beta: Background Geopoint Test - Success
+2019-10-15 15:31:27,883 [AWT-EventQueue-0] INFO  XFormParser - Reading XML and parsing with kXML2 finished in 0.541 ms
+2019-10-15 15:31:27,886 [AWT-EventQueue-0] INFO  XFormParser - Consolidating text finished in 2.034 ms
+2019-10-15 15:31:27,887 [AWT-EventQueue-0] INFO  XFormParser - Parsing form...
+2019-10-15 15:31:27,887 [AWT-EventQueue-0] INFO  XFormParser - Title: "Collect v1.23 Beta: Background Geopoint Test"
+2019-10-15 15:31:27,919 [AWT-EventQueue-0] INFO  XFormParser - Creating FormDef from parsed XML finished in 32.020 ms
+2019-10-15 15:33:51,894 [ForkJoinPool-5-worker-1] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.9893312
